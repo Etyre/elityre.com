@@ -1,8 +1,9 @@
 
 
 body {
-    margin: 60px auto;
     max-width: 750px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 nav ul, footer ul {
