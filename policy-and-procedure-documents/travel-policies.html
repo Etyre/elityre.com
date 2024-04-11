@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head> 
+	<title>Eli Tyre</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
+	<script>
+  	 window.dataLayer = window.dataLayer || [];
+  	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-205493387-1');
+	</script>
+	
+</head>
+
+<body>
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
+	</div>
+	<!--This /\ is where the Nav bar goes on the page.
+	this \/ is the code that goes and gets the nav bar content from nav.html-->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
+	
+	<div class="page title">
+		<h1>Travel policies and strategies</h1>
+	</div>
+	
+	
+<div class="main text">
+
+
+<h3>Travel light</h3>
+<p>I travel with very little baggage.</p>
+<ul>
+<li>I typically travel with my backpack and a single small duffle that is small enough to count as a personal item &lt;link&gt; (though I&rsquo;m using it as my carryon). I keep the duffle packed, and ready to go, so that I&rsquo;m equipped with all the peripherals I want to travel with, even if I have 0 time to pack.</li>
+<li>I basically never check bags.</li>
+</ul>
+<h3>Prioritize high-quality sleep over reducing travel time</h3>
+<p>There&rsquo;s work that I can do on planes, as long as I&rsquo;m well rested. So I generally don&rsquo;t try to minimize the time that I&rsquo;m on a plane or in the airport. Instead I focus on maximizing the amount of time that I&rsquo;m alert and well-rested.</p>
+<ul>
+<li>First and foremost, when selecting flights, choose flights that allow me to get a full night sleep the night before.</li>
+</ul>
+<ul>
+<li>When I have an early flight out of SFO, I&rsquo;ll book an airbnb right next to the airport, and sleep there the night before.&nbsp;</li>
+</ul>
+<ul>
+<li>This means that I can sleep in for an extra 45 minutes (the time that it would otherwise take me to uber to the airport in the morning).&nbsp;</li>
+<li>And because I&rsquo;m not time-pressured, I can take the BART to get down there instead of an uber. So although I&rsquo;m paying $80 for a room, this is displacing ~$60 that I otherwise would pay for a rideshare from Berkeley to SFO. So I&rsquo;m on net paying ~$30 for being able to sleep somewhat longer (after accounting for the shorter uber ride to the airport from the airBnB).</li>
+</ul>
+<ul>
+<li>When I travel to Europe, I&rsquo;ll often break long travel days into two easier travel days. Instead of booking a connecting flight to the city to which I&rsquo;m traveling, I&rsquo;ll book a flight to some city in Europe (often in England), an airbnb right next to the airport, and a flight to my final destination for the next day.</li>
+<ul>
+<li>This way, instead of having a 17 or 18 hour travel day, I&rsquo;ll have a 10 hour travel day, collapse in exhaustion, sleep in a real bed, awake well rested, and then have another (usually shorter) travel day.</li>
+</ul>
+<li>when traveling to Europe, I&rsquo;ll sometimes adjust my schedule to close-to-UK-time, before I leave. I&rsquo;ll stay up later and later each night, shifting to a mostly nocturnal schedule where I&rsquo;m waking up at 4:00 or 5:00 in the afternoon, local time. I&rsquo;ll book the latest international flight I can get. So the day before my flight, I go to sleep at 8:00 or 9:00 in the morning, wake up in the evening, and immediately go to the airport. While most of my co-passengers are sleeping on the plane, I have an alert, focused day of work. I&rsquo;ll have an extra long travel day, and go to sleep in the late afternoon of my destination time&rsquo;s zone. I&rsquo;ll sleep for unusually long and wake up in the early morning of my local timezone.&nbsp;</li>
+</ul>
+
+
+</div>
+	
+
+	<div id="last updated">
+	
+	
+	
+	<script>
+		
+		// this part gets the file name from the URL.
+		var urlArray = window.location.href.split("/");
+
+		var nameOfThisPage = urlArray[urlArray.length-1];
+
+		// this part uses the github API to get the last commit data for that file, and then writes a line the HTML body.
+
+		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
+		const getCommits = async pageName => {
+
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?path='+ encodeURIComponent(pageName));
+
+			var data = await result.json();
+
+			var timestamp = new Date(data[0].commit.author.date)
+			// the Date function takes a date string, and returns a date object.
+
+			//var month = timestamp.getMonth()
+
+
+			var formattedDate = timestamp.toDateString()
+
+			console.log(formattedDate)
+
+			
+
+
+			document.getElementById('last updated').innerHTML = "<p><br><br><i>This page was last updated on "+ formattedDate + ".</i></p>";
+
+
+			}
+
+			// const data = await getCommits('test');
+			// Make some notes about Await and what it does.
+			// Note that you can only use await inside of an async function.
+			
+			getCommits(nameOfThisPage);
+			
+		</script>
+	
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
