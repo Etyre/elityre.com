@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head> 
+	<title>Eli Tyre</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
+	<script>
+  	 window.dataLayer = window.dataLayer || [];
+  	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-205493387-1');
+	</script>
+	
+</head>
+
+<body>
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
+	</div>
+	<!--This /\ is where the Nav bar goes on the page.
+	this \/ is the code that goes and gets the nav bar content from nav.html-->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
+	
+	<div class="page title">
+		<h1> </h1>
+	</div>
+	
+	
+<div class="main text">
+
+    <p>Key social and political priorities</p>
+    <ol>
+        <li>Prevent AI takeover</li> 
+        <li>Mitigate bio-risk</li>
+        <li>End factory farming</li>
+		<li>Criminal Justice reform</li>
+        <li>Improve institutional design</li>
+        <li>Reducing living expenses for a basic standard of living</li>
+        <li>Develop rejuvenation technologies and cryonics</li>
+        <li>Increase production and economic growth</li>
+    </ol>
+
+
+    <h3>1. Prevent AI takeover</h3>
+
+
+    <h2>Provisional policy recommendations</h2>
+
+
+
+    - and how would I organize society
+
+you want to find ways to have rents and have to reduce living expenses by a lot so people don't need to work as much unless they want to. You want to mostly do this on the supply side because otherwise extractive forces will grab the gains
+
+you want to stop AI development, with the possible exception of AI specialized precisely specifically for biotech. You need security clearances to work with advanced AI systems.
+
+Yeah deregulate. Everything. Stop AI progress, except for biotech. Carefully set up a bunch of protections. For against pandemics deregulate everything else.
+
+Flush. You want supply side alleviation? Of
+
+of living expenses.
+
+Allow to create conditions for innovation in institution designs
+
+Yeah, so here's I'm imagining myself in an interview. Look, here's the deal, if you want to. I'm if I'm like, I'm interested in trying to improve the well being of the people of this country in the world. And when I asked what things would most improve people's well being, and like the first thing is that they have go to work a bunch. They have to work a bunch in order to survive. And you might think that the solution to that is to just give people money, but the problem with just giving people money is that
+
+the world around them evolves and adapts to take to extract more of that money from them. So I think you have to do this on the supply side. You need to decrease instead of giving people more money, you decrease the cost of living. I wanted to be the case that most people if they want to can easily support themselves on a part time job.
+
+And lots of people decide to work more than that. And that's, that's great. I love that I want to support that. And lots of people decide that they don't they don't want to work and they want to invest in other things. Invest in their community. Make cool art. That sounds great too. And there will be lots of people said that they
+
+they don't that they don't want to do much they want to watch TV and play video games. And that's not what I would choose to do. But you know what, that's their, their lives. If that's if that's them living their best lives and great that's the first thing. One decrease the cost of living
+
+second thing. The second thing that impacts that makes a big difference for people's well being is just their physical health. Now granted, most people don't invest very much in their physical health. You can tell by how many people are overweight but I how much people exercise. But I basically I basically want it to be the case that we have the technologies for more people to live healthily for longer. I personally want that for myself. I want it for my family. And it's something that I wish was available, both for everyone in the world
+
+want to give people more freedom to live the kinds of lives that they think are good
+
+for longer?
+
+Wonder if instead of targeting the presidency we should target the governor's office seems really hard to become President of the United States. Seems like maybe it's a lot easier to run a campaign.
+
+To become the governor of some some state, New Hampshire, maybe Texas and then implement a bunch of reforms, especially if you're willing to challenge the federal government. You're like me gonna back you have you break these regulations on our territory well back you
+
+man, you just straight up go to war with a lot of the deep state. A lot of the bureaucracy. You're like crypto is illegal. Crypto is legal. Here in Texas, Idaho, California, whatever.
+
+me it doesn't actually help the ban. Yeah, development just in Texas. As part of the thing
+
+Transcribed by https://otter.ai
+
+
+</div>
+	
+	<div id="last updated">
+	
+	<script>
+		
+		// this part gets the file name from the URL.
+		var urlArray = window.location.href.split("/");
+
+		var nameOfThisPage = urlArray[urlArray.length-1];
+
+		// this part uses the github API to get the last commit data for that file, and then writes a line the HTML body.
+
+		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
+		const getCommits = async pageName => {
+
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?path='+ encodeURIComponent(pageName));
+
+			var data = await result.json();
+
+			var timestamp = new Date(data[0].commit.author.date)
+			// the Date function takes a date string, and returns a date object.
+
+			//var month = timestamp.getMonth()
+
+
+			var formattedDate = timestamp.toDateString()
+
+			console.log(formattedDate)
+
+			
+
+
+			document.getElementById('last updated').innerHTML = "<p><br><br><i>This page was last updated on "+ formattedDate + ".</i></p>";
+
+
+			}
+
+			// const data = await getCommits('test');
+			// Make some notes about Await and what it does.
+			// Note that you can only use await inside of an async function.
+			
+			getCommits(nameOfThisPage);
+			
+		</script>
+	
+		</div>

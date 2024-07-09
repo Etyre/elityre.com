@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<head> 
+	<title>Eli Tyre</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
+	<script>
+  	 window.dataLayer = window.dataLayer || [];
+  	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-205493387-1');
+	</script>
+	
+</head>
+
+<body>
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
+	</div>
+	<!--This /\ is where the Nav bar goes on the page.
+	this \/ is the code that goes and gets the nav bar content from nav.html-->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
+	
+	<div class="page title">
+		<h1>Financial policies</h1>
+	</div>
+	
+	
+<div class="main text">
+
+
+    <h3>Spend less than I make</h3>
+
+<p>For my whole working life, starting as soon as I was above basic subsistence, I’ve spent less than I earned every year, usually saving between 20% and 50% of what I take home. </p>   
+
+<p>I’ve lived very frugally, in support of this: living in a small, inexpensive room in an old house, rarely eating out, rarely traveling for leisure, etc.
+</p>
+
+<p>I’ve mostly invested those savings in
+</p>
+
+<ul>
+    <li>A wealthfront managed portfolio
+    </li>
+    <li>
+        A personally managed portfolio of broad based ETFs, allocated according to <a href="https://bayesianinvestor.com/blog/index.php/2015/07/28/advice-for-buy-and-hold-investors/">this</a> distribution.
+    </li>
+    <li>
+        An account of hand-picked stocks (mostly in information technology companies, and companies in the AI supply chain)
+    </li>
+    <li>
+        Crypto
+    </li>
+</ul>
+
+<h3>Any time I make an investment move, write a one-pager
+</h3>
+
+<p>My firmest financial rule: every time I make an investment decision (I move money to increase my financial gains or avoid losses), I write a one-pager describing what I’m doing and why. </p>
+
+<p>If nothing else, this forces me to articulate my motivations, which sometimes reveals that they’re dumb. Writing a one-pager is a forcing function that causes me to notice that I’m pulling out of an investment “because I saw some headlines of news articles and got scared”, and to notice that that’s a dumb reason to change my strategy.
+</p>
+
+<p>In practice, I’ll write out the argument for why a move seems like a good idea to me, often which triggers my TAPs for using quantitative reasoning. I’ll quickly do out some simple arithmetic on a spreadsheet and look up some reference prices for comparison, and maybe make a fatebook prediction. This often changes my beliefs.
+</p>
+
+<p>I’ll get ideas in my head like “Nvidia might 5x again in the next year”, and when I check, I find that 5xing would bring its market cap well past that of the current most valuable company in the world. Which certainly isn’t impossible, but it does contextualize how likely I think another 5x-ing soon is.
+</p>
+
+<p>Additionally, this policy means that I have a non-hindsight biased record of why I made the investment decisions that I made, so that I can review them later when I know how they turned out, and update my heuristics. Doing this, I can learn what kinds of thinking I should trust.
+</p>
+
+<p>The worst financial decision I ever made—the one in which I lost the most money, by doing exactly the wrong thing at exactly the wrong time—was one of the few times when I wasn’t adhering to this rule. So I’ve learned my lesson: always write a one-pager.
+</p>
+
+<h3> Some additional Heuristics</h3>
+
+<h5>Stocks</h5>
+
+<ul>
+    <li>
+        Buy and hold stocks with a time horizon of forever.
+    </li>
+
+    </ul>
+<h5>Crypto</h5>
+<ul>
+    <li>
+        Any time a crypto investment 5x’s from the original amount that I invested, take out the original amount that I invested. Following this rule, I’ll always at least break even from crypto booms, even if I mistime the top.
+    </li>
+
+    <li>“The best time to buy crypto is when no one is talking about crypto.” Set up an automation to buy a few hundred dollars of crypto every month between the big booms, starting as soon as the crash.</li>
+
+</ul>
+
+</div>
+	
+
+	<div id="last updated">
+	
+	
+	
+	<script>
+		
+		// this part gets the file name from the URL.
+		var urlArray = window.location.href.split("/");
+
+		var nameOfThisPage = urlArray[urlArray.length-1];
+
+		// this part uses the github API to get the last commit data for that file, and then writes a line the HTML body.
+
+		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
+		const getCommits = async pageName => {
+
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?path='+ encodeURIComponent(pageName));
+
+			var data = await result.json();
+
+			var timestamp = new Date(data[0].commit.author.date)
+			// the Date function takes a date string, and returns a date object.
+
+			//var month = timestamp.getMonth()
+
+
+			var formattedDate = timestamp.toDateString()
+
+			console.log(formattedDate)
+
+			
+
+
+			document.getElementById('last updated').innerHTML = "<p><br><br><i>This page was last updated on "+ formattedDate + ".</i></p>";
+
+
+			}
+
+			// const data = await getCommits('test');
+			// Make some notes about Await and what it does.
+			// Note that you can only use await inside of an async function.
+			
+			getCommits(nameOfThisPage);
+			
+		</script>
+	
+		</div>
