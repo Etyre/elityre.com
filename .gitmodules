@@ -1,0 +1,9 @@
+[submodule "hugo-version/themes/starter"]
+	path = hugo-version/themes/starter
+	url = https://github.com/jimfrenette/hugo-starter.git
+[submodule "hugo-version/themes/ananke"]
+	path = hugo-version/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "hugo-version/themes/hugo-theme-yue"]
+	path = hugo-version/themes/hugo-theme-yue
+	url = https://github.com/CyrusYip/hugo-theme-yue
