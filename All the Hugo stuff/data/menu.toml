@@ -1,9 +1,0 @@
-[[entries]]
-  title = "menu"
-  [[entries.entries]]
-      title = "Date"
-      url = "/date"
-
-  [[entries.entries]]
-      title = "Principles"
-      url = "/principles"
