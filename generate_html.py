@@ -12,6 +12,9 @@ output_dir = 'docs'  # Adjust if HTML files should be in a different directory
 # Path to the template HTML file
 template_file = 'page_template.html'
 
+# Path to the exclusions file
+exclusions_file = 'exclusions.txt'
+
 # Load the template
 with open(template_file, 'r', encoding='utf-8') as f:
     template_content = f.read()
@@ -20,13 +23,38 @@ template = Template(template_content)
 # Get the modification time of the template file
 template_mtime = os.path.getmtime(template_file)
 
+# Load exclusions
+exclusions = set()
+if os.path.exists(exclusions_file):
+    with open(exclusions_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                exclusions.add(line)
+
 # Regular expression pattern to find markdown links
 markdown_link_pattern = re.compile(r'(\[.*?\])\((.*?)\)')
+
+def get_css_path(relative_path: str) -> str:
+    """
+    Given the relative path of the Markdown file (relative to `markdown_dir`),
+    determine how many directories deep it is, then return the correct
+    relative path to 'CSS/main.css'.
+    """
+    # Count how many folder separators are in the relative path
+    depth = relative_path.count(os.sep)
+    # Build something like '../../CSS/main.css' if depth=2
+    return '../' * depth + 'CSS/main.css'
 
 # Walk through all the files in the Markdown directory
 for root, dirs, files in os.walk(markdown_dir):
     for file in files:
         if file.endswith('.md'):
+            # Skip excluded files
+            if file in exclusions:
+                print(f"Skipping excluded file: {file}")
+                continue
+
             md_filepath = os.path.join(root, file)
             # Determine the relative path from the markdown directory
             relative_path = os.path.relpath(md_filepath, markdown_dir)
@@ -70,10 +98,12 @@ for root, dirs, files in os.walk(markdown_dir):
                     else:
                         # Leave the link unchanged
                         return match.group(0)
+
                 md_content = re.sub(markdown_link_pattern, replace_md_links, md_content)
 
                 # Convert Markdown to HTML
                 html_body = markdown.markdown(md_content)
+
                 # Optional: Extract title from the first heading
                 lines = md_content.splitlines()
                 title = ''
@@ -81,8 +111,17 @@ for root, dirs, files in os.walk(markdown_dir):
                     if line.startswith('# '):
                         title = line.lstrip('# ').strip()
                         break
-                # Render the template with the content and title
-                rendered_html = template.render(content=html_body, title=title)
+
+                # Determine the relative CSS path based on nesting level
+                css_path = get_css_path(relative_path)
+
+                # Render the template with the content, title, and css path
+                rendered_html = template.render(
+                    content=html_body,
+                    title=title,
+                    css_path=css_path
+                )
+
                 # Write the output HTML file
                 with open(html_filepath, 'w', encoding='utf-8') as f:
                     f.write(rendered_html)
