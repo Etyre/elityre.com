@@ -4,10 +4,10 @@ import markdown
 from jinja2 import Template
 
 # Specify the directory containing the Markdown files
-markdown_dir = 'markdown_content'  # Update with your directory path
+markdown_dir = 'source_docs'  # Update with your directory path
 
 # Specify the output directory for HTML files
-output_dir = '.'  # Adjust if HTML files should be in a different directory
+output_dir = 'docs'  # Adjust if HTML files should be in a different directory
 
 # Path to the template HTML file
 template_file = 'page_template.html'
