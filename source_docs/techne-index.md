@@ -2,7 +2,7 @@
 
 _Consistent habits, policies, and systems_
 
-- [Foundational habits](elityre.com/core-habits.html)
+- [Foundational habits](https://elityre.com/core-habits.html)
 - [Energy and Intentionality modulation policies and practices](https://github.com/Etyre/Methodology-documents/blob/main/Energy%20and%20Intentionality%20Modulation.md)
 - [Sleep process and policies](https://wild-quit-ebe.notion.site/Sleep-process-and-policies-6f7a204833a34d4b99ad44860258ca7c)
 - [Exercise policy](https://wild-quit-ebe.notion.site/Exercise-policy-458a9d81c91e46e6b8c7fdcae25b7621)
