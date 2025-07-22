@@ -72,6 +72,8 @@ In the evenings, if I'm inclined to eat, I'll chew gum, or drink tea or non-dair
 
 See the section on food of my energy rhythms.
 
+---
+
 Appendix: Some other things things that I do every day
 
 - Anki review
