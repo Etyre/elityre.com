@@ -5,7 +5,7 @@ _Consistent habits, policies, and systems_
 - [Foundational habits](https://elityre.com/core-habits.html)
 - [Energy and Intentionality modulation policies and practices](https://github.com/Etyre/Methodology-documents/blob/main/Energy%20and%20Intentionality%20Modulation.md)
 - [Sleep process and policies](https://wild-quit-ebe.notion.site/Sleep-process-and-policies-6f7a204833a34d4b99ad44860258ca7c)
-- [Exercise policy](https://wild-quit-ebe.notion.site/Exercise-policy-458a9d81c91e46e6b8c7fdcae25b7621)
+- [Exercise policy](exercise-policy.md)
 - [Notes on rest days](https://wild-quit-ebe.notion.site/Notes-on-rest-days-0415bdc2c6d748f190ba21481acc2a3c?pvs=25)
 - [Passive consumption and addiction/distraction policies](https://wild-quit-ebe.notion.site/Passive-consumption-and-addiction-distraction-policy-e9467e7d3d2b479a8847f2da6c70063d)
 - [Stimulant and Supplement policy](https://wild-quit-ebe.notion.site/Stimulant-and-supplament-policy-ceaa8d7318fa4cea858c2998ade63127)
