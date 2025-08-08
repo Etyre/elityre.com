@@ -14,12 +14,12 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
 
 # Some sleep setup and practices
 
-- I usually don’t eat for about 3 hours before bed. (Ideally, I eat one meal a day, in the early afternoon). If I’m tempted to eat, I’ll chew gum, or make myself tea.
-- I’ve set an alarm that rings at (currently) 11:30 PM, not to go to sleep, but to brush my teeth and take a melatonin. That way, I’ll tend to become tired and ready to sleep automatically, about a half hour to an hour later.
+- I don’t eat for about 3 hours before bed. (Ideally, I eat one meal a day, in the early afternoon). If I’m tempted to eat, I’ll chew gum, or make myself tea.
+- I’ve set an alarm that rings at (currently) 11:00 PM, not to go to sleep, but to brush my teeth and take a melatonin. That way, I’ll tend to become tired and ready to sleep automatically, about a half hour to an hour later.
   - For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
-- I sleep with an air conditioner (in my personal room) or a fan (in my office-sleep space) pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep
-- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. $^1$
-- In my personal room, I use a weighted blanket.
+- I sleep with an air conditioner (in my personal room) or a fan (in my office-sleep space) pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep.
+- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. $^1$ $^2$
+- In my personal room, I sleep with a weighted blanket.
 - I have blackout curtains over my windows. $^2$
 - I sleep in a room that either has a cracked window or a fan that circulates the air out of the room into a larger space.
 - Making it easy to get up and pee
@@ -28,7 +28,7 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
 
 ## During the day
 
-The clearest impact on my nighttime HRV is doing intense exercise during the day, which I aim to do most days <link>.
+The clearest impact on my nighttime HRV is doing [intense exercise](elityre.com/exercise-policy.html) during the day, which I aim to do most days.
 
 Occasionally, especially if I’m taking a rest day in preparation for a sprint, I’ll go to a sauna a few hours before I go to bed. This has a notable impact on my subjective tiredness, and improves my sleep efficiency.
 
@@ -63,19 +63,13 @@ One of the most important inputs to good sleep is waking up consistently at the 
 *External* *Systems*
 
 - In my personal room, I have a 12000lux light panel, attached to the wall near my bed, set on a timer so that it turns on (gradually) just before my wakeup time.
-
-- My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a 
-
-  microhedonic gradient
-
-   that incentivizes me to stay in bed.
-
+- My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a microhedonic gradient that incentivizes me to stay in bed, but I can circumvent that by 
   - During the winter, I’ll leave sweatpants and warm socks, right near or on my bed, to make it as easy and quick as possible as possible to get up and get warm, instead of being tempted to stay in my cozy bed.
   - An even better idea to try: set up a heating pad on a timer right at the side of my bed, so that I can wake up and step onto that.
 
 *Behavioral practices*
 
-- I’ve trained myself to wake up, at the time I want, without an alarm.
+- I train myself to wake up, at the time I want, without an alarm.
 
   - As I do it, this involves setting intention to wake up at my chosen time, when I lay down to go to sleep. I'll relax my body and then verbally (out loud) affirm that I'm going to wake up at my chosen time.
 
@@ -83,7 +77,7 @@ One of the most important inputs to good sleep is waking up consistently at the 
 
     Calibrating: I wear a watch in bed so that when I wake up in the night / morning, I can check what time it is. Crucially, if it is within an hour of my chosen time, I'll get up, even if that is a bit early or a bit late. Over the course of a few days my mind and body will narrow the interval until I am waking up at my chosen time.
 
-- I’ve further trained myself so that when I wake up, I get up, and spring out of bed, immediately. Furthermore, this allows to to start the day with momentum, which can carry through for hours.
+- I’ve further trained myself so that **when I wake up, I get up, and spring out of bed, immediately**. Furthermore, this allows to to start the day with momentum, which can carry through for hours.
 
   - I built this habit with offline habit training: practicing, (during the day, when you're fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that not not practicing *getting back into bed*, each time.
   - I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.
@@ -102,6 +96,8 @@ One of the most important inputs to good sleep is waking up consistently at the 
 
 1 - When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose, well enough, while lying down, to fall asleep. (For a while I had a [bounty](https://elityre.com/bounties.html) up, requesting a way to learn to breath through my nose.)  I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.
 
-2 - These don’t block the light well enough for if I was on a nocturnal schedule. If I’m asleep during a period that overlaps substantially with when the sun is up, I need to sleep in a very dark space, or I’ll feel groggy all day/night long. If I’m nocturnal (in preparation for international travel for instance), I’ll either patch up my windows with cardboard and tinfoil to block the light, or sleep in a closet or similar.
+2 - I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.
 
-3 - Early light exposure like this was recommended by Andrew Huberman here <find link>. He claims outdoor light exposure is --x more effective than sunlight through a window.
+3 - These don’t block the light well enough for if I was on a nocturnal schedule. If I’m asleep during a period that overlaps substantially with when the sun is up, I need to sleep in a very dark space, or I’ll feel groggy all day/night long. If I’m nocturnal (in preparation for international travel for instance), I’ll either patch up my windows with cardboard and tinfoil to block the light, or sleep in a closet or similar.
+
+4 - Early light exposure like this was recommended by Andrew Huberman here <find link>. He claims outdoor light exposure is --x more effective than sunlight through a window.
