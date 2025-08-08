@@ -54,13 +54,11 @@ When I'm in the habit of exercising every day, the activation energy required fo
 
 I make sure to exercise at least every other day, typically alternating between heavy barbell lifts and cardio interval training. Doing [weighted squats](https://efficacyengineering.wordpress.com/2020/11/08/squats-made-a-big-difference/), in particular, seems to have a substantial impact on my psychological well-being, for some reason, over and above other forms of excise. So I make sure to do squats at least once a week.
 
-See my exercise policy.
+See my [exercise policy](exercise-policy.html).
 
 ### Eat once a day
 
-One of the biggest things that can disrupt the energy of my day, if things have otherwise been going well and I've gotten momentum, is eating when I don't need to.
-
-Eating food can cause my energy and alertness to fall, and, in some cases, make me tired or sluggish.
+One of the biggest things that can disrupt the energy of my day, if things have otherwise been going well and I've gotten momentum, is eating when I don't need to. Eating food can cause my energy and alertness to fall, and, in some cases, make me tired or sluggish.
 
 I typically want to eat only one meal a day, around the time of my circadian dip, when my energy levels fall anyway, and when I often nap.
 
@@ -71,6 +69,12 @@ In the past, I've had "eat only one meal a day", as an aspirational target, but 
 In the evenings, if I'm inclined to eat, I'll chew gum, or drink tea or non-dairy milk, as a substitute.
 
 See the section on food of my energy rhythms.
+
+
+
+Abstain from audio content
+
+
 
 ---
 
