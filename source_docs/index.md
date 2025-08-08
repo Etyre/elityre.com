@@ -28,4 +28,4 @@ I have a [standing interest](https://twitter.com/epistemichope/status/1341579932
 
 #### Other
 
-I’m not bound by a [secret NDA that I can’t mention exists](ndas.html).
+I’m not bound by a [secret NDA that I can’t mention exists](elityre.com/ndas.html).
