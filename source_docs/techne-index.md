@@ -3,7 +3,7 @@
 _Consistent habits, policies, and systems_
 
 - [Foundational habits](https://elityre.com/core-habits.html)
-- [Sleep process and policies](https://wild-quit-ebe.notion.site/Sleep-process-and-policies-6f7a204833a34d4b99ad44860258ca7c)
+- [Sleep process and policies](sleep policies.md)
 - [Exercise policy](exercise-policy.md)
 - [Stimulant and Supplement policy](https://wild-quit-ebe.notion.site/Stimulant-and-supplament-policy-ceaa8d7318fa4cea858c2998ade63127)
 - [Notes on rest days](https://wild-quit-ebe.notion.site/Notes-on-rest-days-0415bdc2c6d748f190ba21481acc2a3c?pvs=25)
@@ -26,4 +26,4 @@ _Protocols, workflows, checklists_
 
 _Methodology notes_
 
-* [Energy and Intentionality modulation policies and practices](https://github.com/Etyre/Methodology-documents/blob/main/Energy%20and%20Intentionality%20Modulation.md)
+- [Energy and Intentionality modulation policies and practices](https://github.com/Etyre/Methodology-documents/blob/main/Energy%20and%20Intentionality%20Modulation.md)

@@ -10,8 +10,8 @@ from markdown.treeprocessors import Treeprocessor
 # -------------------
 # Config
 # -------------------
-markdown_dir = 'markdown_content'   # source .md directory
-output_dir   = '.'                  # where .html files go
+markdown_dir = 'source_docs'   # source .md directory
+output_dir   = 'docs'                  # where .html files go
 template_file = 'page_template.html'
 exclusions_file = 'exclusions.txt'
 HTML_EXT = 'html'                   # set to 'hml' if you really want .hml
@@ -182,3 +182,6 @@ for root, dirs, files in os.walk(markdown_dir):
         with open(html_filepath, 'w', encoding='utf-8') as f:
             f.write(rendered_html)
         print(f"Regenerated {html_filepath}")
+
+        print("foo")
+
