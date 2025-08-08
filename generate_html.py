@@ -1,29 +1,65 @@
 import os
 import re
+import posixpath
+from urllib.parse import urlsplit, urlunsplit, unquote
 import markdown
 from jinja2 import Template
+from markdown.extensions import Extension
+from markdown.treeprocessors import Treeprocessor
 
-# Specify the directory containing the Markdown files
-markdown_dir = 'source_docs'  # Update with your directory path
-
-# Specify the output directory for HTML files
-output_dir = 'docs'  # Adjust if HTML files should be in a different directory
-
-# Path to the template HTML file
+# -------------------
+# Config
+# -------------------
+markdown_dir = 'markdown_content'   # source .md directory
+output_dir   = '.'                  # where .html files go
 template_file = 'page_template.html'
-
-# Path to the exclusions file
 exclusions_file = 'exclusions.txt'
+HTML_EXT = 'html'                   # set to 'hml' if you really want .hml
 
-# Load the template
+# -------------------
+# Utilities
+# -------------------
+def slugify_basename(name: str) -> str:
+    """
+    Turn 'Sleep policies' -> 'sleep-policies'
+    (Lowercases; collapses any whitespace to a single dash.)
+    """
+    name = name.strip()
+    name = re.sub(r'\s+', '-', name)
+    return name.lower()
+
+def slugify_path_segments(path: str, *, is_file=False) -> str:
+    """
+    Slugify each non-dot segment in a POSIX-style path.
+    If is_file=True, slugify the stem and keep extension as-is handled outside.
+    Keeps '.' and '..' untouched; ignores empty segments.
+    """
+    segs = [s for s in path.split('/')]
+
+    # For directory segments
+    for i, seg in enumerate(segs[:-1] if is_file else segs):
+        if seg in ('', '.', '..'):
+            continue
+        segs[i] = slugify_basename(seg)
+
+    return '/'.join(segs)
+
+def get_css_path(relative_html_path: str) -> str:
+    """
+    Build correct relative path to CSS/main.css based on how deep the HTML file is.
+    """
+    depth = relative_html_path.count(os.sep)
+    return '../' * depth + 'CSS/main.css'
+
+# -------------------
+# Load template & metadata
+# -------------------
 with open(template_file, 'r', encoding='utf-8') as f:
     template_content = f.read()
 template = Template(template_content)
-
-# Get the modification time of the template file
 template_mtime = os.path.getmtime(template_file)
 
-# Load exclusions
+# Load exclusions (filenames only, e.g., "notes.md")
 exclusions = set()
 if os.path.exists(exclusions_file):
     with open(exclusions_file, 'r', encoding='utf-8') as f:
@@ -32,75 +68,117 @@ if os.path.exists(exclusions_file):
             if line:
                 exclusions.add(line)
 
-# Regular expression pattern to find markdown links
-markdown_link_pattern = re.compile(r'(\[.*?\])\((.*?)\)')
-
-# Walk through all the files in the Markdown directory
-for root, dirs, files in os.walk(markdown_dir):
-    for file in files:
-        if file.endswith('.md'):
-            # Skip excluded files
-            if file in exclusions:
-                print(f"Skipping excluded file: {file}")
+# -------------------
+# Markdown link adjuster: convert *.md -> slugged *.html in <a href="...">,
+# slugifying directory segments too.
+# -------------------
+class LinkAdjusterTreeprocessor(Treeprocessor):
+    def run(self, root):
+        for el in root.iter('a'):
+            href = el.get('href', '')
+            if not href or href.startswith(('#', '/', 'http://', 'https://', 'mailto:', 'tel:', '//')):
                 continue
 
-            md_filepath = os.path.join(root, file)
-            # Determine the relative path from the markdown directory
-            relative_path = os.path.relpath(md_filepath, markdown_dir)
-            relative_path = relative_path.lstrip(os.sep)
-            # Construct the output filename
-            html_filename = os.path.splitext(relative_path)[0] + '.html'
-            html_filepath = os.path.normpath(os.path.join(output_dir, html_filename))
+            parts = urlsplit(href)
+            path = unquote(parts.path)  # decode %20 etc for consistent slugging
+            if not path.lower().endswith('.md'):
+                continue
 
-            # Create directories in output_dir if they don't exist
-            html_dir = os.path.dirname(html_filepath)
-            if not html_dir:
-                html_dir = '.'
-            if not os.path.exists(html_dir):
-                os.makedirs(html_dir)
+            # Split into dir and file; slugify dir segments
+            dirpath, filename = posixpath.split(path)
+            dirpath = slugify_path_segments(dirpath)
 
-            # Check if HTML file needs to be regenerated
-            regenerate = False
-            if not os.path.exists(html_filepath):
+            # Slugify file stem and swap extension
+            stem = filename[:-3]  # drop ".md"
+            new_stem = slugify_basename(stem)
+            new_filename = f"{new_stem}.{HTML_EXT}"
+
+            new_path = posixpath.join(dirpath, new_filename) if dirpath else new_filename
+            new_href = urlunsplit((parts.scheme, parts.netloc, new_path, parts.query, parts.fragment))
+            el.set('href', new_href)
+
+class LinkAdjusterExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(LinkAdjusterTreeprocessor(md), 'linkadjuster', 15)
+
+# -------------------
+# Main walk
+# -------------------
+for root, dirs, files in os.walk(markdown_dir):
+    for file in files:
+        if not file.endswith('.md'):
+            continue
+
+        # respect exclusions by filename
+        if file in exclusions:
+            print(f"Skipping excluded file: {file}")
+            continue
+
+        md_filepath = os.path.join(root, file)
+
+        # relative path of the md file (preserve structure)
+        rel_md_path = os.path.relpath(md_filepath, markdown_dir).lstrip(os.sep)
+
+        # split into dir/name
+        rel_dir, rel_name = os.path.split(rel_md_path)
+
+        # slugify directory segments for output structure
+        if rel_dir:
+            slug_rel_dir = os.sep.join(slugify_basename(p) for p in rel_dir.split(os.sep))
+        else:
+            slug_rel_dir = ''
+
+        # slugify filename (stem) and set extension
+        stem, _ = os.path.splitext(rel_name)
+        slug = slugify_basename(stem)
+        rel_html_name = f"{slug}.{HTML_EXT}"
+
+        # assemble output relative path
+        rel_html_path = os.path.join(slug_rel_dir, rel_html_name) if slug_rel_dir else rel_html_name
+        html_filepath = os.path.normpath(os.path.join(output_dir, rel_html_path))
+
+        # ensure output directory exists
+        html_dir = os.path.dirname(html_filepath) or '.'
+        os.makedirs(html_dir, exist_ok=True)
+
+        # decide whether to regenerate
+        regenerate = False
+        if not os.path.exists(html_filepath):
+            regenerate = True
+        else:
+            md_mtime = os.path.getmtime(md_filepath)
+            html_mtime = os.path.getmtime(html_filepath)
+            if md_mtime > html_mtime or template_mtime > html_mtime:
                 regenerate = True
-            else:
-                # Compare modification times
-                md_mtime = os.path.getmtime(md_filepath)
-                html_mtime = os.path.getmtime(html_filepath)
-                if md_mtime > html_mtime or template_mtime > html_mtime:
-                    regenerate = True
 
-            if regenerate:
-                # Read Markdown content
-                with open(md_filepath, 'r', encoding='utf-8') as f:
-                    md_content = f.read()
+        if not regenerate:
+            continue
 
-                # Convert links to other markdown files to html links
-                def replace_md_links(match):
-                    text = match.group(1)
-                    url = match.group(2)
-                    # Check if url ends with .md and is a relative link
-                    if url.endswith('.md') and not url.startswith(('http://', 'https://', '/')):
-                        # Replace .md with .html
-                        new_url = os.path.splitext(url)[0] + '.html'
-                        return f'{text}({new_url})'
-                    else:
-                        # Leave the link unchanged
-                        return match.group(0)
-                md_content = re.sub(markdown_link_pattern, replace_md_links, md_content)
+        # read md
+        with open(md_filepath, 'r', encoding='utf-8') as f:
+            md_content = f.read()
 
-                # Convert Markdown to HTML
-                html_body = markdown.markdown(md_content)
-                # Optional: Extract title from the first heading
-                lines = md_content.splitlines()
-                title = ''
-                for line in lines:
-                    if line.startswith('# '):
-                        title = line.lstrip('# ').strip()
-                        break
-                # Render the template with the content and title
-                rendered_html = template.render(content=html_body, title=title)
-                # Write the output HTML file
-                with open(html_filepath, 'w', encoding='utf-8') as f:
-                    f.write(rendered_html)
-                print(f'Regenerated {html_filepath}')
+        # convert md -> html (and fix intra-site .md links to slugged .html + dirs)
+        html_body = markdown.markdown(md_content, extensions=[LinkAdjusterExtension()])
+
+        # extract title from first "# " heading
+        title = ''
+        for line in md_content.splitlines():
+            if line.startswith('# '):
+                title = line[2:].strip()
+                break
+
+        # css path based on output html nesting
+        css_path = get_css_path(rel_html_path)
+
+        # render
+        rendered_html = template.render(
+            content=html_body,
+            title=title,
+            css_path=css_path
+        )
+
+        # write
+        with open(html_filepath, 'w', encoding='utf-8') as f:
+            f.write(rendered_html)
+        print(f"Regenerated {html_filepath}")
