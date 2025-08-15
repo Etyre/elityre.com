@@ -20,9 +20,9 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
 - I’ve set an alarm that rings at (currently) 11:00 PM, not to go to sleep, but to brush my teeth and take a melatonin. That way, I’ll tend to become tired and ready to sleep automatically, about a half hour to an hour later.
   - For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
 - I sleep with an air conditioner (in my personal room) or a fan (in my office-sleep space) pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep.
-- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. $^1$ $^2$
+- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. <sup>1</sup> <sup>2</sup>
 - In my personal room, I sleep with a weighted blanket.
-- I have blackout curtains over my windows. $^2$
+- I have blackout curtains over my windows. <sup>3</sup>
 - I sleep in a room that either has a cracked window or a fan that circulates the air out of the room into a larger space.
 - Making it easy to get up and pee
   - This sounds kind of silly, but I have sometimes find that I sleep badly because I’ll wake up in the middle of the night with a full bladder. I should get up and pee, but because there are a number of steps between me and the bathroom (maybe I need to put on a robe, or navigate around a desk that I can’t see well in the dark), I have an aversion to getting up, and I just stay there in bed and then fall back into an uncomfortable, restless sleep.

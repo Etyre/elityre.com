@@ -183,5 +183,4 @@ for root, dirs, files in os.walk(markdown_dir):
             f.write(rendered_html)
         print(f"Regenerated {html_filepath}")
 
-        print("foo")
 
