@@ -4,7 +4,7 @@ If you know about something, or can teach me something, that solves an open prob
 
 The following are some currently outstanding bounties, related to areas that I would like to solve or substantially improve.
 
-**Note 1:** Bounties are awarded for interventions that *successfully solve my problem*. If you suggest some intervention that matches what I describe, but for some reason or another, isn't actually feasible as a solution, I won't pay the stated price for that. I may pay partial bounties for partial solutions, at my own discretion.
+**Note 1:** Bounties are awarded for interventions that _successfully solve my problem_. If you suggest some intervention that matches what I describe, but for some reason or another, isn't actually feasible as a solution, I won't pay the stated price for that. I may pay partial bounties for partial solutions, at my own discretion.
 
 **Note 2:** To be eligible for the full bounty, an intervention should be complete in of itself, not requiring additional research work or iteration, on my part. However, I'll gladly give partial bounties for suggestions that I follow up on, and ultimately work for me. For example, if a person reaches out about a method to increase my typing speed, and we set up a session so that they can coach me through it, and it works, they've earned the full bounty. If someone contacts me and says "have you tried \[x\] methodology, for improving your typing? I've heard it's effective for things like that", I hadn't heard of \[x\] methodology, and I google around to find some way to learn \[x\] methodology, and this eventually leads me to a solution to my problem, I'll pay out a partial bounty, at my discretion.
 
@@ -12,25 +12,13 @@ See also: [software that I would pay for, if it existed](wanted-software.md).
 
 ## Learning and efficacy interventions
 
-### [your preferred price\] - Answer questions about your area of expertise
-
-Would you be glad to have me book a slot on your calendar, for me to ask you questions about your field, in exchange for money? **[Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSdk7SNvumBy293v9R6I_vsNeYT2qPfcbmU5xZTDawGqNBPAMQ/viewform?usp=sf_link)**.
-
-I try to make it really low friction to schedule tutoring sessions. I want it to be the case that, whenever there’s something that I’m having difficulty understanding, either as part of my work, or when I’m reading a textbook, I can really quickly schedule a tutoring session with someone, to get clarity on that material.
-
-For this reason, its helpful for me to have a list of people who are interested in doing tutoring, in a variety of subjects, with their hourly rate, and a calendar link (I’m specifically trying to avoid any back-and-forth scheduling). If you already have and use a calendar scheduling link, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdk7SNvumBy293v9R6I_vsNeYT2qPfcbmU5xZTDawGqNBPAMQ/viewform?usp=sf_link) to be in my tutoring rolodex.
-
-I’m particularly interested in people who know about Math, Economics, Computer programing, Physics, or Biology. But if you have expertise in something else, feel free to share your info.
-
-Note that you can set your rate arbitrarily high. If there’s any amount of money at which you would be glad to have a one hour meeting with me, in which I ask you questions about your field, leave your contact details!
-
 ### $20,000 maximum - Any intervention that noticeably improves my personal learning rate
 
 ...especially at understanding and assimilating technical / mathematical concepts.
 
 I've collected a bunch of heuristics and processes for effective learning over the course of my life, but I continue to be excited to learn new methods. If there's something you do that helps you learn stuff, there's a pretty good chance that I'd like to learn how to do it from you.
 
-To be eligible for a bounty, the effect should either be objectively verifiable (eg "there's a clear change in the slope of the measured progress-graph at the point of the intervention" or "after applying this intervention, the average study time to getting to a 95% grade on standard tests dropped by 10%"), or if subjective, be strong enough that I am personally impressed that it is significant. 
+To be eligible for a bounty, the effect should either be objectively verifiable (eg "there's a clear change in the slope of the measured progress-graph at the point of the intervention" or "after applying this intervention, the average study time to getting to a 95% grade on standard tests dropped by 10%"), or if subjective, be strong enough that I am personally impressed that it is significant.
 
 For measurable interventions, l'll pay $1,000 for every marginal 1% improvement in my learning rate, up to $20,000. So if you have a technique, or a set of techniques, that enables me to learn 15% faster compared to my baseline, I'll pay you $15,000.
 
@@ -58,13 +46,25 @@ I have some kind of cognitive bug such that I have substantial difficulty readin
 
 I’m interested in any intervention that can diagnose, repair, or compensate for, this deficiency.
 
+### [your preferred price] - Answer questions about your area of expertise
+
+Would you be glad to have me book a slot on your calendar, for me to ask you questions about your field, in exchange for money? **[Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSdk7SNvumBy293v9R6I_vsNeYT2qPfcbmU5xZTDawGqNBPAMQ/viewform?usp=sf_link)**.
+
+I try to make it really low friction to schedule tutoring sessions. I want it to be the case that, whenever there’s something that I’m having difficulty understanding, either as part of my work, or when I’m reading a textbook, I can really quickly schedule a tutoring session with someone, to get clarity on that material.
+
+For this reason, its helpful for me to have a list of people who are interested in doing tutoring, in a variety of subjects, with their hourly rate, and a calendar link (I’m specifically trying to avoid any back-and-forth scheduling). If you already have and use a calendar scheduling link, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdk7SNvumBy293v9R6I_vsNeYT2qPfcbmU5xZTDawGqNBPAMQ/viewform?usp=sf_link) to be in my tutoring rolodex.
+
+I’m particularly interested in people who know about Math, Economics, Computer programing, Physics, or Biology. But if you have expertise in something else, feel free to share your info.
+
+Note that you can set your rate arbitrarily high. If there’s any amount of money at which you would be glad to have a one hour meeting with me, in which I ask you questions about your field, leave your contact details!
+
 ## Romantic introductions
 
 ### $3,000 - Introducing me up to someone that I end up dating regularly for more than a year
 
 My [date me page](date.md) describes most of what I'm looking for in partners.
 
-To be eligible for the bounty, you have the explicitly suggest the person to me, as someone who I might want to date. 
+To be eligible for the bounty, you have the explicitly suggest the person to me, as someone who I might want to date.
 
 ### $200 per date - Dates with vegetarian women with legibly high emotional interpersonal skill
 
@@ -73,17 +73,25 @@ In addition to the above bounty for medium term relationship outcomes, I'll give
 1. Vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior due to factory farming, and who
 2. Has legibly high emotional/ interpersonal skill (eg is an experienced circler, therapist, facilitator, tutor, coach, etc)
 
-You get the bounty *if the two of us actually go on a first date*, regardless of whether we go on any further dates after that.
+You get the bounty _if the two of us actually go on a first date_, regardless of whether we go on any further dates after that.
 
 (You're welcome to submit yourself.)
 
-The above are definitely not the *only* qualities that I care about in a partner, but these are the ones that I expect to be legible enough to others that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.
+The above are definitely not the _only_ qualities that I care about in a partner, but these are the ones that I expect to be legible enough to others that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.
 
 You’re welcome to send her my date-me page which has more detail about me, what I care about, and what I’m looking for.
 
 I live in Berkeley. I'm up for going on dates with people people all over the world (especially people who are only short plane-flights from SF or DC).
 
-## Biology and medical interventions 
+## Clothing
+
+### $100 - Chambray button down shirt that fits me
+
+A pointer to where I can buy multiple of a men’s gray chambray button down shirt, in size extra small and slim fit, with a sleeve length of 23.5 inches, and sleeves that are designed to be rolled up.
+
+If I find one, I plan to buy 8 of them. The bounty pays out if I’m happy enough that I actually do buy 8.
+
+## Biology and medical interventions
 
 ### $2,000 - A pointer to any intervention that will mitigate, slow, or delay cognitive decline from aging
 
@@ -106,6 +114,7 @@ Any intervention that...
 I have both seasonal sinus allergies and food allergies, and they suck. I’ll gladly pay $1000 to anyone who can point me towards an intervention that can manage any of the following:
 
 - Permanently cure my seasonal allergies
+
   - [note: I'm currently trying sublingual immunotherapy for this\]
 
 - Permanently cure my allergy to animal dander
@@ -113,7 +122,7 @@ I have both seasonal sinus allergies and food allergies, and they suck. I’ll g
 - Permanently cure my food allergy to mustard
 - Permanently cure my food allergy to milk
 
-Obviously, this needs to be done in a way that is safe and healthy. I’m not interested in an almost-cure that causes me to go into anaphylactic shock down the line. 
+Obviously, this needs to be done in a way that is safe and healthy. I’m not interested in an almost-cure that causes me to go into anaphylactic shock down the line.
 
 ### **$300** - A pointer to a safe, side-effect free steroid for increasing muscular strength.
 
