@@ -70,6 +70,7 @@ ul li, ol li {
 
 ul ul, ul ol, ol ul, ol ol {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 #last-updated {
