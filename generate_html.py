@@ -10,44 +10,23 @@ from markdown.treeprocessors import Treeprocessor
 # -------------------
 # Config
 # -------------------
-markdown_dir = 'source_docs'   # source .md directory
-output_dir   = 'docs'                  # where .html files go
+markdown_dir  = 'source_docs'   # source .md directory
+output_dir    = 'docs'                  # where .html files go
 template_file = 'page_template.html'
 exclusions_file = 'exclusions.txt'
-HTML_EXT = 'html'                   # set to 'hml' if you really want .hml
+INDENT_SPACES = 2                    # <<< set to 2 if you indent sublists by 2 spaces; use 4 if you use 4
 
 # -------------------
 # Utilities
 # -------------------
 def slugify_basename(name: str) -> str:
-    """
-    Turn 'Sleep policies' -> 'sleep-policies'
-    (Lowercases; collapses any whitespace to a single dash.)
-    """
+    """'Sleep policies' -> 'sleep-policies' (lowercase; collapse whitespace to single dash)."""
     name = name.strip()
     name = re.sub(r'\s+', '-', name)
     return name.lower()
 
-def slugify_path_segments(path: str, *, is_file=False) -> str:
-    """
-    Slugify each non-dot segment in a POSIX-style path.
-    If is_file=True, slugify the stem and keep extension as-is handled outside.
-    Keeps '.' and '..' untouched; ignores empty segments.
-    """
-    segs = [s for s in path.split('/')]
-
-    # For directory segments
-    for i, seg in enumerate(segs[:-1] if is_file else segs):
-        if seg in ('', '.', '..'):
-            continue
-        segs[i] = slugify_basename(seg)
-
-    return '/'.join(segs)
-
 def get_css_path(relative_html_path: str) -> str:
-    """
-    Build correct relative path to CSS/main.css based on how deep the HTML file is.
-    """
+    """Build relative path to CSS/main.css based on how deep the HTML file is."""
     depth = relative_html_path.count(os.sep)
     return '../' * depth + 'CSS/main.css'
 
@@ -70,36 +49,76 @@ if os.path.exists(exclusions_file):
 
 # -------------------
 # Markdown link adjuster: convert *.md -> slugged *.html in <a href="...">,
-# slugifying directory segments too.
+# slugifying directory segments too (for relative links).
 # -------------------
+def slugify_url_path(path: str) -> str:
+    """
+    Slugify each directory segment and the filename stem in a POSIX-style path.
+    Keeps '.' and '..' intact.
+    """
+    if not path:
+        return path
+    dirpath, filename = posixpath.split(path)
+    # slugify dir segments
+    if dirpath:
+        segs = []
+        for seg in dirpath.split('/'):
+            if seg in ('', '.', '..'):
+                segs.append(seg)
+            else:
+                segs.append(slugify_basename(seg))
+        dirpath = '/'.join(segs).strip('/')
+    # slugify file stem and swap to .html
+    if filename.lower().endswith('.md'):
+        stem = filename[:-3]
+        filename = f"{slugify_basename(stem)}.html"
+    return f"{dirpath}/{filename}".strip('/') if dirpath else filename
+
 class LinkAdjusterTreeprocessor(Treeprocessor):
     def run(self, root):
         for el in root.iter('a'):
             href = el.get('href', '')
             if not href or href.startswith(('#', '/', 'http://', 'https://', 'mailto:', 'tel:', '//')):
                 continue
-
             parts = urlsplit(href)
-            path = unquote(parts.path)  # decode %20 etc for consistent slugging
+            path = unquote(parts.path)
             if not path.lower().endswith('.md'):
                 continue
-
-            # Split into dir and file; slugify dir segments
-            dirpath, filename = posixpath.split(path)
-            dirpath = slugify_path_segments(dirpath)
-
-            # Slugify file stem and swap extension
-            stem = filename[:-3]  # drop ".md"
-            new_stem = slugify_basename(stem)
-            new_filename = f"{new_stem}.{HTML_EXT}"
-
-            new_path = posixpath.join(dirpath, new_filename) if dirpath else new_filename
+            new_path = slugify_url_path(path)
             new_href = urlunsplit((parts.scheme, parts.netloc, new_path, parts.query, parts.fragment))
             el.set('href', new_href)
 
 class LinkAdjusterExtension(Extension):
     def extendMarkdown(self, md):
         md.treeprocessors.register(LinkAdjusterTreeprocessor(md), 'linkadjuster', 15)
+
+# -------------------
+# Nested list depth annotator
+# Adds class "list-depth-N" to <ul>/<ol> and an inline margin-left per depth.
+# -------------------
+class ListDepthAnnotator(Treeprocessor):
+    def run(self, root):
+        def annotate(node, depth):
+            for child in list(node):
+                if child.tag in ('ul', 'ol'):
+                    cls = child.get('class', '')
+                    classes = [c for c in cls.split() if c]
+                    classes.append(f'list-depth-{depth}')
+                    child.set('class', ' '.join(classes))
+                    if depth > 0:
+                        style = child.get('style', '')
+                        if style and not style.endswith(';'):
+                            style += ';'
+                        style += f'margin-left:{1.25*depth:.2f}em;'
+                        child.set('style', style)
+                    annotate(child, depth + 1)
+                else:
+                    annotate(child, depth)
+        annotate(root, 0)
+
+class ListDepthExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(ListDepthAnnotator(md), 'listdepth', 16)
 
 # -------------------
 # Main walk
@@ -124,14 +143,17 @@ for root, dirs, files in os.walk(markdown_dir):
 
         # slugify directory segments for output structure
         if rel_dir:
-            slug_rel_dir = os.sep.join(slugify_basename(p) for p in rel_dir.split(os.sep))
+            slug_rel_dir = os.sep.join(
+                slugify_basename(p) if p not in ('', '.', '..') else p
+                for p in rel_dir.split(os.sep)
+            )
         else:
             slug_rel_dir = ''
 
-        # slugify filename (stem) and set extension
+        # slugify filename (stem) and set extension to .html
         stem, _ = os.path.splitext(rel_name)
         slug = slugify_basename(stem)
-        rel_html_name = f"{slug}.{HTML_EXT}"
+        rel_html_name = f"{slug}.html"
 
         # assemble output relative path
         rel_html_path = os.path.join(slug_rel_dir, rel_html_name) if slug_rel_dir else rel_html_name
@@ -158,8 +180,14 @@ for root, dirs, files in os.walk(markdown_dir):
         with open(md_filepath, 'r', encoding='utf-8') as f:
             md_content = f.read()
 
-        # convert md -> html (and fix intra-site .md links to slugged .html + dirs)
-        html_body = markdown.markdown(md_content, extensions=[LinkAdjusterExtension()])
+        # convert md -> html (fix links; annotate list depth)
+        # IMPORTANT: tab_length controls how many spaces = one indent level.
+        md = markdown.Markdown(
+            extensions=[LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists'],
+            tab_length=INDENT_SPACES,
+            output_format='html5'
+        )
+        html_body = md.convert(md_content)
 
         # extract title from first "# " heading
         title = ''
@@ -182,5 +210,3 @@ for root, dirs, files in os.walk(markdown_dir):
         with open(html_filepath, 'w', encoding='utf-8') as f:
             f.write(rendered_html)
         print(f"Regenerated {html_filepath}")
-
-

@@ -93,7 +93,7 @@ If I find one, I plan to buy 8 of them. The bounty pays out if I’m happy enoug
 
 ## Biology and medical interventions
 
-### $2,000 - A pointer to any intervention that will mitigate, slow, or delay cognitive decline from aging
+### $5,000 - A pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
 
 Or, alternatively, boost fluid intelligence or neuroplasticity.
 
@@ -123,6 +123,12 @@ I have both seasonal sinus allergies and food allergies, and they suck. I’ll g
 - Permanently cure my food allergy to milk
 
 Obviously, this needs to be done in a way that is safe and healthy. I’m not interested in an almost-cure that causes me to go into anaphylactic shock down the line.
+
+### $1,000 - A pointer to a safe, side-effect free treatment for reactivating skeletal growth after puberty
+
+I'd like to be physically bigger: bigger head, bigger hands, bigger feet, taller. 
+
+My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions. 
 
 ### **$300** - A pointer to a safe, side-effect free steroid for increasing muscular strength.
 

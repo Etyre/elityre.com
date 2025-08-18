@@ -20,6 +20,8 @@ I’ve set up profiles in Brave: Personal and Palisade.
 - [Go Full Page - Full page screen capture](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
 - [Google Translate](https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 - [Speechify](https://chromewebstore.google.com/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm?hl=en)
+  - Pause hotkey set to: cmd + .
+
 
 #### Hidden
 
@@ -63,7 +65,7 @@ I’ve set up profiles in Brave: Personal and Palisade.
     - Advance: F
 - [Rescue Time](https://chromewebstore.google.com/detail/rescuetime-for-chrome-and/bdakmnplckeopfghnlpocafcepegjeap)
 
-### Others software tools
+### Others software utilities
 
 - [Superwhisper](https://superwhisper.com/)
   - Turn off silence removal
