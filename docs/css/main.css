@@ -68,6 +68,13 @@ ul li {
     font-family:'Helvetica', 'Arial';
 }
 
+ol li {
+    font-size: 1em;
+    line-height: 1.3em;
+    color: #333; 
+    font-family:'Helvetica', 'Arial';
+}
+
 #last-updated {
     font-size: 0.9cdem;
     font-family: Arial, Helvetica, sans-serif;

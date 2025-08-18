@@ -11,10 +11,10 @@ from markdown.treeprocessors import Treeprocessor
 # Config
 # -------------------
 markdown_dir  = 'source_docs'   # source .md directory
-output_dir    = 'docs'                  # where .html files go
+output_dir    = 'docs'          # where .html files go
 template_file = 'page_template.html'
 exclusions_file = 'exclusions.txt'
-INDENT_SPACES = 2                    # <<< set to 2 if you indent sublists by 2 spaces; use 4 if you use 4
+INDENT_SPACES = 2               # set to 2 if you indent sublists by 2 spaces; use 4 if you use 4
 
 # -------------------
 # Utilities
@@ -26,7 +26,7 @@ def slugify_basename(name: str) -> str:
     return name.lower()
 
 def get_css_path(relative_html_path: str) -> str:
-    """Build relative path to CSS/main.css based on how deep the HTML file is."""
+    """Build relative path to CSS/main.css based on how deep the HTML file is (within docs/)."""
     depth = relative_html_path.count(os.sep)
     return '../' * depth + 'CSS/main.css'
 
@@ -93,8 +93,8 @@ class LinkAdjusterExtension(Extension):
         md.treeprocessors.register(LinkAdjusterTreeprocessor(md), 'linkadjuster', 15)
 
 # -------------------
-# Nested list depth annotator
-# Adds class "list-depth-N" to <ul>/<ol> and an inline margin-left per depth.
+# Nested list depth annotator (no inline styles)
+# Adds class "list-depth-N" to <ul>/<ol> so CSS can style indentation.
 # -------------------
 class ListDepthAnnotator(Treeprocessor):
     def run(self, root):
@@ -105,12 +105,6 @@ class ListDepthAnnotator(Treeprocessor):
                     classes = [c for c in cls.split() if c]
                     classes.append(f'list-depth-{depth}')
                     child.set('class', ' '.join(classes))
-                    if depth > 0:
-                        style = child.get('style', '')
-                        if style and not style.endswith(';'):
-                            style += ';'
-                        style += f'margin-left:{1.25*depth:.2f}em;'
-                        child.set('style', style)
                     annotate(child, depth + 1)
                 else:
                     annotate(child, depth)
@@ -155,7 +149,7 @@ for root, dirs, files in os.walk(markdown_dir):
         slug = slugify_basename(stem)
         rel_html_name = f"{slug}.html"
 
-        # assemble output relative path
+        # assemble output relative path within docs/
         rel_html_path = os.path.join(slug_rel_dir, rel_html_name) if slug_rel_dir else rel_html_name
         html_filepath = os.path.normpath(os.path.join(output_dir, rel_html_path))
 
@@ -181,13 +175,12 @@ for root, dirs, files in os.walk(markdown_dir):
             md_content = f.read()
 
         # convert md -> html (fix links; annotate list depth)
-        # IMPORTANT: tab_length controls how many spaces = one indent level.
-        md = markdown.Markdown(
+        md_engine = markdown.Markdown(
             extensions=[LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists'],
             tab_length=INDENT_SPACES,
             output_format='html5'
         )
-        html_body = md.convert(md_content)
+        html_body = md_engine.convert(md_content)
 
         # extract title from first "# " heading
         title = ''
@@ -196,7 +189,7 @@ for root, dirs, files in os.walk(markdown_dir):
                 title = line[2:].strip()
                 break
 
-        # css path based on output html nesting
+        # css path based on output html nesting (relative to docs/)
         css_path = get_css_path(rel_html_path)
 
         # render
@@ -210,3 +203,4 @@ for root, dirs, files in os.walk(markdown_dir):
         with open(html_filepath, 'w', encoding='utf-8') as f:
             f.write(rendered_html)
         print(f"Regenerated {html_filepath}")
+
