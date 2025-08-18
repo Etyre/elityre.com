@@ -61,18 +61,15 @@ ul.posts li {
     list-style: none;
 }
 
-ul li {
+ul li, ol li {
     font-size: 1em;
     line-height: 1.3em;
     color: #333; 
     font-family:'Helvetica', 'Arial';
 }
 
-ol li {
-    font-size: 1em;
-    line-height: 1.3em;
-    color: #333; 
-    font-family:'Helvetica', 'Arial';
+ul ul, ul ol, ol ul, ol ol {
+    margin-top: 0;
 }
 
 #last-updated {
