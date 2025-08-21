@@ -24,9 +24,10 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
 - In my personal room, I sleep with a weighted blanket.
 - I have blackout curtains over my windows. <sup>3</sup>
 - I sleep in a room that either has a cracked window or a fan that circulates the air out of the room into a larger space.
-- Making it easy to get up and pee
+- Making it easy to get up to pee.
   - This sounds kind of silly, but I have sometimes find that I sleep badly because I’ll wake up in the middle of the night with a full bladder. I should get up and pee, but because there are a number of steps between me and the bathroom (maybe I need to put on a robe, or navigate around a desk that I can’t see well in the dark), I have an aversion to getting up, and I just stay there in bed and then fall back into an uncomfortable, restless sleep.
   - I can circumvent this via future-pacing and rehearsal. I’ll practice, when I’m awake, the steps that I need to take to go pee. Then when I wake up in the middle of the night, that’s the default action.
+  - When I have been on a schedule where my sleep window overlaps with the sun substantially, and I have gone to lengths to block out all the light entering my room, but I'm using a shared bathroom with normal levels of sunlight, I'm not above keeping a jug in my room to pee in, and then dumping it in the toilet when I wake up in the morning. 
 
 ### During the day
 
