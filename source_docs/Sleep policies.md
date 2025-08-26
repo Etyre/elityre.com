@@ -69,6 +69,7 @@ _External_ _Systems_
 - My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a microhedonic gradient that incentivizes me to stay in bed, but I can circumvent that by
   - During the winter, I’ll leave sweatpants and warm socks, right near or on my bed, to make it as easy and quick as possible as possible to get up and get warm, instead of being tempted to stay in my cozy bed.
   - An even better idea to try: set up a heating pad on a timer right at the side of my bed, so that I can wake up and step onto that.
+- The main lights in my room are on a bluetooth controlled circuit. There's a switch for that circuit on my wall next to the door, for turning on the lights when I enter my room. My bed is right next to the door, such that I can reach this switch from my bed. But, I need to sit up to reach it, which is an additional bit of friction to going from asleep to awake. So I've also attached an identical switch to my air conditioner unit, that I can reach out to turn on without needing sit up.
 
 _Behavioral practices_
 
@@ -83,7 +84,7 @@ _Behavioral practices_
 - I’ve further trained myself so that **when I wake up, I get up, and spring out of bed, immediately**. Furthermore, this allows to to start the day with momentum, which can carry through for hours.
 
   - I built this habit with offline habit training: practicing, (during the day, when you're fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that not not practicing _getting back into bed_, each time.
-  - I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.
+  - I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. <!--When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.-->
 
 - One of the first things that I do in the morning is brush my teeth, either outside or looking out of an open window. This is means that I get sunlight exposure to my eyes, first thing in the morning, which reinforces / resets my circadian rhythm, to make it easier to fall asleep at the time I want.3
 

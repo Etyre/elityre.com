@@ -12,15 +12,42 @@ See also: [software that I would pay for, if it existed](wanted-software.md).
 
 ## Learning and efficacy interventions
 
-### $20,000 maximum - Any intervention that noticeably improves my personal learning rate
+### $20,000 maximum - Any intervention that measurably improves my personal learning rate
 
 ...especially at understanding and assimilating technical / mathematical concepts.
 
 I've collected a bunch of heuristics and processes for effective learning over the course of my life, but I continue to be excited to learn new methods. If there's something you do that helps you learn stuff, there's a pretty good chance that I'd like to learn how to do it from you.
 
-To be eligible for a bounty, the effect should either be objectively verifiable (eg "there's a clear change in the slope of the measured progress-graph at the point of the intervention" or "after applying this intervention, the average study time to getting to a 95% grade on standard tests dropped by 10%"), or if subjective, be strong enough that I am personally impressed that it is significant.
+To be eligible for a bounty, the effect should measurably and objectively verifiable. 
 
-For measurable interventions, l'll pay $1,000 for every marginal 1% improvement in my learning rate, up to $20,000. So if you have a technique, or a set of techniques, that enables me to learn 15% faster compared to my baseline, I'll pay you $15,000.
+A standard metric would be the amount of focused study time it takes me to get to 95% scores on standardized tests in technical subject, compared to my measured learning speed on similar subjects. 
+
+Alternatively, a clear increase in the slope of a progress graph in a domain where I have lots of data (eg my typing scores), would also count.
+
+l'll pay $1,000 for every marginal 1% improvement in my learning rate, up to $20,000. So if you have a technique, or a set of techniques, that enables me to learn 15% faster compared to my baseline, I'll pay you $15,000.
+
+I'm open to a variety of possible interventions, including things like...
+
+* Spaced repetition systems or software
+* Deliberate practice techiniques
+* Biofeedback
+* TMS, tDCS, or ultrasound neroumodulation
+* Supplements or nootropics 
+* Psychological interventions or trauma processing
+
+Though, I might be unwilling to try interventions depending on the risks or side effects.
+
+The intervention has to be something that I can continue doing perpetually. (If you have a fancy strategy that involves daily use of an MRI, but there’s realistically no way that I can get access to an MRI long term, that’s interesting, but it doesn’t count.)
+
+I’m expecting aspiring claimants to coordinate with me: meeting to discuss the intervention, and then (if both you and I decide to proceed), designing an experimental protocol together, and helping me apply the intervention. 
+
+If you don’t have time for that, you *can* just meet with me once, or send me a document of instructions. If I decide to follow through on your intervention, and I find that it does have a noticeable effect, I’ll send you a *partial* bounty. A lot of what I’m paying for here is having someone guide me through the process so that I can screen off user error. 
+
+If, after an initial meeting, I’m skeptical enough of your intervention that I don’t think it’s worth my time to try it, you could bet me that it will work by paying me to try the intervention. If it works as you claim, I'll pay you back plus the amount of the bounty.
+
+### $1,000 - Other learning techniques that don't have a clearly measurable 
+
+The above bounty applies to measurable interventions. But, if you teach me a learning or study technique that doesn't have a clearly measurable effect, but seems like enough of an improvement to my learning process that I end up using it regularly, I'll still pay you 1000 for that.
 
 #### Prior bounty recipients:
 
@@ -60,7 +87,7 @@ Note that you can set your rate arbitrarily high. If there’s any amount of mon
 
 ## Romantic introductions
 
-### $3,000 - Introducing me up to someone that I end up dating regularly for more than a year
+### $4,000 - Introducing me up to someone that I end up dating regularly for more than a year
 
 My [date me page](date.md) describes most of what I'm looking for in partners.
 
