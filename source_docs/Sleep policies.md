@@ -1,7 +1,5 @@
 # Sleep Process and Policies
 
-Previously recorded here: https://wild-quit-ebe.notion.site/Sleep-process-and-policies-6f7a204833a34d4b99ad44860258ca7c
-
 Regularly getting good sleep is the single most important physiological factor for keeping my energy levels high. Extremely good sleep is the best stimulant.
 
 While I have some tricks for maintaining high focus and momentum even when sleep deprived <link>, those are stopgaps for when something has already gone wrong. With intentional effort, and by riding the wave of my circadian rhythms, I can maintain pretty high efficacy for about 3 days of insufficient sleep, but after that things start to fall apart.
@@ -16,18 +14,32 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
 
 ## Some sleep setup and practices
 
-- I don’t eat for about 3 hours before bed. (Ideally, I eat one meal a day, in the early afternoon). If I’m tempted to eat, I’ll chew gum, or make myself tea.
-- I’ve set an alarm that rings at (currently) 11:00 PM, not to go to sleep, but to brush my teeth and take a melatonin. That way, I’ll tend to become tired and ready to sleep automatically, about a half hour to an hour later.
-  - For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
+- I don’t eat for about 3 hours before bed. Ideally, I eat one meal a day, in the early afternoon, and so don't eat for many hours before bed. If I’m tempted to eat, I’ll chew gum, or make myself tea.
+  - I will sometimes drink liquid meal replacement (Soylent or huel) in the hours before bed. I haven't observed this impacting my sleep metrics.
+
+- I’ve set an alarm that rings at (current, not to go to sleep, but to brush my teeth and take a melatonin. That way, I’ll tend to become tired and ready to sleep automatically, about a half hour to an hour later.
 - I sleep with an air conditioner (in my personal room) or a fan (in my office-sleep space) pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep.
 - I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. <sup>1</sup> <sup>2</sup>
 - In my personal room, I sleep with a weighted blanket.
-- I have blackout curtains over my windows. <sup>3</sup>
-- I sleep in a room that either has a cracked window or a fan that circulates the air out of the room into a larger space.
-- Making it easy to get up to pee.
+- I block out all the light in my room, covering the windows with cardboard panels, and filling the gaps with aluminum foil secured with painters tape. I additionally hang blackout curtains over the windows. (I crack the window to allow for circulation, even when the air conditioner is off, attach a strip tinfoil or blackout cloth to the top of the window, covering the gap.)
+  - Just using blackout curtains is insufficient if I'm on a late or nocturnal schedule in which my sleep period overlaps with the sun. I find that if I sleep in a room that has some light leakage, I feel subtly *off* all day long. If I’m asleep during a period that overlaps substantially with when the sun is up, I need to sleep in a very dark space, or I’ll feel groggy all day/night long. I want my room to be dark enough that I can't see the objects and furniture in it, even in the middle of the day. This is seem to be adequate enough for me to be sharp on a late schedule.
+    - If blocking all the light in a room isn't easy, I've  sometimes slept in a closet, or with a four-panel shelter of balsa wood long enough to enclose the top half of my body, in a merely-normally dark room, instead of a pitch black room. This seems to work adequately as well.
+
+- I making it easy to get up to pee in the middle of the night.
   - This sounds kind of silly, but I have sometimes find that I sleep badly because I’ll wake up in the middle of the night with a full bladder. I should get up and pee, but because there are a number of steps between me and the bathroom (maybe I need to put on a robe, or navigate around a desk that I can’t see well in the dark), I have an aversion to getting up, and I just stay there in bed and then fall back into an uncomfortable, restless sleep.
   - I can circumvent this via future-pacing and rehearsal. I’ll practice, when I’m awake, the steps that I need to take to go pee. Then when I wake up in the middle of the night, that’s the default action.
-  - When I have been on a schedule where my sleep window overlaps with the sun substantially, and I have gone to lengths to block out all the light entering my room, but I'm using a shared bathroom with normal levels of sunlight, I'm not above keeping a jug in my room to pee in, and then dumping it in the toilet when I wake up in the morning. 
+  - When I have been on a schedule where my sleep window overlaps with the sun substantially and I've gone to lengths to block out all the light entering my room, but the nearest bathroom is not similarly shielded, I've kept a two gallon jug partially filled with water in my bedroom. If I get up in the middle of my sleep period to pee, I can pee in the jug and then dump it out the toilet after I get up for the day.
+
+### Sleep supplements
+
+Every night, around a half hour before I go to sleep (usually just before I leave the office), I take
+
+* 0.3 mg of melatonin <sup>3</sup>
+* 50 mg of apigenin
+* 200 mg of L-Theanine
+* 144 mg of Magnesium L-theronate
+
+I often take my daily dose of creatine at this time as well.
 
 ### During the day
 
@@ -98,10 +110,10 @@ _Behavioral practices_
 
 **Notes**
 
-1 - When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose, well enough, while lying down, to fall asleep. (For a while I had a [bounty](https://elityre.com/bounties.html) up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.
+1 - When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose well enough, while lying down, to fall asleep. (For a while I had a [bounty](https://elityre.com/bounties.html) up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.
 
 2 - I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.
 
-3 - These don’t block the light well enough for if I was on a nocturnal schedule. If I’m asleep during a period that overlaps substantially with when the sun is up, I need to sleep in a very dark space, or I’ll feel groggy all day/night long. If I’m nocturnal (in preparation for international travel for instance), I’ll either patch up my windows with cardboard and tinfoil to block the light, or sleep in a closet or similar.
+3 - For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
 
 4 - Early light exposure like this was recommended by Andrew Huberman here <find link>. He claims outdoor light exposure is --x more effective than sunlight through a window.
