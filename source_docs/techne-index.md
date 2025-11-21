@@ -13,6 +13,7 @@ _Consistent habits, policies, and systems_
 - How I read
 - How I use Spaced Repetition
 - [Financial Policies](financial-policies.html)
+- [Personal computer setup](Computer setup.md)
 
 _Protocols, workflows, checklists_
 

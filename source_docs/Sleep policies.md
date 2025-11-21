@@ -29,6 +29,9 @@ At the time of this writing, I wake up at 9:45 AM, and go to sleep at about 12:0
   - This sounds kind of silly, but I have sometimes find that I sleep badly because I’ll wake up in the middle of the night with a full bladder. I should get up and pee, but because there are a number of steps between me and the bathroom (maybe I need to put on a robe, or navigate around a desk that I can’t see well in the dark), I have an aversion to getting up, and I just stay there in bed and then fall back into an uncomfortable, restless sleep.
   - I can circumvent this via future-pacing and rehearsal. I’ll practice, when I’m awake, the steps that I need to take to go pee. Then when I wake up in the middle of the night, that’s the default action.
   - When I have been on a schedule where my sleep window overlaps with the sun substantially and I've gone to lengths to block out all the light entering my room, but the nearest bathroom is not similarly shielded, I've kept a two gallon jug partially filled with water in my bedroom. If I get up in the middle of my sleep period to pee, I can pee in the jug and then dump it out the toilet after I get up for the day.
+- On days when I have a late nap (ending after 8:00pm). I make sure to do HRV breathing for 5 minutes just before going to sleep. 
+  - I also do HRV breathing if I'm amped up and energized around bedtime, though this is unusual if I'm exercising enough.
+
 
 ### Sleep supplements
 
@@ -70,6 +73,10 @@ Eating actives the parasympathetic and enteric nervous system, and is one way to
 However, eating in the hours before bed harms sleep quality. So it isn't a good idea to eat just before bed.
 
 However-however, my initial experiments suggest that liquid food doesn't worsen my sleep, so I'll sometimes have a bottle of soylent or or huel non-dairy milk if I'm restless.
+
+
+
+
 
 ## Waking up
 

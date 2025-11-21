@@ -1,30 +1,22 @@
-Web apps
+**Web apps**
 
-* delibereatetyping.app 
+* Deliberate Typing (delibereatetyping.app )
 * 
 
-
-
-Browser extensions
-
-* 
-
-
-
-Roam / LogSeq extensions
+**Browser extensions**
 
 * 
 
+**Roam / LogSeq extensions**
 
+* 
 
-Utilities
+**Scripts and Utilities**
 
 * A simple gui chess timer
-* A script 
+* Toggl to google-sheets integration
 
-
-
-See also: my personal computer setup
+See also: [my personal computer setup](Computer setup.md)
 
 
 

@@ -20,7 +20,7 @@ I’ve set up profiles in Brave: Personal and Palisade.
 - [Go Full Page - Full page screen capture](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
 - [Google Translate](https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 - [Speechify](https://chromewebstore.google.com/detail/speechify-text-to-speech/ljflmlehinmoeknoonhibbjpldiijjmm?hl=en)
-  - Pause hotkey set to: cmd + .
+  - Pause hotkey set to: `cmd` + `.`
 
 
 #### Hidden
@@ -68,7 +68,7 @@ I’ve set up profiles in Brave: Personal and Palisade.
 ### Others software utilities
 
 - [Superwhisper](https://superwhisper.com/)
-  - Turn off silence removal
+  - Turn off silence removal.
 - [Spaces Renamer](https://macmenubar.com/spaces-renamer/)
 - [CopyClip](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
 
@@ -76,37 +76,58 @@ I’ve set up profiles in Brave: Personal and Palisade.
 
 Window management
 
-| Maximize Window to the Left half of the screen  | shift + control + left arrow  |
-| ----------------------------------------------- | ----------------------------- |
-| Maximize Window to the Right half of the screen | shift + control + right arrow |
-| Maximize Window to next                         | shift + control + down arrow  |
-| Maximize Window to next monitor                 | shift + control + up arrow    |
-|                                                 |                               |
+| Action                                                | Hot key                       |
+| ----------------------------------------------------- | ----------------------------- |
+| Maximize Window to the right half of the screen       | shift + control + right arrow |
+| Maximize Window to the left half of the screen        | shift + control + left arrow  |
+| Maximize Window                                       | shift + control + down arrow  |
+| Maximize Window to next monitor                       | shift + control + up arrow    |
+| Resize Window to right third of the screen            |                               |
+| Resize Window to middle third of the screen           |                               |
+| Resize window to the left third of the screen         |                               |
+| Resize window to the upper right corner of the screen |                               |
+| Resize window to the lower right corner of the screen |                               |
+| Resize window to the lower left corner of the screen  |                               |
+| Resize window to the upper left corner of the screen  |                               |
 
-Activate 
+Open/activate tool 
 
-| Switch to roam desktop app on desktop 1 | control + option + q |
-| --------------------------------------- | -------------------- |
-| Open roam in a new window to the right  | shift + control + e  |
-| Open a new webpage on this desktop      | option + command + n |
-
-Activate AI tools
-
-| Open a new claude chat in a new window     | shift + option + c            |
-| ------------------------------------------ | ----------------------------- |
-| Open a new perplexity chat in a new window | shift + option + p            |
-| Activate super whisper.                    | option + a   [default hotkey] |
-|                                            |                               |
-|                                            |                               |
+| Action                                                       | Hotkey                        |
+| ------------------------------------------------------------ | ----------------------------- |
+| Open roam in a new window to the right                       | shift + control + e           |
+| Open a new webpage on this desktop                           | option + command + n          |
+| Open a new blank google sheet in a new window on the right side of the screen | shift + control + s           |
+| Open a new claude chat in a new window [or ChatGPT depending on which is my current daily driver] | shift + option + c            |
+| Open a new perplexity chat in a new window                   | shift + option + p            |
+| Activate super whisper                                       | option + a   [default hotkey] |
+| Activate toggl track (desktop)                               |                               |
 
 Desktop switching
 
+| Action                                                       | Hotkey               |
+| ------------------------------------------------------------ | -------------------- |
+| Switch desktop 1 and activate roam desktop app               | control + option + q |
+| Switch back to the previously activated window and previously activated app. | control + option + z |
 
+Text expanders
+
+I use keyboard maestro to set up some hotkeys for text that I is annoying to type out, or that I type very frequently.
+
+The following is a non-exhaustive list of some examples. 
+
+| Text                                                         | Hotkey  |
+| ------------------------------------------------------------ | ------- |
+| ¯\_(ツ)_/¯                                                   | /shrug  |
+| [my calendar link]                                           | /cal    |
+| #ankify                                                      | /an     |
+| [[compression]]                                              | /com    |
+| [[quote]]                                                    | /qu     |
+| #ankify #[[ankify_roam: deck="Spaced Learning Projects::Sources"]]   {{[[roam/render]]:((nU1XMzhKA)) "Block UID" }} #[[ankify_roam: suspend=False]] | /source |
+| {{[[roam/render]]:((nU1XMzhKA)) "Block UID" }}#[[ankify_roam: suspend=True]] | /susp   |
+| @threadreaderapp @Twtextapp @unrollthread unroll @threader_app compile | /unroll |
 
 ### Other computer setup stuff
 
 - My default keyboard layout is Colmak.
-
-- I’ve set up my computer so that images added to my downloads folders are automatically copied to the clipboard. 
-
-- I’ve also turned off the default mac setting that cause screenshots to appear as a popup in the bottom right, with a delay until it’s added to the target file, to allow for editing. It’s more convenient to have screenshots appear in my downloads (where I can copy them) immediately.
+- I’ve set up my a macro on keyboard maestro so adding an an image added to my downloads folder automatically adds that image to the clipboard, for pasting.
+- I’ve turned off the default mac setting that cause screenshots to appear as a popup in the bottom right, with a delay until it’s added to the target file, to allow for editing. It’s more convenient to have screenshots appear in my downloads (where I can copy them) immediately.

@@ -12,7 +12,7 @@ See also: [software that I would pay for, if it existed](wanted-software.md).
 
 ## Learning and efficacy interventions
 
-### $20,000 maximum - Any intervention that measurably improves my personal learning rate
+### $25,000 maximum - Any intervention that measurably improves my personal learning rate
 
 ...especially at understanding and assimilating technical / mathematical concepts.
 
@@ -20,11 +20,15 @@ I've collected a bunch of heuristics and processes for effective learning over t
 
 To be eligible for a bounty, the effect should measurably and objectively verifiable. 
 
-A standard metric would be the amount of focused study time it takes me to get to 95% scores on standardized tests in technical subject, compared to my measured learning speed on similar subjects. 
+A standard metric for my learning rate would be the amount of focused study time it takes me to reach 95% scores on standardized tests in technical subject, compared to my measured learning speed on similar subjects. 
 
-Alternatively, a clear increase in the slope of a progress graph in a domain where I have lots of data (eg my typing scores), would also count.
+Other possible metrics include:
 
-l'll pay $1,000 for every marginal 1% improvement in my learning rate, up to $20,000. So if you have a technique, or a set of techniques, that enables me to learn 15% faster compared to my baseline, I'll pay you $15,000.
+* Rate of improvement in my typing speed
+* Rate of improvement in my mental arithmetic, measured in time-to-reach the correct answer (holding accuracy constant)
+* Rate of improvement at some simple video game
+
+l'll pay $500 for every marginal 1% improvement in my learning rate, up to $20,000. If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending 4/5ths as much time and effort for the same result), I'll pay you $12,500.
 
 I'm open to a variety of possible interventions, including things like...
 
