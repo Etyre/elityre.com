@@ -35,7 +35,7 @@ I'm uncertain on this point. I think it ultimately hinges on whether persons/age
 
 Given that, I'm not sure what the moral sign of humanely raising animals for slaughter is. It seems plausible that it could be a positive or a negative.
 
-But regardless, the magnitude of this moral dilemma is radically smaller than that of industrial farming. I'm not very invested in this question, compared to the enormously overdetermined question of whether industrial farming is morally acceptable.
+But regardless, the magnitude of this moral dilemma is radically smaller than that of industrial farming. I'm not very invested in this question, compared to the enormously overdetermined question of whether industrial farming, as actually practiced, is morally acceptable.
 
 At my current level of uncertainty, eating animal products exclusively from humanely raised animals seems like a reasonable alternative to vegansim, to me, as long as one is actually careful about verifying the humane conditions, rather than (as I did at one point), intending to eat only humanely-raised meat, but not putting much thought into how to identify which was which, and then flexibly bending that standard when meat was available.
 
