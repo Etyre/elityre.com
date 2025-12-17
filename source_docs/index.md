@@ -2,7 +2,7 @@
 
 This is the personal website of Eli Tyre.
 
-I’ve been focused on reducing existential risk from Superintelligence since 2015. I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, psychologically-healthy, eudemonic) society.
+I’ve been focused on reducing existential risk from Superintelligence since 2015. I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society.
 
 #### Institutional affiliation(s)
 
@@ -16,11 +16,11 @@ I additionally work part time for [the Survival and Flourishing Fund](https://su
 
 I also post on [Less Wrong](https://www.lesswrong.com/users/elityre).
 
-I sometimes write threads on twitter, where my handle is [@EpistemicHope](https://twitter.com/EpistemicHope). I archive virtually all my threads on [threadreader](https://threadreaderapp.com/user/EpistemicHope), so you can read them without needing to wade into [an attention-harvesting, intention-sapping, social media platform](twitter-policy.html).
+I sometimes write threads on twitter, where my handle is [@EpistemicHope](https://twitter.com/EpistemicHope). I archive all my threads on [threadreader](https://threadreaderapp.com/user/EpistemicHope), so you can read them without needing to wade into [an attention-harvesting, intention-sapping, social media platform](twitter-policy.html).
 
 #### Software
 
-I'm a mediocre software engineer, mostly building tools for my own use. You can check out my open sourced projects [github](https://github.com/Etyre).
+I'm a mediocre software engineer, mostly building tools for my own use. You can check out my open sourced projects on [github](https://github.com/Etyre).
 
 #### Adversarial collaborations
 
