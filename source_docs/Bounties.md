@@ -28,7 +28,7 @@ Other possible metrics include:
 * Rate of improvement in my mental arithmetic, measured in time-to-reach the correct answer (holding accuracy constant)
 * Rate of improvement at some simple video game
 
-l'll pay $500 for every marginal 1% improvement in my learning rate, up to $20,000. If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending 4/5ths as much time and effort for the same result), I'll pay you $12,500.
+l'll pay $500 for every marginal 1% improvement in my learning rate, up to $25,000. If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending four fifths as much time and effort for the same result), I'll pay you $12,500.
 
 I'm open to a variety of possible interventions, including things like...
 
@@ -55,7 +55,7 @@ The above bounty applies to measurable interventions. But, if you teach me a lea
 
 #### Prior bounty recipients:
 
-1.  John Maxwell ($1,000 unclaimed), for giving me the core idea of doing textbook exercises on a spaced repetition schedule
+1.  John Maxwell ($1,000 unclaimed), for giving me the core idea of doing textbook exercises on a spaced repetition schedule, which I implemented for more than a year.
 
 ### $1,000 - Some method for intentionally shifting my physiological state that I come to use reliably
 
@@ -102,7 +102,7 @@ To be eligible for the bounty, you have the explicitly suggest the person to me,
 In addition to the above bounty for medium term relationship outcomes, I'll give you $200 you for setting me up on dates with single or non-polysaturated woman who meet the following criteria:
 
 1. Vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior due to factory farming, and who
-2. Has legibly high emotional/ interpersonal skill (eg is an experienced circler, therapist, facilitator, tutor, coach, etc)
+2. Has legibly high emotional communication and interpersonal skill (eg is an experienced circler, therapist, facilitator, tutor, coach, etc)
 
 You get the bounty _if the two of us actually go on a first date_, regardless of whether we go on any further dates after that.
 
@@ -118,7 +118,7 @@ I live in Berkeley. I'm up for going on dates with people people all over the wo
 
 ### $100 - Chambray button down shirt that fits me
 
-A pointer to where I can buy multiple of a men’s gray chambray button down shirt, in size extra small and slim fit, with a sleeve length of 23.5 inches, and sleeves that are designed to be rolled up.
+A pointer to where I can buy multiple of a men’s gray chambray button down shirt, in size extra small and slim fit, with a sleeve length of 23.5 inches, and sleeves that are designed to be rolled up (ideally including roll tabs/ sleeve tabs).
 
 If I find one, I plan to buy 8 of them. The bounty pays out if I’m happy enough that I actually do buy 8.
 
@@ -134,11 +134,11 @@ If you know of unusually good resources on this topic, I would pay a partial bou
 
 Any intervention that...
 
-- Lowers my average resting heart rate
+- Increases my average HRV
 - Increases my sleep efficiency (ie the time that I'm actually asleep while in bed), or
 - Shortens sleep latency
 
-...as measured by my Oura ring, in a randomized (night by night) experiment, and is something that is feasible for me to do most nights.
+... by at least 1%, as measured by my Oura ring, in a randomized (night by night) experiment, and is something that is feasible for me to do most nights.
 
 ### $1,000 - Safely cure my allergies.
 
