@@ -100,6 +100,8 @@
 
 * US semiconductor companies offshore semiconductor manufacture to Southeast Asia to reduce production costs
 
+* OPEC embargo
+
 
 
 Specific events
@@ -171,6 +173,15 @@ Specific events
 * Automobiles start to become mainstream
   * Exact stat.
 * In the US, Wages increase. Millions of formally lower class people move into the expanding middle class. It becomes a profitable business strategy to target the middle market. Mass-market advertising is invented.
+* 1980 to 1924: [[The New Immigration]]
+* The US congress passes laws that limit the flow of immigration to the US.
+* Increase in urbanization in the US
+* First wave feminism and the New Woman
+* Increasing support for women's suffrage
+
+*Specific events*
+
+* 1920: The majority of the US population lives in cities.
 
 
 
@@ -178,11 +189,28 @@ Specific events
 
 *Macrotrends*
 
-* 1914 - 19World War I
+* 1914 - 1918: World War I
 
 * Jews are trickling into British-controlled Palestine
 
 * 1881 - 1914: The scramble for Africa
+
+* 1980 to 1924: [[The New Immigration]]
+
+* There's an attitude of optimism in the US?
+
+* Increase in urbanization in the US
+
+* First wave feminism and the New Woman
+
+* Increasing support for women's suffrage
+
+* Socialist are getting a quarter to a third of the vote in many European countries.
+
+Specific events:
+
+* 1913: Ford first implements his moving assembly line. 
+* 1911 triangle fire
 
 
 
@@ -193,6 +221,15 @@ Specific events
 * In 1900 half of all people in the US had never seen a car.
 * 1881 - 1914: The scramble for Africa
 * Steel industry
+* The number of corporations is expanding
+* 1980 to 1924: [[The New Immigration]]
+* There's an attitude of optimism in the US?
+* Increase in urbanization in the US
+* Boom in skyscraper construction
+* Between 1860 and 1900 real wages for the average American worker increased by 50%
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+* First wave feminism and the New Woman
+* Increasing support for women's suffrage
 
 
 
@@ -203,6 +240,30 @@ Specific events
 * The exponential part of the coal production s-curve: coal production is doubling every 10 years from 1840 to 1900.
 * Steel industry
 * 1881 - 1914: The scramble for Africa
+* The number of corporations is expanding
+* America: Fears of solidification of social class, and declining opportunity, as big business expands and wealth inequality increases
+* Between 1880 and 1900 there were 37,000 strikes in the US
+* A new American consensus is beginning to emerge which, rather than fearing concentration of American power as leading to tyranny, see's government as the institution that can protect people from the enormous power of of big business.
+* 1980 to 1924: [[The New Immigration]]
+* There's an attitude of optimism in the US?
+* Increase in urbanization in the US
+* 1890: 1 in three Americans live in a city.
+* Boom in skyscraper construction
+* Between 1880 and 1900 there were an unprecedented 37,000 strikes.
+  - The Homestead strike of 1892
+  - The Polman 1894 
+* Between 1860 and 1900 real wages for the average American worker increased by 50%
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+* Bicycles!
+* First wave feminism and the New Woman
+* Increasing support for women's suffrage
+
+*Specific events*
+
+* 1893: First gas powered automobile.
+* 1894: The Pullman Strike
+* Panic of 1893
+* 1892: Formation of the People's Party, which was opposed to monopoly and corruption and was in favor of government intervention to ensure fairness and widespread opportunity
 
 ### 1880s
 
@@ -212,9 +273,26 @@ Specific events
 * A shift from artisanal system of production to industrial system of production.
 * Steel industry
 * 1881 - 1914: The scramble for Africa
+* The number of corporations is expanding
+* America: Fears of solidification of social class, and declining opportunity, as big business expands and wealth inequality increases
+* Between 1880 and 1900 there were 37,000 strikes in the US
+* A new American consensus is beginning to emerge which, rather than fearing concentration of American power as leading to tyranny, see's government as the institution that can protect people from the enormous power of of big business.
+* Graph immigration numbers to America.
+* 1980 to 1924: [[The New Immigration]]
+* There's an attitude of optimism in the US?
+* Increase in urbanization in the US
+* Boom in skyscraper construction
+* Between 1880 and 1900 there were an unprecedented 37,000 strikes.
+  - The Homestead strike of 1892
+  - The Polman 1894 
+* Between 1860 and 1900 real wages for the average American worker increased by 50%
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
 
 *Specific events*
 
+* 1889: New Jersey's Company Holding Act
+* 1886: Haymarket affair
+* 1885: Chicago's home insurance building is the first building with an internal steel Skelton
 * 1883: US and Canadian Railroad companies standardize time into the four American timezones. 
 
 ### 1870s
@@ -225,10 +303,27 @@ Specific events
 * Railroad expansion. Is a big deal (find stats)
 * A shift from artisanal system of production to industrial system of production.
 * Steel industry
+* The number of corporations is expanding
+* America: Fears of solidification of social class, and declining opportunity, as big business expands and wealth inequality increases
+* A new American consensus is beginning to emerge which, rather than fearing concentration of American power as leading to tyranny, see's government as the institution that can protect people from the enormous power of of big business.
+* 1850 to 1880: "Old immigration", x immigants come to America
+* 1873 to 1878: There's a depression in the US
+* There's an attitude of optimism in the US?
+* Increase in urbanization in the US
+* Between 1860 and 1900 real wages for the average American worker increased by 50%
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+* Before 1870 American society mostly frowned on gaudy displays of wealth, as comparable to European aristocratic decadence.
+  - After 1870, the American new rich exhibited conspicuous consumption. 
 
 *Specific events*
 
 * 1876 - The last Federal troops are recalled from the former Confederacy. Reconstruction period ends.
+
+* The great railroad strike of 1877.
+
+* The hardship on farmers caused by the panic of 1973 causes the Grange to reorganize from a social and educational organization to a powerful political movement, which dominates many state legislatures for the rest of the decade.
+
+  
 
 ### 1860s
 
@@ -240,6 +335,10 @@ Specific events
 * 18?? - 1876: Reconstruction
 * Railroad expansion. Is a big deal (find stats)
 * Steel industry
+* 1850 to 1880: "Old immigration", x immigants come to America
+* Increase in urbanization in the US
+* Between 1860 and 1900 real wages for the average American worker increased by 50%
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
 
 *Specific events*
 
@@ -257,6 +356,9 @@ Specific events
 
 * The exponential part of the coal production s-curve: coal production is doubling every 10 years from 1840 to 1900.
 * Telegraphy
+* 1850 to 1880: "Old immigration", x immigants come to America
+* 1850: 1 in five Americans live in a city
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
 
 *Specific events*
 
@@ -272,31 +374,53 @@ Specific events
 
 * Early, primitive railroads.
 
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+
 *Specific events*
 
 * 1846: The Alexander Stewart opens the first deparment store in New York city.
+* 1849: The Gold rush
 
-### 1830
+### 1830s
 
 *Macrotrends*
 
 * 1830 - 1850: English industrialization of textile production drives demand for cotton, which is met by the US slave system and the cotton gin. Between 1830 and 1850, Southern cotton production goes up by 3.8 times.
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+
+*Specific dates*
+
+* This revolutionary mechanical reaper, patented in 1834
 
 
 
 
 
-### 1820
+### 1820s
+
+*Macrotrends*
+
+* There's depression in the US
+* 1820: Fewer than one in 20 Americans live in a city.
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+
+### 1810s
 
 *Macrotrends*
 
-### 1810
+* US birth rate **fell steadily throughout the 1800s** from 1800 to 1900
+
+### 1800s
 
 *Macrotrends*
 
-### 1800
+* The US birth rate peaks around 1800, and begins falling steadily 
 
-*Macrotrends*
+
+
+### 1790s
+
+
 
 ### 1780s
 

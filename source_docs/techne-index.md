@@ -22,7 +22,6 @@ _Protocols, workflows, checklists_
 - [Sleep deficit compensation procedures](https://wild-quit-ebe.notion.site/Sleep-deficit-compensation-procedures-5ecebd076d7446fd99e2d2f62961ae5b?pvs=25)
 - [Sinus-congestion protocol](https://docs.google.com/document/d/1q0T1DoJCXVT-ttdWOJz_-pmu9XhV3olr0dHEBzsDROg/edit?usp=sharing)
 - [Travel Policies and Strategies](policy-and-procedure-documents/travel-policies.html)
-  [](policy-and-procedure-documents/travel-policies.html)
 - [Travel duffle checklist](https://docs.google.com/document/d/1s7EgJpPcjEalUco-i_eZT-yhFOHq7HkKR_6eu5P6U9g/edit)
 - [Basic location setup for Eli](https://docs.google.com/document/d/1jiwtJ2k2qnxVoQh2Gix-0vLkne9sf8dgLucBW6_uirE/edit)
 

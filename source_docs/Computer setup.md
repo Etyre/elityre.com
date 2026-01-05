@@ -55,6 +55,7 @@ I’ve set up profiles in Brave: Personal and Palisade.
       - Coursera.org
       - Otter.AI
       - Pateron.com
+- [Youtube-shorts block](https://chromewebstore.google.com/detail/youtube-shorts-block/jiaopdjbehhjgokpphdfgmapkobbnmjp)
 - [Fatebook for Chrome](https://chromewebstore.google.com/detail/fatebook-for-chrome/bbmkpfopjckjieficoddmcjmlkggillm)
 - [Metamask](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 - [Video speed controller](https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)
