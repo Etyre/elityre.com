@@ -18,38 +18,38 @@ See also: [software that I would pay for, if it existed](wanted-software.md).
 
 I've collected a bunch of heuristics and processes for effective learning over the course of my life, but I continue to be excited to learn new methods. If there's something you do that helps you learn stuff, there's a pretty good chance that I'd like to learn how to do it from you.
 
-To be eligible for a bounty, the effect should measurably and objectively verifiable. 
+To be eligible for a bounty, the effect should measurably and objectively verifiable.
 
-A standard metric for my learning rate would be the amount of focused study time it takes me to reach 95% scores on standardized tests in technical subject, compared to my measured learning speed on similar subjects. 
+A standard metric for my learning rate would be the amount of focused study time it takes me to reach 95% scores on standardized tests in technical subject, compared to my measured learning speed on similar subjects.
 
 Other possible metrics include:
 
-* Rate of improvement in my typing speed
-* Rate of improvement in my mental arithmetic, measured in time-to-reach the correct answer (holding accuracy constant)
-* Rate of improvement at some simple video game
+- Rate of improvement in my typing speed
+- Rate of improvement in my mental arithmetic, measured in time-to-reach the correct answer (holding accuracy constant)
+- Rate of improvement at some simple video game
 
 l'll pay $500 for every marginal 1% improvement in my learning rate, up to $25,000. If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending four fifths as much time and effort for the same result), I'll pay you $12,500.
 
 I'm open to a variety of possible interventions, including things like...
 
-* Spaced repetition systems or software
-* Deliberate practice techiniques
-* Biofeedback
-* TMS, tDCS, or ultrasound neroumodulation
-* Supplements or nootropics 
-* Psychological interventions or trauma processing
+- Spaced repetition systems or software
+- Deliberate practice techiniques
+- Biofeedback
+- TMS, tDCS, or ultrasound neroumodulation
+- Supplements or nootropics
+- Psychological interventions or trauma processing
 
 Though, I might be unwilling to try interventions depending on the risks or side effects.
 
 The intervention has to be something that I can continue doing perpetually. (If you have a fancy strategy that involves daily use of an MRI, but there’s realistically no way that I can get access to an MRI long term, that’s interesting, but it doesn’t count.)
 
-I’m expecting aspiring claimants to coordinate with me: meeting to discuss the intervention, and then (if both you and I decide to proceed), designing an experimental protocol together, and helping me apply the intervention. 
+I’m expecting aspiring claimants to coordinate with me: meeting to discuss the intervention, and then (if both you and I decide to proceed), designing an experimental protocol together, and helping me apply the intervention.
 
-If you don’t have time for that, you *can* just meet with me once, or send me a document of instructions. If I decide to follow through on your intervention, and I find that it does have a noticeable effect, I’ll send you a *partial* bounty. A lot of what I’m paying for here is having someone guide me through the process so that I can screen off user error. 
+If you don’t have time for that, you _can_ just meet with me once, or send me a document of instructions. If I decide to follow through on your intervention, and I find that it does have a noticeable effect, I’ll send you a _partial_ bounty. A lot of what I’m paying for here is having someone guide me through the process so that I can screen off user error.
 
 If, after an initial meeting, I’m skeptical enough of your intervention that I don’t think it’s worth my time to try it, you could bet me that it will work by paying me to try the intervention. If it works as you claim, I'll pay you back plus the amount of the bounty.
 
-### $1,000 - Other learning techniques that don't have a clearly measurable 
+### $1,000 - Other learning techniques that don't have a clearly measurable
 
 The above bounty applies to measurable interventions. But, if you teach me a learning or study technique that doesn't have a clearly measurable effect, but seems like enough of an improvement to my learning process that I end up using it regularly, I'll still pay you 1000 for that.
 
@@ -101,16 +101,15 @@ To be eligible for the bounty, you have the explicitly suggest the person to me,
 
 In addition to the above bounty for medium term relationship outcomes, I'll give you $200 you for setting me up on dates with single or non-polysaturated woman who meet the following criteria:
 
-1. Vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior due to factory farming, and who
-2. Has legibly high emotional communication and interpersonal skill (eg is an experienced circler, therapist, facilitator, tutor, coach, etc)
+1. Is vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior due to factory farming,
+2. Has explicitly developed emotional communication and interpersonal skill (eg is an experienced circler, therapist, facilitator, etc, or has a practice of NVC, IFS, Focusing, etc.)
+3. Has read my [date-me page](elityre.com/date.html) before expressing interest.
 
 You get the bounty _if the two of us actually go on a first date_, regardless of whether we go on any further dates after that.
 
 (You're welcome to submit yourself.)
 
-The above are definitely not the _only_ qualities that I care about in a partner, but these are the ones that I expect to be legible enough to others that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.
-
-You’re welcome to send her my date-me page which has more detail about me, what I care about, and what I’m looking for.
+The above are definitely not the _only_ qualities that I care about in a partner, but these are the ones that I expect to be legible enough to third parties, that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.
 
 I live in Berkeley. I'm up for going on dates with people people all over the world (especially people who are only short plane-flights from SF or DC).
 
@@ -145,7 +144,6 @@ Any intervention that...
 I have both seasonal sinus allergies and food allergies, and they suck. I’ll gladly pay $1000 to anyone who can point me towards an intervention that can manage any of the following:
 
 - Permanently cure my seasonal allergies
-
   - [note: I'm currently trying sublingual immunotherapy for this\]
 
 - Permanently cure my allergy to animal dander
@@ -157,9 +155,9 @@ Obviously, this needs to be done in a way that is safe and healthy. I’m not in
 
 ### $1,000 - A pointer to a safe, side-effect free treatment for reactivating skeletal growth after puberty
 
-I'd like to be physically bigger: bigger head, bigger hands, bigger feet, taller. 
+I'd like to be physically bigger: bigger head, bigger hands, bigger feet, taller.
 
-My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions. 
+My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions.
 
 ### **$300** - A pointer to a safe, side-effect free steroid for increasing muscular strength.
 

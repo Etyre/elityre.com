@@ -14,7 +14,7 @@
 * 2020 - George Floyd's death leads to large-scale protests and riots, the cultural influence of "wokism" peaks with
 * 2020 - GPT-3 released 
 
-### 20210s
+### 2010s
 
 *Macrotrends*
 
@@ -88,6 +88,7 @@
 *Specific events*
 
 * 1989 - Fall of the Berlin Wall
+* 1987 - The FCC abolishes the fairness  doctrine's.
 * 1984 - The Macintosh is launched, starting the mainstream personal computer revolution.
 
 
@@ -125,6 +126,7 @@ Specific events
 * Post-War Baby Boom
 * Explosion in consumer credit: In the 20 years following WWII (1945 to 1965), total US household debt went up by 10x. [[source]](https://collabfund.com/blog/how-this-all-happened/)
 * The manigeiral revolution
+* About half of Americans work for a corporation.
 
 *Specific events*
 
