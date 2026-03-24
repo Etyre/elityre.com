@@ -49,7 +49,7 @@ If you don’t have time for that, you _can_ just meet with me once, or send me 
 
 If, after an initial meeting, I’m skeptical enough of your intervention that I don’t think it’s worth my time to try it, you could bet me that it will work by paying me to try the intervention. If it works as you claim, I'll pay you back plus the amount of the bounty.
 
-### $1,000 - Other learning techniques that don't have a clearly measurable
+### $1,000 - Other learning techniques that don't have a clearly measurable effect
 
 The above bounty applies to measurable interventions. But, if you teach me a learning or study technique that doesn't have a clearly measurable effect, but seems like enough of an improvement to my learning process that I end up using it regularly, I'll still pay you 1000 for that.
 
