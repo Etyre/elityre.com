@@ -1,10 +1,8 @@
 # Exercise policy
 
-I optimize my exercise to support the restfulness and effectiveness of my sleep, to increase my daytime energy and focus, and to stave off long term cognitive decline.
+I optimize my exercise to support the restfulness and effectiveness of my sleep, to increase my daytime energy and focus, and to (hopefully) stave off long term cognitive decline.
 
-Subjectively, it feels that exercising every other day is sufficient to maintain the cognitive benefits of exercise. However, when I’m in the habit of exercising every day, it is relatively easy to maintain the habit. It's much more of a slog when I'm booting up from a cold start after a few days of inactivity.  
-
-For this reason, I aim to exercise every day. When I miss a day, I'll especially make sure to prioritize it the next day.
+Subjectively, it feels that exercising every other day is sufficient to maintain the cognitive benefits of exercise. However, when I’m in the habit of exercising every day, it is relatively easy to maintain the habit. It's much more of an effortful slog when I'm booting up from a cold start after a few days of inactivity. For this reason, I aim to exercise every day. When I miss a day, I'll especially make sure to prioritize it the next day.
 
 I typically exercise early in the day, as a break during my first work block (when I'm doing deep work independently, such as on weekends), or during my organization's lunch time.
 
