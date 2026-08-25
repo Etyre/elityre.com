@@ -7,7 +7,7 @@ body {
     padding: 0 40px; /* 20px margin on both sides */
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -15,6 +15,39 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+
+/* Nav bar: a row of bordered tabs sitting on a baseline rule */
+#nav-bar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 18px 0 28px;
+    padding: 0 0 0 4px;
+    border-bottom: 2px solid #d5d5d5;
+}
+#nav-bar nav ul li {
+    display: block;
+    margin: 0 0 -2px 0;              /* tabs overlap the baseline rule */
+}
+#nav-bar nav ul li a {
+    display: block;
+    padding: 7px 14px;
+    border: 1px solid #d5d5d5;
+    border-bottom: 2px solid #d5d5d5;
+    border-radius: 6px 6px 0 0;
+    background: #f7f7f7;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+#nav-bar nav ul li a:hover {
+    background: #e9e9e9;
+    text-decoration: none;
+}
+#nav-bar nav ul li a.current {
+    background: #fff;
+    border-bottom-color: #fff;       /* merges the active tab into the page */
+    color: #222;
 }
 a {
     text-decoration: none;
@@ -30,11 +63,11 @@ a:hover {
 
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
@@ -42,7 +75,7 @@ p {
     font-size: 1em;
     line-height: 1.3em;
     color: #333; 
-    font-family:'Helvetica', 'Arial'; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .footnote {
@@ -68,7 +101,7 @@ ul li, ol li {
     font-size: 1em;
     line-height: 1.3em;
     color: #333; 
-    font-family:'Helvetica', 'Arial';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul ul, ul ol, ol ul, ol ol {
@@ -78,7 +111,7 @@ ul ul, ul ol, ol ul, ol ol {
 
 #last-updated {
     font-size: 0.9em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Table of contents (generated from a <TOC> line in markdown) */
@@ -91,7 +124,7 @@ ul ul, ul ol, ol ul, ol ol {
     border: 1px solid #d5d5d5;
     border-radius: 6px;
     background: #f7f7f7;
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.9em;
 }
 .toc::before {

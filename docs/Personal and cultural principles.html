@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head> 
+	<meta charset="utf-8">
 	<title>Personal and cultural principles</title>
 	<link rel="stylesheet" type="text/css" href= "/css/main.css" >
 	<!-- The CSS file is at "css/main.css", but we need to adjust that file path depending on how nested the in the directory structure the page is. -->
@@ -39,13 +40,23 @@
 </div>
 	<!--end of Navigation bar-->
 	<script>
+	// Highlight the tab for the page we're on.
+	function markCurrentNav() {
+	  var here = location.pathname.replace(/\/$/, '/index.html');
+	  document.querySelectorAll('#nav-bar a').forEach(function (a) {
+	    a.classList.toggle('current', a.getAttribute('href') === here);
+	  });
+	}
+	markCurrentNav();
+	</script>
+	<script>
 	// This page is hand-written (not built from markdown), so the nav above is a snapshot.
 	// Fetch the current nav.html and swap it in, so edits to nav.html show up here too.
 	fetch('/nav.html', {cache: 'no-cache'}).then(r => r.ok ? r.text() : Promise.reject())
 	  .then(html => {
 	    var fresh = new DOMParser().parseFromString(html, 'text/html').getElementById('nav-bar');
 	    var cur = document.getElementById('nav-bar');
-	    if (fresh && cur) cur.replaceWith(fresh);
+	    if (fresh && cur) { cur.replaceWith(fresh); markCurrentNav(); }
 	  }).catch(function () {});
 	</script>
 	
