@@ -70,15 +70,25 @@ h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Headings sit closer to the section they introduce than to the one they end. */
+/* Paragraph/list gaps are half the browser default (1em), for denser text. */
+p, ul, ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Headings sit closer to the section they introduce than to the one they end.
+   The gap below a heading matches a normal paragraph gap. */
+h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+}
 h2 {
-    margin-top: 1.6em;      /* bottom margin left at the browser default */
+    margin-top: 1.6em;
 }
 h3 {
-    margin-top: 1.4em;      /* browser default is 1em */
+    margin-top: 1.4em;
 }
 h4 {
-    margin-top: 1.7em;      /* browser default is 1.33em */
+    margin-top: 1.7em;
 }
 
 
