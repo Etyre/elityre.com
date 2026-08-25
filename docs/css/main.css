@@ -65,9 +65,9 @@ a:hover {
 
 /* Headings use the lighter, narrower weights of Helvetica Neue instead of bold. */
 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h2, h3, h4, h5, h6 {
