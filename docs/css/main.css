@@ -83,6 +83,8 @@ h2, h3, h4, h5, h6 {
 }
 h2 {
     margin-top: 1.6em;
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid #d5d5d5;   /* rule under section headings */
 }
 h3 {
     margin-top: 1.4em;
