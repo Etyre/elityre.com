@@ -79,10 +79,7 @@ p, ul, ol {
 }
 
 /* Headings sit closer to the section they introduce than to the one they end.
-   The gap below a heading matches a normal paragraph gap. */
-h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5rem;
-}
+   Space below headings is the browser default. */
 h2 {
     margin-top: 1.6em;
     padding-bottom: 0.15em;
