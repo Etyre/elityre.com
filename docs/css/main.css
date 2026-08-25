@@ -63,14 +63,19 @@ a:hover {
 }
 
 
+/* Headings use the lighter, narrower weights of Helvetica Neue instead of bold. */
 h1 {
     font-size: 2em;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+h2 { font-weight: 300; }
+h3 { font-weight: 400; }
+h4, h5, h6 { font-weight: 500; }
 
 /* Paragraph/list gaps are half the browser default (1em), for denser text. */
 p, ul, ol {
