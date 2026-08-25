@@ -176,7 +176,11 @@ for root, dirs, files in os.walk(markdown_dir):
 
         # convert md -> html (fix links; annotate list depth)
         md_engine = markdown.Markdown(
-            extensions=[LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc'],  # 'toc' adds id="slug" to headings so #heading links work
+            # 'toc' adds id="slug" to headings so #heading links work, and replaces a
+            # line containing [TOC] with a linked table of contents (## and deeper;
+            # the page's # title is skipped).
+            extensions=[LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc'],
+            extension_configs={'toc': {'toc_depth': '2-6'}},
             tab_length=INDENT_SPACES,
             output_format='html5'
         )

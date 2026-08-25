@@ -63,3 +63,9 @@ If any subdirectories are needed to mirror the original Markdown structure, the 
 #### Console Output
 
 The script prints messages indicating when files are skipped due to exclusion and when files are regenerated due to changes.
+
+#### Heading links and table of contents
+
+Every heading gets an `id` slugified from its text (`## What I Want` → `#what-i-want`), so you can link to a specific section of a page.
+
+Put `[TOC]` on its own line in a markdown file to insert a linked table of contents of that page's `##`-and-deeper headings.
