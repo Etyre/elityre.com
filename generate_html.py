@@ -37,7 +37,13 @@ def get_css_path(relative_html_path: str) -> str:
 with open(template_file, 'r', encoding='utf-8') as f:
     template_content = f.read()
 template = Template(template_content)
-template_mtime = os.path.getmtime(template_file)
+
+# Nav bar is inlined into every page (no runtime fetch), so nav.html counts as a build input too.
+nav_file = 'nav.html'
+with open(nav_file, 'r', encoding='utf-8') as f:
+    nav_html = f.read()
+nav_html = nav_html[nav_html.index('<div id="nav-bar">'):].strip()  # drop the leading comment
+template_mtime = max(os.path.getmtime(template_file), os.path.getmtime(nav_file))
 
 # Load exclusions (filenames only, e.g., "notes.md")
 exclusions = set()
@@ -218,7 +224,8 @@ for root, dirs, files in os.walk(markdown_dir):
         rendered_html = template.render(
             content=html_body,
             title=title,
-            css_path=css_path
+            css_path=css_path,
+            nav=nav_html
         )
 
         # write

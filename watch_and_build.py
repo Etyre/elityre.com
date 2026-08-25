@@ -1,5 +1,5 @@
 """
-Watch source_docs/ (and page_template.html) and re-run generate_html.py
+Watch source_docs/ (plus page_template.html and nav.html) and re-run generate_html.py
 whenever a markdown file is saved.
 
 Run by hand:   .venv/bin/python watch_and_build.py
@@ -18,6 +18,7 @@ PYTHON = sys.executable
 GENERATOR = os.path.join(ROOT, 'generate_html.py')
 WATCH_DIR = os.path.join(ROOT, 'source_docs')
 TEMPLATE = os.path.join(ROOT, 'page_template.html')
+NAV = os.path.join(ROOT, 'nav.html')
 DEBOUNCE_SECONDS = 0.5   # editors often write a file in several steps; wait for them to settle
 
 
@@ -38,7 +39,7 @@ class Handler(FileSystemEventHandler):
         if event.is_directory:
             return
         paths = [event.src_path, getattr(event, 'dest_path', '')]
-        if any(p.endswith('.md') or os.path.abspath(p) == TEMPLATE for p in paths if p):
+        if any(p.endswith('.md') or os.path.abspath(p) in (TEMPLATE, NAV) for p in paths if p):
             self.pending_since = time.time()
 
 

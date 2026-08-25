@@ -44,6 +44,8 @@ These links have their .md extension replaced with .html, so that references amo
 
 #### Markdown to HTML Conversion
 
+The nav bar lives in `nav.html` at the repo root and is inlined into every page at build time (edit it there, then rebuild).
+
 The script uses the markdown library to convert .md content to HTML.
 
 It optionally extracts a title from the first Markdown heading that starts with # .
