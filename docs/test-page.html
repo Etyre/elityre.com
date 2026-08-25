@@ -28,6 +28,16 @@
 	</nav>
 </div>
 	<!--end of Navigation bar-->
+	<script>
+	// This page is hand-written (not built from markdown), so the nav above is a snapshot.
+	// Fetch the current nav.html and swap it in, so edits to nav.html show up here too.
+	fetch('/nav.html', {cache: 'no-cache'}).then(r => r.ok ? r.text() : Promise.reject())
+	  .then(html => {
+	    var fresh = new DOMParser().parseFromString(html, 'text/html').getElementById('nav-bar');
+	    var cur = document.getElementById('nav-bar');
+	    if (fresh && cur) cur.replaceWith(fresh);
+	  }).catch(function () {});
+	</script>
 	
 	<p>This is a test page for tinkering.</p>
 	

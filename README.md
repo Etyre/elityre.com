@@ -44,7 +44,7 @@ These links have their .md extension replaced with .html, so that references amo
 
 #### Markdown to HTML Conversion
 
-The nav bar lives in `nav.html` at the repo root and is inlined into every page at build time (edit it there, then rebuild).
+The nav bar lives in `nav.html` at the repo root and is inlined into every page at build time (edit it there, then rebuild). Hand-written pages such as `date.html` additionally fetch `/nav.html` at load time and swap it in, so they stay in sync without a rebuild.
 
 The script uses the markdown library to convert .md content to HTML.
 
