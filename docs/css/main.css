@@ -75,7 +75,10 @@ h2 {
     margin-top: 1.6em;      /* bottom margin left at the browser default */
 }
 h3 {
-    margin-top: 1.4em;
+    margin-top: 1.4em;      /* browser default is 1em */
+}
+h4 {
+    margin-top: 1.7em;      /* browser default is 1.33em */
 }
 
 
