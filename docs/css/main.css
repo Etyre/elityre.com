@@ -70,6 +70,16 @@ h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Headings sit closer to the section they introduce than to the one they end. */
+h2 {
+    margin-top: 1.6em;
+    margin-bottom: 0.5em;
+}
+h3 {
+    margin-top: 1.4em;
+    margin-bottom: 0.4em;
+}
+
 
 p {
     font-size: 1em;
