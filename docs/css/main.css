@@ -72,12 +72,10 @@ h2, h3, h4, h5, h6 {
 
 /* Headings sit closer to the section they introduce than to the one they end. */
 h2 {
-    margin-top: 1.6em;
-    margin-bottom: 0.5em;
+    margin-top: 1.6em;      /* bottom margin left at the browser default */
 }
 h3 {
     margin-top: 1.4em;
-    margin-bottom: 0.4em;
 }
 
 
