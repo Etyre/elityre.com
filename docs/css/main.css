@@ -18,10 +18,10 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;          /* unvisited: grey */
+    color: #2e7d4f;       /* unvisited: dark green */
 }
 a:visited {
-    color: #a884c4;       /* visited: muted purple */
+    color: #999;          /* visited: grey */
 }
 a:hover {
     text-decoration: underline;
