@@ -80,3 +80,35 @@ ul ul, ul ol, ol ul, ol ol {
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Table of contents (generated from a <TOC> line in markdown) */
+.toc {
+    display: inline-block;          /* shrink to fit its contents rather than spanning the page */
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 1em 0 1.5em;
+    padding: 0.8em 1.4em 0.8em 1em;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    background: #f7f7f7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.9em;
+}
+.toc::before {
+    content: "Contents";
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.4em;
+}
+.toc ul {
+    margin: 0;
+    padding-left: 1.2em;
+    list-style: none;
+}
+.toc ul ul {
+    padding-left: 1.2em;
+}
+.toc li {
+    line-height: 1.5em;
+}
