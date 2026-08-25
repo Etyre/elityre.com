@@ -10,6 +10,8 @@ The following are some currently outstanding bounties, related to areas that I w
 
 See also: [software that I would pay for, if it existed](wanted-software.md).
 
+<TOC>
+
 ## Learning and efficacy interventions
 
 ### $25,000 maximum - Any intervention that measurably improves my personal learning rate
