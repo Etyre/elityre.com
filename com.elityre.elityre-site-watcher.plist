@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.elityre.elityre-site-watcher</string>
+
+    <!-- Runs watch_and_build.py, which rebuilds docs/*.html whenever a file in
+         source_docs/ (or page_template.html) is saved.
+         Install:   cp com.elityre.elityre-site-watcher.plist ~/Library/LaunchAgents/
+                    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.elityre.elityre-site-watcher.plist
+         Uninstall: launchctl bootout gui/$(id -u)/com.elityre.elityre-site-watcher
+         Log:       ~/Library/Logs/elityre-site-watcher.log -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/elityre/Documents/Programming/Personal website/elityre.com/.venv/bin/python</string>
+        <string>/Users/elityre/Documents/Programming/Personal website/elityre.com/watch_and_build.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/elityre/Documents/Programming/Personal website/elityre.com</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/elityre/Library/Logs/elityre-site-watcher.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/elityre/Library/Logs/elityre-site-watcher.log</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>

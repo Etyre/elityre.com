@@ -145,9 +145,14 @@
 		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
 		const getCommits = async pageName => {
 
-			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?path='+ encodeURIComponent(pageName));
+			// Pages live in the docs/ folder and the site deploys from the markdown-version branch,
+			// so ask for that path on that branch (the API defaults to the repo root on main).
+			if (!pageName) { pageName = 'index.html'; }
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?sha=markdown-version&path=' + encodeURIComponent('docs/' + pageName));
 
 			var data = await result.json();
+
+			if (!Array.isArray(data) || data.length === 0) { return; }
 
 			var timestamp = new Date(data[0].commit.author.date)
 			// the Date function takes a date string, and returns a date object.

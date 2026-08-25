@@ -88,7 +88,7 @@
 	
 		<p>This kind of relationship amounts to approximately what poly people call a "secondary partnership": emotionally intimate, but not the primary structure of one's life. This might work best for someone who already has a primary partner, or who is otherwise committing most of their energies to a high intensity project.</p>
 
-		<p>I'm specifically seeaking women who are...</p>
+		<p>I'm specifically seeking women who are...</p>
 
 		<ol>
 			<li>Vegan or vegetarian</li>
@@ -419,9 +419,14 @@ to tell me that you're interested, instead of just sending me your reactions, si
 		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
 		const getCommits = async pageName => {
 
-			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?path='+ encodeURIComponent(pageName));
+			// Pages live in the docs/ folder and the site deploys from the markdown-version branch,
+			// so ask for that path on that branch (the API defaults to the repo root on main).
+			if (!pageName) { pageName = 'index.html'; }
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?sha=markdown-version&path=' + encodeURIComponent('docs/' + pageName));
 
 			var data = await result.json();
+
+			if (!Array.isArray(data) || data.length === 0) { return; }
 
 			var timestamp = new Date(data[0].commit.author.date)
 			// the Date function takes a date string, and returns a date object.
