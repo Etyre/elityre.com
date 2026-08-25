@@ -130,6 +130,13 @@ ul ul, ul ol, ol ul, ol ol {
     margin-bottom: 0;
 }
 
+/* "Loose" list items (blank line in the markdown) get their text wrapped in <p>;
+   don't let that paragraph add a gap between the item and its sublist. */
+li > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 #last-updated {
     font-size: 0.9em;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
