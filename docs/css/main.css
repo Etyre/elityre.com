@@ -45,8 +45,7 @@ nav ul li, footer ul li {
     text-decoration: none;
 }
 #nav-bar nav ul li a.current {
-    background: #fff;
-    border-top-color: #fff;          /* the active tab breaks through the rule */
+    background: #fff;                /* current page: white tab, still closed at the top */
     color: #222;
 }
 a {
