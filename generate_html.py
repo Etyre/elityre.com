@@ -6,6 +6,7 @@ import markdown
 from jinja2 import Template
 from markdown.extensions import Extension
 from markdown.treeprocessors import Treeprocessor
+from markdown.preprocessors import Preprocessor
 
 # -------------------
 # Config
@@ -115,6 +116,23 @@ class ListDepthExtension(Extension):
         md.treeprocessors.register(ListDepthAnnotator(md), 'listdepth', 16)
 
 # -------------------
+# Table of contents marker: a line containing exactly <TOC> becomes a linked
+# table of contents. (The toc extension's default marker is [TOC]; we swap in
+# an internal placeholder so square brackets stay free for ordinary use, and
+# because <TOC> alone would otherwise be treated as raw HTML.)
+# -------------------
+TOC_MARKER = '<TOC>'
+TOC_PLACEHOLDER = 'ELITYRETOCPLACEHOLDER'
+
+class TocMarkerPreprocessor(Preprocessor):
+    def run(self, lines):
+        return [TOC_PLACEHOLDER if line.strip().lower() == TOC_MARKER.lower() else line for line in lines]
+
+class TocMarkerExtension(Extension):
+    def extendMarkdown(self, md):
+        md.preprocessors.register(TocMarkerPreprocessor(md), 'tocmarker', 30)
+
+# -------------------
 # Main walk
 # -------------------
 for root, dirs, files in os.walk(markdown_dir):
@@ -177,10 +195,10 @@ for root, dirs, files in os.walk(markdown_dir):
         # convert md -> html (fix links; annotate list depth)
         md_engine = markdown.Markdown(
             # 'toc' adds id="slug" to headings so #heading links work, and replaces a
-            # line containing [TOC] with a linked table of contents (## and deeper;
+            # line containing <TOC> with a linked table of contents (## and deeper;
             # the page's # title is skipped).
-            extensions=[LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc'],
-            extension_configs={'toc': {'toc_depth': '2-6'}},
+            extensions=[TocMarkerExtension(), LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc'],
+            extension_configs={'toc': {'toc_depth': '2-6', 'marker': TOC_PLACEHOLDER}},
             tab_length=INDENT_SPACES,
             output_format='html5'
         )

@@ -68,4 +68,4 @@ The script prints messages indicating when files are skipped due to exclusion an
 
 Every heading gets an `id` slugified from its text (`## What I Want` → `#what-i-want`), so you can link to a specific section of a page.
 
-Put `[TOC]` on its own line in a markdown file to insert a linked table of contents of that page's `##`-and-deeper headings.
+Put `<TOC>` on its own line in a markdown file to insert a linked table of contents of that page's `##`-and-deeper headings.
