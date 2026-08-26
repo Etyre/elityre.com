@@ -115,10 +115,10 @@
 		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
 		const getCommits = async pageName => {
 
-			// Pages live in the docs/ folder and the site deploys from the markdown-version branch,
+			// Pages live in the docs/ folder and the site deploys from the main branch,
 			// so ask for that path on that branch (the API defaults to the repo root on main).
 			if (!pageName) { pageName = 'index.html'; }
-			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?sha=markdown-version&path=' + encodeURIComponent('docs/' + pageName));
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?sha=main&path=' + encodeURIComponent('docs/' + pageName));
 
 			var data = await result.json();
 
