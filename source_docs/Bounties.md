@@ -125,14 +125,6 @@ I'm currently ruling that video call dates can count, but I might change my mind
 
 ## Biology and medical interventions
 
-### $10,000 - A pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
-
-...or, alternatively, boost fluid intelligence or neuroplasticity.
-
-It has to be an intervention that is inexpenssive enough and practical enough that I can realistically make use of it.
-
-If you know of unusually good resources on this topic, I would pay a partial bounty for being directed to them.
-
 ### $10,000 maximum - Any intervention that improves my nighttime HRV
 
 I have agressively [optimized](https://elityre.com/sleep-policies.html) my life for high quality sleep and recovery. I'm always interested in interventions that will improve my average nighttime HRV or lowest resting heart rate.
@@ -152,6 +144,14 @@ I'll pay $1000 for any intervention that doesn't impact HRV but does...
 - increase deep sleep / slow wave sleep
 
 ...by at least 1%, as measured by my Oura ring, in a randomized (night by night) experiment, if it is something that is feasible for me to do most nights.
+
+### $2,000 - A pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
+
+...or, alternatively, boost fluid intelligence or neuroplasticity.
+
+It has to be an intervention that is inexpenssive enough and practical enough that I can realistically make use of it.
+
+If you know of unusually good resources on this topic, I would pay a partial bounty for being directed to them.
 
 ### $1,000 - Safely cure my allergies.
 
