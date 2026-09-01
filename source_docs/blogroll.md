@@ -33,14 +33,12 @@ Some writers who have significantly influenced my worldview.
   * [Has Technological Progress Stalled?](https://scholars-stage.org/has-technological-progress-stalled/)
 * [David Friedman](http://www.daviddfriedman.com/)
   * [Market Failure](https://daviddfriedman.substack.com/p/market-failure)
-
 * David Huemer
   * The Problem of Political Authority
-
 * Carol Quigly
   * I first encountered the Quiglian idea of the "the Logic of Violence" reading [The Sovereign Individual](https://www.amazon.com/dp/0684832720?lv=shuf&channelId=500&plpRedirect=mhFallback). 
-* Thomas Schelling?
 * Balaji Srinivasan?
+* Thomas Schelling?
 
 
 
