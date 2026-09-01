@@ -6,7 +6,7 @@ The following are some currently outstanding bounties, related to areas that I w
 
 **Note 1:** Bounties are awarded for interventions that _successfully solve my problem_. If you suggest some intervention that matches what I describe, but for some reason or another, isn't actually feasible as a solution, I won't pay the stated price for that. I may pay partial bounties for partial solutions, at my own discretion.
 
-**Note 2:** To be eligible for the full bounty, an intervention should be complete in of itself, not requiring additional research work or iteration, on my part. However, I'll gladly give partial bounties for suggestions that I follow up on, and ultimately work for me. For example, if a person reaches out about a method to increase my typing speed, and we set up a session so that they can coach me through it, and it works, they've earned the full bounty. If someone contacts me and says "have you tried \[x\] methodology, for improving your typing? I've heard it's effective for things like that", I hadn't heard of \[x\] methodology, and I talk with a lagugage model about it, and search to find some way to learn \[x\] methodology, and this eventually leads me to a solution to my problem, I'll pay out a partial bounty, at my discretion.
+**Note 2:** To be eligible for the full bounty, an intervention should be complete in of itself, not requiring additional research work or iteration, on my part. However, I'll gladly give partial bounties for suggestions that I follow up on, and ultimately work for me. For example, if a person reaches out about a method to increase my typing speed, and we set up a session so that they can coach me through it, and it works, they've earned the full bounty. If someone contacts me and says "have you tried \[x\] methodology, for improving your typing? I've heard it's effective for things like that", I hadn't heard of \[x\] methodology, and I talk with a language model about it, and search to find some way to learn \[x\] methodology, and this eventually leads me to a solution to my problem, I'll pay out a partial bounty, at my discretion.
 
 <TOC>
 
@@ -123,14 +123,6 @@ I live in Berkeley. I'm up for going on dates with people all over the world (es
 
 I'm currently ruling that video call dates can count, but I might change my mind about that in the future.
 
-## Clothing
-
-### $100 - Chambray button down shirt that fits me
-
-A pointer to where I can buy multiple of a men’s gray chambray button down shirt, in size extra small and slim fit, with a sleeve length of 23.5 inches, and sleeves that are designed to be rolled up (ideally including roll tabs/ sleeve tabs).
-
-If I find one, I plan to buy 8 of them. The bounty pays out if I’m happy enough that I actually do buy 8.
-
 ## Biology and medical interventions
 
 ### $10,000 - A pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
@@ -190,6 +182,14 @@ All else equal, I would prefer to be physically stronger.
 I weigh about 140 pounds (height: 5 foot, 3.5 inches), and would prefer to weigh around 150-160 pounds, so long as I can do that healthily. 
 
 This is not a priority for me, and I'm not going to make major changes other my life, or pay other costs for this goal. 
+
+## Clothing
+
+### $100 - Chambray button down shirt that fits me
+
+A pointer to where I can buy multiple of a men’s gray chambray button down shirt, in size extra small and slim fit, with a sleeve length of 23.5 inches, and sleeves that are designed to be rolled up (ideally including roll tabs/ sleeve tabs).
+
+If I find one, I plan to buy 8 of them. The bounty pays out if I’m happy enough that I actually do buy 8.
 
 ## Other
 
