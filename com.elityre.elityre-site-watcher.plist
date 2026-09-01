@@ -13,12 +13,12 @@
          Log:       ~/Library/Logs/elityre-site-watcher.log -->
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/elityre/Documents/Programming/Personal website/elityre.com/.venv/bin/python</string>
-        <string>/Users/elityre/Documents/Programming/Personal website/elityre.com/watch_and_build.py</string>
+        <string>/Users/elityre/Documents/Personal website/elityre.com/venv/bin/python</string>
+        <string>/Users/elityre/Documents/Personal website/elityre.com/watch_and_build.py</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/elityre/Documents/Programming/Personal website/elityre.com</string>
+    <string>/Users/elityre/Documents/Personal website/elityre.com</string>
 
     <key>RunAtLoad</key>
     <true/>
