@@ -173,7 +173,7 @@ I'd like to be physically bigger: longer / thinker long bones, larger cranial ci
 
 My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions.
 
-### $1000 - A pointer to a safe, side-effect free, steroid for increasing muscular strength.
+### $1,000 - A pointer to a safe, side-effect free, steroid for increasing muscular strength.
 
 All else equal, I would prefer to be physically stronger. 
 
