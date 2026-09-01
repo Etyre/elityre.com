@@ -175,7 +175,7 @@ I have both seasonal sinus allergies and food allergies, and they suck. I’ll g
 
 Obviously, this needs to be done in a way that is safe and healthy. I’m not interested in an almost-cure that causes me to go into anaphylactic shock down the line.
 
-### $1,000 - A pointer to a safe, side-effect free treatment for reactivating skeletal growth post-puberty
+### $1,000 - A pointer to a safe, side-effect free, treatment for reactivating skeletal growth post-puberty
 
 I'd like to be physically bigger: longer / thinker long bones, larger cranial circumference, bigger hands, bigger feet, bigger heart volume, taller.
 
