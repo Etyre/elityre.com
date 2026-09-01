@@ -103,6 +103,8 @@ My [date-me page](date.md) describes most of what I'm looking for in partners.
 
 To be eligible for the bounty, you must explicitly suggest the person to me as someone who I might want to date, and introduce us. Introducing me to someone who I happen to end up dating doesn't count. (Though I might still give you a partial bounty as a thank you.)
 
+Note that I don't have to marry the person for you to get the bounty! Just date them regularly for more than a year.
+
 ### $200 per date - Dates with vegetarian* women with legibly high emotional interpersonal skill
 
 In addition to the above bounty for medium term relationship outcomes, I'll give you $200 for setting me up on dates with single or non-polysaturated woman who meet the following criteria:
