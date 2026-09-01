@@ -145,7 +145,7 @@ I'll pay $1000 for any intervention that doesn't impact HRV but does...
 
 ...by at least 1%, as measured by my Oura ring, in a randomized (night by night) experiment, if it is something that is feasible for me to do most nights.
 
-### $2,000 - A pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
+### $2,000 - Pointer to any intervention that will measurably mitigate, slow, or delay cognitive decline from aging
 
 ...or, alternatively, boost fluid intelligence or neuroplasticity.
 
@@ -153,7 +153,7 @@ It has to be an intervention that is inexpenssive enough and practical enough th
 
 If you know of unusually good resources on this topic, I would pay a partial bounty for being directed to them.
 
-### $1,000 - Safely cure my allergies.
+### $1,000 - Safe allergies cure.
 
 I have both seasonal sinus allergies and food allergies, and they suck. I’ll gladly pay $1000 to anyone who can point me towards an intervention that can manage any of the following:
 
@@ -167,13 +167,13 @@ I have both seasonal sinus allergies and food allergies, and they suck. I’ll g
 
 Obviously, this needs to be done in a way that is safe and healthy. I’m not interested in an almost-cure that causes me to go into anaphylactic shock down the line.
 
-### $1,000 - A pointer to a safe, side-effect free, treatment for reactivating skeletal growth post-puberty
+### $1,000 - Pointer to a safe, side-effect free, treatment for reactivating skeletal growth post-puberty
 
 I'd like to be physically bigger: longer / thinker long bones, larger cranial circumference, bigger hands, bigger feet, bigger heart volume, taller.
 
 My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions.
 
-### $1,000 - A pointer to a safe, side-effect free, steroid for increasing muscular strength.
+### $1,000 - Pointer to a safe, side-effect free, steroid for increasing muscular strength.
 
 All else equal, I would prefer to be physically stronger. 
 
