@@ -181,7 +181,7 @@ All else equal, I would prefer to be physically stronger.
 
 I weigh about 140 pounds (height: 5 foot, 3.5 inches), and would prefer to weigh around 150-160 pounds, so long as I can do that healthily. 
 
-This is not a priority for me, and I'm not going to make major changes other my life, or pay other costs for this goal. 
+This is not a priority for me, and I'm not going to make major changes other my life or pay other large costs for this goal. 
 
 ## Clothing
 
