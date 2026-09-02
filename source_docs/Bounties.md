@@ -28,14 +28,14 @@ Other possible metrics include:
 - Rate of improvement in my mental arithmetic, measured in time-to-reach the correct answer (holding accuracy constant)
 - Rate of improvement at some simple video game
 
-**l'll pay $500 for every marginal 1% improvement in my learning rate, up to $50,000.** If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending four fifths as much time and effort for the same result), I'll pay you $12,500.
+**I'll pay $500 for every marginal 1% improvement in my learning rate, up to $50,000.** If you have a technique, or a set of techniques, that enables me to learn 25% faster compared to my baseline (so that I'm spending four fifths as much time and effort for the same result), I'll pay you $12,500.
 
 I'm open to a variety of possible interventions, including things like...
 
 - Spaced repetition systems or software [note that I already use anki and have a personalized SR setup]
-- Deliberate practice techiniques
+- Deliberate practice techniques
 - Biofeedback
-- TMS, tDCS, or ultrasound neroumodulation
+- TMS, tDCS, or ultrasound neuromodulation
 - Supplements or nootropics
 - Psychological interventions or trauma processing
 
@@ -57,9 +57,9 @@ The above bounty applies to measurable interventions. But, if you teach me a lea
 
 1.  John Maxwell ($1,000 unclaimed), for giving me the core idea of doing textbook exercises on a spaced repetition schedule, which I implemented for more than a year.
 
-### $1,000 - Some method for actutely lowering my heartrate and/or physicological arousal, that I come to use reliably
+### $1,000 - Some method for acutely lowering my heartrate and/or physiological arousal, that I come to use reliably
 
-I've experimented with various calming techniques (eg meditation, breath work) for lowering my physiological arousal, to calm my body in preparation for sleep, and for genreal energetic modulation.
+I've experimented with various calming techniques (eg meditation, breath work) for lowering my physiological arousal, to calm my body in preparation for sleep, and for general energetic modulation.
 
 If you can teach me a technique that works measurably better than my current best method, I'll pay you $1000 for that.
 
@@ -91,7 +91,7 @@ I try to make it really low friction to schedule tutoring sessions. I want it to
 
 For this reason, its helpful for me to have a list of people who are interested in doing tutoring, in a variety of subjects, with their hourly rate, and a calendar link (I’m specifically trying to avoid any back-and-forth scheduling). If you already have and use a calendar scheduling link, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdk7SNvumBy293v9R6I_vsNeYT2qPfcbmU5xZTDawGqNBPAMQ/viewform?usp=sf_link) to be in my tutoring rolodex.
 
-I’m particularly interested in people who know about Math, Economics, Computer programing, Physics, or Biology. But if you have expertise in something else, feel free to share your info.
+I’m particularly interested in people who know about Math, Economics, Computer programming, Physics, or Biology. But if you have expertise in something else, feel free to share your info.
 
 Note that you can set your rate arbitrarily high. If there’s any amount of money at which you would be glad to have a one hour meeting with me, in which I ask you questions about your field, leave your contact details!
 
@@ -99,7 +99,7 @@ Note that you can set your rate arbitrarily high. If there’s any amount of mon
 
 ### $5,000 - Introduction to someone that I end up dating regularly for more than a year
 
-My [date-me page](date.md) describes most of what I'm looking for in partners.
+My [date-me page](date.md) describes most of what I'm looking for in a partner.
 
 To be eligible for the bounty, you must explicitly suggest the person to me as someone who I might want to date, and introduce us. Introducing me to someone who I happen to end up dating doesn't count. (Though I might still give you a partial bounty as a thank you.)
 
@@ -107,35 +107,33 @@ Note that I don't have to marry the person for you to get the bounty! Just date 
 
 ### $200 per date - Dates with vegetarian* women with legibly high emotional interpersonal skill
 
-In addition to the above bounty for medium term relationship outcomes, I'll give you $200 for setting me up on dates with single or non-polysaturated woman who meet the following criteria:
+In addition to the above bounty for medium term relationship outcomes, I'll give you $200 for setting me up on dates with single or non-polysaturated women who meet the following criteria:
 
 1. Is vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior because of factory farming
 2. Has, in some way, explicitly developed personal/interpersonal emotional communication skill (eg is an experienced circler, therapist, facilitator, etc, or has a practice of NVC, IFS, Focusing, etc.)
-3. Has read my [date-me page](date.html) 
+3. Has read my [date-me page](date.html)
 
 You get the bounty _if the two of us actually go on a first date_, regardless of whether we go on any further dates after that.
 
-(You're welcome to submit yourself.)
+You're welcome to submit yourself!
 
 I'll go on a date with someone (and pay you the bounty), if I agree that she meets the criteria above, basically without regard for other considerations. If I find that I don't like something about the people I'm being set up with, I'll change the criteria, not object on a case-by-case basis.
 
 (The above are definitely not the _only_ qualities that I care about in a partner, but these are the ones that I expect to be legible enough to third parties that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.)
 
-I live in Berkeley. I'm up for going on dates with people all over the world (especially people who are only short plane-flights from SF or DC). 
-
-I'm currently ruling that video call dates can count, but I might change my mind about that in the future.
+I live in Berkeley. I'm up for going on dates with people all over the world, but especially people who are in the Bay Area or Washington DC. I'm currently ruling that video call dates can count, but I might change my mind about that in the future.
 
 ## Biology and medical interventions
 
 ### $10,000 maximum - Any intervention that improves my nighttime HRV
 
-I have agressively [optimized](https://elityre.com/sleep-policies.html) my life for high quality sleep and recovery. I'm always interested in interventions that will improve my average nighttime HRV or lowest resting heart rate.
+I have aggressively [optimized](https://elityre.com/sleep-policies.html) my life for high quality sleep and recovery. I'm always interested in interventions that will improve my average nighttime HRV or lowest resting heart rate.
 
 I'll pay you $500 for every additional (expected) RMSSD, up to $10,000.
 
-That is, if you suggest an intervention that raises my average nightime HRV from 50 to 52, I'll pay you $1000. And if you suggest an intervention that raises my average nightime HRV from 50 to 55 I'll pay you $2500.
+That is, if you suggest an intervention that raises my average nighttime HRV from 50 to 52, I'll pay you $1000. And if you suggest an intervention that raises my average nighttime HRV from 50 to 55 I'll pay you $2500.
 
-For most interventions, I would test it via a night-by-night randomized trial. For interventions that have chronic, but not accute effects, we'd have to agree on an experimental protocol in advance. 
+For most interventions, I would test it via a night-by-night randomized trial. For interventions that have chronic, but not acute effects, we'd have to agree on an experimental protocol in advance. 
 
 ### $1,000 - Non-HRV improvements to my sleep.
 
@@ -151,7 +149,7 @@ I'll pay $1000 for any intervention that doesn't impact HRV but does...
 
 ...or, alternatively, boost fluid intelligence or neuroplasticity.
 
-It has to be an intervention that is inexpenssive enough and practical enough that I can realistically make use of it.
+It has to be an intervention that is inexpensive enough and practical enough that I can realistically make use of it.
 
 If you know of unusually good resources on this topic, I would pay a partial bounty for being directed to them.
 
@@ -171,7 +169,7 @@ Obviously, this needs to be done in a way that is safe and healthy. I’m not in
 
 ### $1,000 - Pointer to a safe, side-effect free, treatment for reactivating skeletal growth post-puberty
 
-I'd like to be physically bigger: longer / thinker long bones, larger cranial circumference, bigger hands, bigger feet, bigger heart volume, taller.
+I'd like to be physically bigger: longer / thicker long bones, larger cranial circumference, bigger hands, bigger feet, bigger heart volume, taller.
 
 My understanding is that this is basically medically impossible at current technology, but I'm very interested in possible exceptions.
 
@@ -183,7 +181,7 @@ All else equal, I would prefer to be physically stronger.
 
 I weigh about 140 pounds (height: 5 foot, 3.5 inches), and would prefer to weigh around 150-160 pounds, so long as I can do that healthily. 
 
-This is not a priority for me, and I'm not going to make major changes other my life or pay other large costs for this goal. 
+This is not a priority for me, and I'm not going to make major changes to my life or pay other large costs for this goal. 
 
 ## Clothing
 
