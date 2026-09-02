@@ -59,7 +59,7 @@ The above bounty applies to measurable interventions. But, if you teach me a lea
 
 ### $1,000 - Some method for acutely lowering my heartrate and/or physiological arousal, that I come to use reliably
 
-I've experimented with various calming techniques (eg meditation, breath work) for lowering my physiological arousal, to calm my body in preparation for sleep, for recovery between high-focus work bounts, and for general energetic modulation.
+I've experimented with various calming techniques (eg meditation, breath work) for lowering my physiological arousal, to calm my body in preparation for sleep, for recovery between high-focus work bouts, and for general energetic modulation.
 
 If you can teach me a technique that works measurably better than my current best method, I'll pay you $1000.
 
