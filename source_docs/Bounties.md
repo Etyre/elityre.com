@@ -117,7 +117,7 @@ You get the bounty _if the two of us actually go on a first date_, regardless of
 
 (You're welcome to submit yourself.)
 
-I'll go an a date with a someone (and pay you the bounty), if I agree that she meets the critera above, basically without regard for other considerations. If I find that I don't like something about the pepole I'm being set up with, I'll change the criteria, not object on a case-by-case basis.
+I'll go on a date with someone (and pay you the bounty), if I agree that she meets the criteria above, basically without regard for other considerations. If I find that I don't like something about the people I'm being set up with, I'll change the criteria, not object on a case-by-case basis.
 
 (The above are definitely not the _only_ qualities that I care about in a partner, but these are the ones that I expect to be legible enough to third parties that they’re able to do some amount of filtering for me. I would be psyched to go on 50 first dates with people who meet this profile.)
 
