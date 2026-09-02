@@ -111,7 +111,7 @@ In addition to the above bounty for medium term relationship outcomes, I'll give
 
 1. Is vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior because of factory farming
 2. Has, in some way, explicitly developed personal/interpersonal emotional communication skill (eg is an experienced circler, therapist, facilitator, etc, or has a practice of NVC, IFS, Focusing, etc.)
-3. Has read my [date-me page](elityre.com/date.html) 
+3. Has read my [date-me page](date.html) 
 
 You get the bounty _if the two of us actually go on a first date_, regardless of whether we go on any further dates after that.
 
