@@ -105,7 +105,7 @@ To be eligible for the bounty, you must explicitly suggest the person to me as s
 
 Note that I don't have to marry the person for you to get the bounty! Just date them regularly for more than a year.
 
-### $200 per date - Dates with vegetarian* women with legibly high emotional interpersonal skill
+### $400 per date - Dates with vegetarian* women with legibly high emotional interpersonal skill
 
 In addition to the above bounty for medium term relationship outcomes, I'll give you $200 for setting me up on dates with single or non-polysaturated women who meet the following criteria:
 
