@@ -18,8 +18,6 @@
 
 * **[Deliberatetyping.app](https://deliberatetyping.app/)**
 
-  
-
 See also: [my personal computer setup](Computer setup.md)
 
 

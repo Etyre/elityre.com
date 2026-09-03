@@ -146,6 +146,10 @@ li > p {
 li:first-child > p {
     margin-top: 0;
 }
+/* ...and what follows a loose list gets a full paragraph gap, not the denser 0.5rem. */
+ul:has(> li > p), ol:has(> li > p) {
+    margin-bottom: 1em;
+}
 
 #last-updated {
     font-size: 0.9em;
