@@ -39,10 +39,9 @@ nav ul li, footer ul li {
     background: #f7f7f7;
     font-size: 0.95em;
     text-decoration: none;
-    color: #222;
 }
 #nav-bar nav ul li a:visited {
-    color: #222;                     /* nav tabs don't grey out when visited */
+    color: #2a5a3f;                  /* nav tabs don't grey out when visited */
 }
 #nav-bar nav ul li a:hover {
     background: #e9e9e9;
