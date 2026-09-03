@@ -2,7 +2,7 @@
 
 * **Roam/LogSeq extensions:**
   * [coming soon]
-* **[Focus and distraction monitor](https://github.com/Etyre/focus-and-distraction-monitor)** - Watches the active window on your Mac, uses an ensemble of models to evaluate periods of focused vs unfocused attention and when the object of attention changes, and records agregate focus data
+* **[Focus and distraction monitor](https://github.com/Etyre/focus-and-distraction-monitor)** - Watches the active window on your Mac, uses an ensemble of models to evaluate periods of focused vs unfocused attention and when the object of attention changes, and records aggregate focus data
 
 * [**Personal recommender feed app**](https://github.com/Etyre/recommender-feed-app) - A personal reading feed, ranked by LLM agents according to marginal value, that learns user taste from ratings
 
