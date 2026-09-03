@@ -136,11 +136,15 @@ ul ul, ul ol, ol ul, ol ol {
     margin-bottom: 0;
 }
 
-/* "Loose" list items (blank line in the markdown) get their text wrapped in <p>;
-   don't let that paragraph add a gap between the item and its sublist. */
+/* "Loose" list items (blank line in the markdown) get their text wrapped in <p>.
+   Put the gap ABOVE each such paragraph so loose bullets are spaced apart, but
+   there's no gap between an item and its own sublist (which follows the <p>). */
 li > p {
-    margin-top: 0;
+    margin-top: 0.8em;
     margin-bottom: 0;
+}
+li:first-child > p {
+    margin-top: 0;
 }
 
 #last-updated {
