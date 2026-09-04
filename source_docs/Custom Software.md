@@ -16,7 +16,11 @@
 
 * [**Meditation timer/logger iphone app**](https://github.com/Etyre/meditation-app) - A meditation timer for iPhone with a gong, overtime stopwatch, heartrate monitor integration, and session logging
 
+* **[Bayesian Tinder Swiper](https://github.com/Etyre/bayesian-tinder-swiper)** - A webapp that swipes tinder, prompting claude to do a Bayesian analysis of the probability that a given person is vegan or vegetarian, and swiping right if the probability is greater than some threshold.
+
 * **[Deliberatetyping.app](https://deliberatetyping.app/)**
+
+
 
 See also: [my personal computer setup](Computer setup.md)
 

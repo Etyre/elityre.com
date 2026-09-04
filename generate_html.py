@@ -213,7 +213,9 @@ for root, dirs, files in os.walk(markdown_dir):
             # 'toc' adds id="slug" to headings so #heading links work, and replaces a
             # line containing <TOC> with a linked table of contents (## and deeper;
             # the page's # title is skipped).
-            extensions=[TocMarkerExtension(), LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc'],
+            # 'nl2br' renders a single newline within a paragraph as a visible <br>
+            # (instead of collapsing it to a space).
+            extensions=[TocMarkerExtension(), LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc', 'nl2br'],
             extension_configs={'toc': {'toc_depth': '2-6', 'marker': TOC_PLACEHOLDER}},
             tab_length=INDENT_SPACES,
             output_format='html5'
