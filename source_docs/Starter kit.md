@@ -4,6 +4,8 @@ These are the books that I recommend to starting on the path of personal develop
 
 Huge swaths of practical mental skill is not codified and/or not written down anywhere, and these books are not sufficient on their own. But almost no one makes the simple, known, and codified techniques into habitual practice.
 
+<toc>
+
 ####**[The Less Wrong Sequences](https://www.lesswrong.com/rationality)** by Eliezer Yudkowsky
 
 A wide-ranging discussion of formal and applied epistemology, covering philosophy of science, cognitive psychology, the hard problem of consciousness, interpretations quantum mechanics, evolutionary biology, metaethics, Artificial Intelligence, and what it means to think well as a human being. This "book" has changed and my thought process, and the trajectory of my life, more than anything else I've ever read.
