@@ -1,6 +1,6 @@
-#  Eli's starter kit for being an effective human:
+#  Eli's starter kit for being an effective whole-human
 
-These are the books that I recommend to starting on the path of personal development, who wants to learn to use their mind more effectively, and take action in the world more effectively, than the default. 
+These are the books that I recommend to someone starting on the path of personal development, who wants to learn to use their mental faculties more, and take action in the world, more effectively than the default. 
 
 Huge swaths of practical mental skill is not codified and/or not written down anywhere, and these books are not sufficient on their own. But almost no one makes the simple, known, and codified techniques into habitual practice.
 
