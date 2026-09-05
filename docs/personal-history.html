@@ -2,37 +2,68 @@
 
 <head> 
 	<meta charset="utf-8">
-	<title>Eli Tyre</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Personal History</title>
+	<link rel="stylesheet" type="text/css" href= "/css/main.css" >
+	<!-- The CSS file is at "css/main.css", but we need to adjust that file path depending on how nested the in the directory structure the page is. -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
+	<script>
+  	 window.dataLayer = window.dataLayer || [];
+  	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-205493387-1');
+	</script>
+	
 </head>
 
-
 <body>
-
-	<nav>
-		<ul> 
-			<li><a href="index.html" class="button">About</a></li>
-			<li><a href="personal-history.html" class="button">Personal History</a></li>
-			<!--<li>Writing</li>
-			<a href="conversational-faciliation.html" class="button"><li>Conversational Faciliation</li></a>
-			<a href="/custom-software.html" class="button"><li>Software</li></a>
-			<li>Consulting and Coaching</li>-->
-			<li><a href="date-me.html" class="button">Date Me</a></li>
-			<li>Contact</li>
+	<!--Navigation bar-->
+	<div id="nav-bar">
+<nav>
+		<ul>
+			<li><a href="/index.html" class="button">About</a></li>
+			<li><a href="/principles.html">Principles</a></li>
+			<!--<li><a href="/personal-history.html" class="button">Personal History</a></li>-->
+			<!--<li><a>Lineages</a></li>-->
+			<li><a href="/statements-index.html" class="button">Public statements</a></li>
+			<li><a href="/books.html">Booklist</a></li>
+			<li><a href="/bounties.html">Bounties</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1obzln9QwmOft1aHFYsZmieDThD-HkDOZ39yFqVffv2U/edit" class="button" target="_blank">Predictions</a></li>
+			<li><a href="/systems-index.html">Systems</a></li>
+			<li><a href="/custom-software.html" class="button">Software</a></li>
+			<li><a href="/date.html" class="button">Go on a date?</a></li>
+			<li><a href="/contact.html">Contact</a></li>
 		</ul>
 	</nav>
+</div>
+	<!--end of Navigation bar-->
+	<script>
+	// Highlight the tab for the page we're on.
+	function markCurrentNav() {
+	  var here = location.pathname.replace(/\/$/, '/index.html');
+	  document.querySelectorAll('#nav-bar a').forEach(function (a) {
+	    a.classList.toggle('current', a.getAttribute('href') === here);
+	  });
+	}
+	markCurrentNav();
+	</script>
+
 	
 	<div class="page title">
-		<h1>Personal History</h1>
+		<h1> </h1>
 	</div>
 	
 	
 <div class="main text">
-	<p>
-    [to be filled in later]
-  </p>
+	<h1 id="personal-history">Personal History</h1>
+<p>[to be filled in later]</p>
 
-  <div id="last updated"></div>
+</div>
+	
+
+	<div id="last updated">
 	
 	
 	
@@ -70,45 +101,8 @@
 			
 
 
-			document.getElementById('last updated').innerHTML = "<p>,<br><i>This page was last updated on "+ formattedDate + ".</i></p>";
+			document.getElementById('last updated').innerHTML = "<p><br><br><i>This page was last updated on "+ formattedDate + ".</i></p>";
 
-
-
-
-
-
-
-			// // Create new XMLHttpRequest object
-			// const xhr = new XMLHttpRequest();
-
-			// // GitHub endpoint, dynamically passing in specified username
-			// const url = `https://api.github.com/repos/etyre/elityre.com/commits?path=date.html`;
-			// // 'date.html' should ultimately be replaced with '${pageName}'
-
-			// // Open a new connection, using a GET request via URL endpoint
-			// // Providing 3 arguments (GET/POST, The URL, Async True/False)
-			// xhr.open('GET', url, true);
-
-			// // When request is received
-			// // Process it here
-			// xhr.onload = function() {
-
-			// // Parse API data into JSON
-			// const data = JSON.parse(this.response);
-
-			// // Log the response
-			// // console.log(data);
-				
-			// 	let d = new Date();
-			// document.body.innerHTML = "<p>This page was last updated on "+ "[placeholder]" +d+ "</p>";
-
-			// // Return the JSON object
-			// return data;
-
-			// }
-
-			// // Send the request to the server
-			// xhr.send();
 
 			}
 
@@ -119,5 +113,5 @@
 			getCommits(nameOfThisPage);
 			
 		</script>
-
-</div>
+	
+		</div>

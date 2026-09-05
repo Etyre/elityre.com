@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 
 <head> 
 	<meta charset="utf-8">
-	<title>Eli Tyre</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Policies and public statements</title>
+	<link rel="stylesheet" type="text/css" href= "/css/main.css" >
+	<!-- The CSS file is at "css/main.css", but we need to adjust that file path depending on how nested the in the directory structure the page is. -->
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
@@ -17,7 +17,6 @@
 	</script>
 	
 </head>
-
 
 <body>
 	<!--Navigation bar-->
@@ -50,32 +49,22 @@
 	}
 	markCurrentNav();
 	</script>
-	<script>
-	// This page is hand-written (not built from markdown), so the nav above is a snapshot.
-	// Fetch the current nav.html and swap it in, so edits to nav.html show up here too.
-	fetch('/nav.html', {cache: 'no-cache'}).then(r => r.ok ? r.text() : Promise.reject())
-	  .then(html => {
-	    var fresh = new DOMParser().parseFromString(html, 'text/html').getElementById('nav-bar');
-	    var cur = document.getElementById('nav-bar');
-	    if (fresh && cur) { cur.replaceWith(fresh); markCurrentNav(); }
-	  }).catch(function () {});
-	</script>
+
 	
 	<div class="page title">
-		<h1>Policies and public statements</h1>
+		<h1> </h1>
 	</div>
 	
 	
 <div class="main text">
-  
-  <h2><a href="twitter-policy.html">My Twitter policy</a></h2>
-  <h2><a href="vegan-policy.html">My veganism policy</a></h2>
-  <h2><a href="cryonics.html">Statement on cryonics</a></h2>
-  <h2><a href="ndas.html">Statement on personal private NDAs</a></h2>
-	
-  </n>
+	<h1 id="policies-and-public-statements">Policies and public statements</h1>
+<h2 id="my-twitter-policy"><a href="twitter-policy.html">My Twitter policy</a></h2>
+<h2 id="my-veganism-policy"><a href="vegan-policy.html">My veganism policy</a></h2>
+<h2 id="statement-on-cryonics"><a href="cryonics.html">Statement on cryonics</a></h2>
+<h2 id="statement-on-personal-private-ndas"><a href="ndas.html">Statement on personal private NDAs</a></h2>
 
 </div>
+	
 
 	<div id="last updated">
 	
@@ -128,5 +117,4 @@
 			
 		</script>
 	
-	</div>
-
+		</div>
