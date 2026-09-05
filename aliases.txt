@@ -1,0 +1,14 @@
+# Old URLs for renamed pages. When you rename a markdown file, add a line here
+# mapping the OLD url name to the CURRENT markdown file, and the old URL will
+# keep serving the page (kept in sync on every build, marked canonical to the
+# new URL so search engines don't treat it as a duplicate).
+#
+# Format:   old-url-name -> Current file.md
+# The left side is the old page's url slug (".html" is tolerated); the right
+# side is the markdown file's current name in source_docs/. One line per old
+# URL; a file that has been renamed twice gets two lines. Blank lines and
+# lines starting with # are ignored.
+#
+# Example:
+# date-me -> date.md
+exercise-policy -> exercise.md

@@ -174,6 +174,44 @@ class TocMarkerExtension(Extension):
         md.preprocessors.register(TocMarkerPreprocessor(md), 'tocmarker', 30)
 
 # -------------------
+# URL aliases (aliases.txt): old URLs for renamed pages. Each line maps an old
+# url name to the markdown file that now owns that content:
+#
+#   old-url-name -> Current file.md
+#
+# The full page is generated at every alias URL too, and kept in sync on each
+# rebuild, so renaming a source doc doesn't break links that are out on the
+# internet. Alias copies get a <link rel="canonical"> pointing at the primary
+# URL so search engines don't see them as duplicate content.
+# -------------------
+aliases_file = 'aliases.txt'
+aliases_by_md = {}   # markdown filename -> [alias .html names]
+if os.path.exists(aliases_file):
+    with open(aliases_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#') or '->' not in line:
+                continue
+            old, _, md_name = line.partition('->')
+            old = re.sub(r'\.html?$', '', old.strip(), flags=re.I)
+            md_name = md_name.strip()
+            if not old or not md_name:
+                continue
+            if not os.path.exists(os.path.join(markdown_dir, md_name)):
+                print(f"WARNING: aliases.txt maps '{old}' to '{md_name}', which doesn't exist in {markdown_dir}/")
+                continue
+            aliases_by_md.setdefault(md_name, []).append(slugify_basename(old) + '.html')
+    # a change to aliases.txt should trigger regeneration, like a template change
+    template_mtime = max(template_mtime, os.path.getmtime(aliases_file))
+
+# Every primary output slug, so we can refuse an alias that would stomp on a real page.
+primary_slugs = set()
+for _root, _dirs, _files in os.walk(markdown_dir):
+    for _f in _files:
+        if _f.endswith('.md') and _f not in exclusions:
+            primary_slugs.add(slugify_basename(os.path.splitext(_f)[0]) + '.html')
+
+# -------------------
 # Main walk
 # -------------------
 for root, dirs, files in os.walk(markdown_dir):
@@ -216,9 +254,19 @@ for root, dirs, files in os.walk(markdown_dir):
         html_dir = os.path.dirname(html_filepath) or '.'
         os.makedirs(html_dir, exist_ok=True)
 
+        aliases = aliases_by_md.get(file, [])
+        alias_filepaths = []
+        for a in aliases:
+            if a == rel_html_name:
+                continue                       # aliasing yourself is a no-op
+            if a in primary_slugs:
+                print(f"WARNING: {file} alias '{a}' collides with a real page; skipping that alias")
+                continue
+            alias_filepaths.append(os.path.normpath(os.path.join(output_dir, a)))
+
         # decide whether to regenerate
         regenerate = False
-        if not os.path.exists(html_filepath):
+        if not os.path.exists(html_filepath) or any(not os.path.exists(p) for p in alias_filepaths):
             regenerate = True
         else:
             md_mtime = os.path.getmtime(md_filepath)
@@ -269,4 +317,12 @@ for root, dirs, files in os.walk(markdown_dir):
         with open(html_filepath, 'w', encoding='utf-8') as f:
             f.write(rendered_html)
         print(f"Regenerated {html_filepath}")
+
+        # write alias copies (same page at the old URLs, marked canonical->primary)
+        for alias_path in alias_filepaths:
+            canonical = f'\t<link rel="canonical" href="https://elityre.com/{rel_html_path.replace(os.sep, "/")}">\n'
+            alias_html = rendered_html.replace('</head>', canonical + '</head>', 1)
+            with open(alias_path, 'w', encoding='utf-8') as f:
+                f.write(alias_html)
+            print(f"Regenerated {alias_path} (alias of {rel_html_path})")
 
