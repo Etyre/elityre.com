@@ -44,7 +44,7 @@ For a number of years, I developed and taught Double Crux, a techniques for epis
 
 #### **[*Your Memory: How It Works and How to Improve It*](https://www.amazon.com/Your-Memory-How-Works-Improve/dp/1569246297)** by Kenneth L. Higbee
 
-This is the best introduction to the psychology of memory that I've read, covering both theory and techniques. 
+This is the best introduction to the psychology of memory that I've read (and I've read several), covering both theory and techniques. 
 
 #### [***Atomic Habits***](https://www.amazon.com/dp/0735211299?lv=shuf&channelId=500&plpRedirect=mhFallback) by James Clear or  ***[Tiny Habits](https://www.amazon.com/Tiny-Habits-Changes-Change-Everything-ebook/dp/B07LC9KDP5)***  by BJ Fogg
 
@@ -54,7 +54,7 @@ I haven’t read either of these books, and can’t speak to how good either one
 
 Adams seems to have discovered and articulated a bunch of important practical ideas / principles that I independently converged on, including “systems over goals” (what I call "input goals vs output goals")<!--link to the relevant part of "how I set goals" -->, and optimizing for personal energy<!--link to my personal energy and intentionality doc-->. His epistemics are mixed, and some of his systematic thinking is sloppy, but this book is a great collection of pointers to valuable concepts to put into practice.
 
-#### **[Less important] *[Superreading for Success](https://smile.amazon.com/SuperReading-Success-Groundbreaking-Brain-Based-Increase/dp/0399160434/ref=sr_1_1?crid=1PDLARK6VDRPV&keywords=superreading+for+success&qid=1663572854&s)* by Ron Cole**
+#### [Less important] ***[Superreading for Success](https://smile.amazon.com/SuperReading-Success-Groundbreaking-Brain-Based-Increase/dp/0399160434/ref=sr_1_1?crid=1PDLARK6VDRPV&keywords=superreading+for+success&qid=1663572854&s)*** by Ron Cole
 
 The summer after my senior year of high school, I read a bunch of books on speed reading and speed learning. Of that survey, I thought this was the best one because 1) it focused on comprehension first (most speed reading programs do increase reading speed, but at the expense of understanding, which defeats the purpose), 2) it included a technique that you and start using immediately (and which I still use to this day), and 3) it included tests for measuring your progress. 
 
