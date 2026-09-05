@@ -17,6 +17,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 PYTHON = sys.executable
 GENERATOR = os.path.join(ROOT, 'generate_html.py')
 WATCH_DIR = os.path.join(ROOT, 'source_docs')
+IMAGES_DIR = os.path.join(WATCH_DIR, 'images')
 TEMPLATE = os.path.join(ROOT, 'page_template.html')
 NAV = os.path.join(ROOT, 'nav.html')
 DEBOUNCE_SECONDS = 0.5   # editors often write a file in several steps; wait for them to settle
@@ -39,7 +40,10 @@ class Handler(FileSystemEventHandler):
         if event.is_directory:
             return
         paths = [event.src_path, getattr(event, 'dest_path', '')]
-        if any(p.endswith('.md') or os.path.abspath(p) in (TEMPLATE, NAV) for p in paths if p):
+        if any(p.endswith('.md')
+               or os.path.abspath(p) in (TEMPLATE, NAV)
+               or os.path.abspath(p).startswith(IMAGES_DIR + os.sep)
+               for p in paths if p):
             self.pending_since = time.time()
 
 

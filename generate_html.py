@@ -55,6 +55,31 @@ if not os.path.exists(_published_nav) or open(_published_nav, encoding='utf-8').
         f.write(_nav_src)
     print("Published docs/nav.html")
 
+# -------------------
+# Image sync: source_docs/images/ is the source of truth for images. Mirror
+# new and updated files into docs/images/ so the same relative path
+# ("images/foo.jpg") works in markdown preview and on the published site.
+# Additive only: files that exist solely in docs/images/ are left alone.
+# -------------------
+import shutil
+
+images_src = os.path.join(markdown_dir, 'images')
+images_dst = os.path.join(output_dir, 'images')
+if os.path.isdir(images_src):
+    for img_root, _, img_files in os.walk(images_src):
+        for img_name in img_files:
+            if img_name.startswith('.'):
+                continue
+            src = os.path.join(img_root, img_name)
+            rel = os.path.relpath(src, images_src)
+            dst = os.path.join(images_dst, rel)
+            if (not os.path.exists(dst)
+                    or os.path.getmtime(src) > os.path.getmtime(dst)
+                    or os.path.getsize(src) != os.path.getsize(dst)):
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                shutil.copy2(src, dst)
+                print(f"Synced image {rel} -> docs/images/")
+
 # Load exclusions (filenames only, e.g., "notes.md")
 exclusions = set()
 if os.path.exists(exclusions_file):
