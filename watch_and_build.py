@@ -50,9 +50,20 @@ def record_rename(src_path, dest_path):
     old_stem = os.path.splitext(os.path.basename(src_path))[0]
     old_name = os.path.basename(src_path)
     new_name = os.path.basename(dest_path)
-    if slugify(old_stem) == slugify(os.path.splitext(new_name)[0]):
+    new_stem = os.path.splitext(new_name)[0]
+    # Editors save files via rename dances with backup/temp names (foo.md -> foo~.md,
+    # .foo.md.tmp -> foo.md, etc). Ignore anything involving such names.
+    if any(s.endswith('~') or s.startswith(('.', '~')) for s in (old_stem, new_stem)):
+        return
+    if slugify(old_stem) == slugify(new_stem):
         return  # same slug, same URL: nothing to do
     if UNTITLED_RE.match(old_stem):
+        return
+    # A real rename leaves the old name gone and the new name present. In an
+    # editor save-dance the original path reappears immediately; give it a
+    # moment, then check.
+    time.sleep(1.0)
+    if os.path.exists(src_path) or not os.path.exists(dest_path):
         return
     lines = []
     if os.path.exists(ALIASES):
