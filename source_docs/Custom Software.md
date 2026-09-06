@@ -1,6 +1,6 @@
 # Custom Software
 
-* **Roam/LogSeq extensions:**
+* **LogSeq extensions:**
   * [coming soon]
 * **[Focus and distraction monitor](https://github.com/Etyre/focus-and-distraction-monitor)** - Watches the active window on your Mac, uses an ensemble of models to evaluate periods of focused vs unfocused attention and when the object of attention changes, and records aggregate focus data
 

@@ -73,7 +73,7 @@ Most days I'll do 5 cycles. But if I'm feeling tired or less capable, I'll do on
 
 Over time, I have gradually increased the lengths of the high intensity intervals and decreased the lengths of the lower intensity interval (as well as adjusted the treadmill speeds for each interval.) 
 
-The high intensity interval used to be more intense, at around 10.5 mph. But sprints at that speed are very draining: I was doing them for 60 second intervals, and usually only doing 3 to 4 cycles. Because volume at the high end of heart rate seems to matter more than intensity, this was inefficient. My goal is to stay at close to 90% of HR for many minutes. Sprinting at a speed that pushes my heart rate far beyond that threshold, and which causes my legs to burn as my cells switch to anerobic respiration, is wasted effort. 
+The high intensity interval used to be more intense, at around 10.6 mph. But sprints at that speed are very draining: I was doing them for 60 second intervals, and usually only doing 3 to 4 cycles. Because volume at the high end of heart rate seems to matter more than intensity, this was inefficient. My goal is to stay at close to 90% of HR for many minutes. Sprinting at a speed that pushes my heart rate far beyond that threshold, and which causes my legs to burn as my cells switch to anerobic respiration, is wasted effort. 
 
 I started with 30 seconds of HI and 120 seconds of LI. Over the course of a few months, I gradually extended the HI intervals by one second (each) at a time. 
 
@@ -81,7 +81,7 @@ I started with 30 seconds of HI and 120 seconds of LI. Over the course of a few 
 
 ### Squats
 
-Even when I'm doing cardio interval training every other day, if I go too many days without doing weighted squats I start to feel subtely bad in a difficult to express way—slightly antsy, slightly sick-feeling. For some reason, doing squats [seems to have](https://efficacyengineering.wordpress.com/2020/11/08/squats-made-a-big-difference/) a notable impact on my wellbeing that no other exercise, including deadlifts, does.
+Even when I'm doing cardio interval training every other day, if I go too many days without doing weighted squats I start to feel subtely bad in a difficult to express way—slightly antsy, slightly sick-feeling (similar to the way that I feel slightly sick after haivng spent too many hours half-engaged looking at twitter). For some reason, doing squats [seems to have](https://efficacyengineering.wordpress.com/2020/11/08/squats-made-a-big-difference/) a notable impact on my wellbeing that no other exercise, including deadlifts, does.
 
 So after cardio interval training, my main priority with exercise is to do weighted squats, at least once a week.
 
