@@ -2,7 +2,7 @@
 
 Regularly getting good sleep is the single most important physiological factor for maintaining my energy, intentionality, and focus. 
 
-Almost everyone has felt for themselves much of a drag it is on their effectiveness to be tried or sleep deprived during the day and it's common wisdom that it's important and healthy to "get enough sleep" is good for you. But I've found that there's a level *beyond* merely getting enough sleep. 
+Almost everyone has felt for themselves how much being tired or sleep deprived is a drag it is on their effectiveness and quality of life. And it's common wisdom that it's important and healthy to "get enough sleep" is good for you. But I've found that there's a level *beyond* merely getting enough sleep. 
 
 When I get 9 hours of very high quality sleep (resting heart rate below 51, HRV above 50), what I wimsically call "mega sleep", my focus and alertness is palpably better than baseline. It's like being on a stimulant, except it's the best stimulant I've ever tried, without the attendant contraction of my awareness (or other side effects). It feels amazing, and I have some much energetic capacity for doing stuff and making progress.
 
