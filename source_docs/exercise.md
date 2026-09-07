@@ -8,6 +8,8 @@ For both these reasons, I aim to exercise every day. When I miss a day, I'll esp
 
 I typically exercise early in the day, as a break during my first work block (when I'm doing deep work independently, such as on weekends), or during my organization's lunch time.
 
+<TOC>
+
 ## Exercise Programming
 
 I alternate, day by day, between cardio interval training and strength training.

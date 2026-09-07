@@ -2,27 +2,25 @@
 
 Regularly getting good sleep is the single most important physiological factor for maintaining my energy, intentionality, and focus. 
 
-Most people have felt how much of a drag it is on their effectiveness to be tried or sleep deprived during the day, or know that "getting enough sleep" is good for you. But I've found that there's a level beyond merely getting enough sleep. 
+Almost everyone has felt for themselves much of a drag it is on their effectiveness to be tried or sleep deprived during the day and it's common wisdom that it's important and healthy to "get enough sleep" is good for you. But I've found that there's a level *beyond* merely getting enough sleep. 
 
-When I get 9 hours of very high quality sleep (resting heart rate below 51, HRV above 50), what I call "mega sleep", my focus and alertness is palpably better than baseline. It's like being on a stimulant, except it's the best stimulant I've ever tried, without the attendant contraction of my awareness (or other side effects). It feels amazing, and I have some much energetic capacity for doing stuff and making progress.
+When I get 9 hours of very high quality sleep (resting heart rate below 51, HRV above 50), what I wimsically call "mega sleep", my focus and alertness is palpably better than baseline. It's like being on a stimulant, except it's the best stimulant I've ever tried, without the attendant contraction of my awareness (or other side effects). It feels amazing, and I have some much energetic capacity for doing stuff and making progress.
 
-Furthermore, I find that I get most of the benefits of a rest day from high quality sleep. Sleeping deeply for 9 hours every day, gives me the physiological capacity to lock in on a project and work for weeks at a time.<sup>1</sup> 
+Additionally, while focusing hard for many days in a row is draining, I find that I get most of the benefits of a rest day from high quality sleep. Sleeping deeply for 9 hours every day gives me the physiological capacity to lock in on a project and work for weeks at a time.<sup>1</sup> 
 
-So the foundation of my systems for maintaining high momentum and energy is to prioritize getting very high quality sleep, on a daily basis.
+For theses reasons, the *foundation* of my systems for maintaining high momentum and energy is to prioritize getting very high quality sleep, on a daily basis.
 
-Sleep is not the end all be all. Even when I'm getting megasleep, I need to make sure not to mess up the energy benefits by eating at the wrong times. And having that expanded capacity, I need to additional make sure to spend it well, instead of frittering my focus away on low value distractions. 
-
-But I'm so much more effective when I'm extremely well rested, that sleep (and exercise, which supports my sleep) is the single highest priority of my self-support systems.
+Sleep is not the end all be all. Even when I'm getting megasleep, I need to make sure not to mess up the energy benefits by eating at the wrong times. And having that expanded capacity, I need to additional make sure to spend it well, instead of frittering my focus away on low value distractions. But I'm so much more effective when I'm extremely well rested, that sleep (and exercise, which supports my sleep) is the single highest priority of my self-support systems.
 
 ## Schedule
 
 I’ve lived on a number of different sleep schedules, depending on the circumstances, and the people that I’m working with, including waking up at 4 or 5 in the morning, waking up at 10 or 11 in the morning, and waking up at 4:00 in the afternoon and mostly being awake during the night, and even a [26 hour schedule](https://xkcd.com/320/) in which my sleep periods are not synced up with the days of the week.
 
-Since 2021, I’ve kept to a biphasic sleep schedule: Sleeping for 6 to 9 hours at night, and about an hour in the mid to late afternoon. 
+Since 2021, I’ve kept to a mostly biphasic sleep schedule: Sleeping for 6 to 9 hours at night, and about an hour in the mid to late afternoon. 
 
-On days when I don't nap, I feel notably more tired by the evening, and am a lot less motivated to get stuff done. By napping in the middle of my day, I effectively get two, stacked, high focus work days for each calendar day.
+Historically, on days when I don't nap, I've felt notably more tired by the evening, and am a lot less motivated to get stuff done. By napping in the middle of my day, I effectively get two, stacked, high focus work days for each calendar day. But, as my sleep quality has improved and I get mega-sleep more often, I find that an afternoon nap is less important.
 
-At the time of this writing, I wake up at 9:30 AM, and go to sleep at about 12:30 AM, with a nap from about 4:30 to 5:30 in the late afternoon (though the timing of the nap varies some). When I’m on an earlier or a later schedule, all the times in this document are adjusted up or down accordingly.
+At the time of this writing, I wake up at 9:30 AM, and go to sleep at about 12:30 AM, with a nap from about 4:30 to 5:30 or 5:00 to 6:00 in the late afternoon. When I’m on an earlier or a later schedule, all the times in this document are adjusted up or down accordingly.
 
 ## Some sleep setup and practices
 
@@ -30,13 +28,9 @@ At the time of this writing, I wake up at 9:30 AM, and go to sleep at about 12:3
 
 #### Exercise
 
-One of the clearest impacts on my nighttime HRV is doing [intense exercise](elityre.com/exercise-policy.html) during the day. 
+One of the clearest impacts on my nighttime HRV is doing [intense exercise](elityre.com/exercise-policy.html), and especially Cardio Interval Training during the day. 
 
 I aim to exercise every day, with only occasional skips, as one of the main supports for my sleep.
-
-#### Resonance Frequency Breathing
-
-
 
 #### Sauna
 

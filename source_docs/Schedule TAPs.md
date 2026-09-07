@@ -1,9 +1,19 @@
 # Schedule TAPs
 
+Behaviors to instill
+
+* Morning routine
+* Morning supplements
+* With-meal supplements
+* Evening supplements
+* Anki review
+* Creatine / electrolytes / Essential amino acids
+
 
 
 | Trigger                                                     |      | Minimal action                         | Notes / links                                                |
 | ----------------------------------------------------------- | ---- | -------------------------------------- | ------------------------------------------------------------ |
+|                                                             |      |                                        | *Morning routine / morning TAP chain*                        |
 | Open my eyes from sleep                                     | =>   | check the time on my watch             |                                                              |
 | => see that it's within one hour of my intended wakeup time | =>   | Spring out of bed, do 30 jumping jacks |                                                              |
 | => finish jumping jacks                                     |      |                                        | I need to pee                                                |
@@ -11,6 +21,5 @@
 |                                                             | =>   | Touch my toothbrush                    | This flows into picking up my tooth brush, putting tooth paste on it, going into the bathroom, dampening my tooth brush, walking outside to brush my teeth |
 |                                                             |      |                                        |                                                              |
 |                                                             |      |                                        |                                                              |
-|                                                             |      |                                        |                                                              |
-|                                                             |      |                                        |                                                              |
+|                                                             | =>   | Pat my pocket                          | To take my with-a-meal supplements                           |
 
