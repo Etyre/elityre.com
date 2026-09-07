@@ -12,3 +12,4 @@
 # Example:
 # date-me -> date.md
 exercise-policy -> exercise.md
+sleep-policies -> Sleep.md
