@@ -109,6 +109,11 @@ p {
     font-size: 0.9em;
     line-height: 1.1em;
 }
+/* The markdown-generated footnotes block at the bottom of a page (div.footnote)
+   holds paragraph-length notes, so give it normal line spacing. */
+div.footnote {
+    line-height: 1.5;
+}
     
 footer {
     border-top: 1px solid #d5d5d5;

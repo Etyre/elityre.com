@@ -6,7 +6,7 @@ Almost everyone has felt for themselves much of a drag it is on their effectiven
 
 When I get 9 hours of very high quality sleep (resting heart rate below 51, HRV above 50), what I wimsically call "mega sleep", my focus and alertness is palpably better than baseline. It's like being on a stimulant, except it's the best stimulant I've ever tried, without the attendant contraction of my awareness (or other side effects). It feels amazing, and I have some much energetic capacity for doing stuff and making progress.
 
-Additionally, while focusing hard for many days in a row is draining, I find that I get most of the benefits of a rest day from high quality sleep. Sleeping deeply for 9 hours every day gives me the physiological capacity to lock in on a project and work for weeks at a time.<sup>1</sup> 
+Additionally, while focusing hard for many days in a row is draining, I find that I get most of the benefits of a rest day from high quality sleep. Sleeping deeply for 9 hours every day gives me the physiological capacity to lock in on a project and work for weeks at a time.[^1] 
 
 For theses reasons, the *foundation* of my systems for maintaining high momentum and energy is to prioritize getting very high quality sleep, on a daily basis.
 
@@ -16,13 +16,13 @@ Sleep is not the end all be all. Even when I'm getting megasleep, I need to make
 
 ## Meta
 
-The main sleep metric that I optimize is is my average HRV over the the period that I'm asleep, measured by my oura ring. I keep an eye on a few other metrics (also measured by oura) as well, including lowest resting heart rate, total sleep time, sleep efficiency, and sleep latency. 
+The main sleep metric that I optimize is my average HRV over the period that I'm asleep, measured by my oura ring. I keep an eye on a few other metrics (also measured by oura) as well, including lowest resting heart rate, total sleep time, sleep efficiency, and sleep latency. 
 
-Also, before I look at any oura data, every morning, I log my subjective feeling of restedness and alertness. That, along with my focus data <link after I've documented my focus tracking system> and tracking when I ship something,  can serve as an outer loop verifying that nightime HRV actually translates into the outcomes I care about.
+Also, before I look at any oura data, every morning, I log my subjective feeling of restedness and alertness. That, along with my focus data <link after I've documented my focus tracking system> and tracking when I ship something,  can serve as an outer loop verifying that nighttime HRV actually translates into the outcomes I care about.
 
-I used to test interventions by doing a occasional randomized controlled trials. For about the lenght of a month, I would flip a (digital) coin every night to randomize whether I took a particular supplement or did a particular sleep interventions, and then I would compare to my oura data after the fact.
+I used to test interventions by doing occasional randomized controlled trials. For about the length of a month, I would flip a (digital) coin every night to randomize whether I took a particular supplement or did a particular sleep intervention, and then I would compare to my oura data after the fact.
 
-These days, I use my [sleep bandit app](https://github.com/Etyre/sleep-bandit) instead, which more elegantly addresses the explore exploit tradeoff. Every night, app randomly assigns an intervention (and in some cases a dosage) with the measured probability that that intervention improves my nighttime HRV, based on past data<sup>2</sup>. Now, I'm continually testing interventions, and I'm not giving up the benefit of an intervetion that works, 50% of the time, while testing it.
+These days, I use my [sleep bandit app](https://github.com/Etyre/sleep-bandit) instead, which more elegantly addresses the explore exploit tradeoff. Every night, the app randomly assigns an intervention (and in some cases a dosage) with the measured probability that that intervention improves my nighttime HRV, based on past data.[^2] Now, I'm continually testing interventions, and I'm not giving up the benefit of an intervention that works, 50% of the time, while testing it.
 
 Interventions in this doc are recorded along with their current measured effect on my nighttime HRV compared to the baseline nights, when I don't use that intervention. (My nighttime HRV has been improving over the past year, and in recent months, and this does introduce a bias that might be inflating these estimates in the short term, but they should converge eventually.)
 
@@ -62,7 +62,7 @@ However, I will sometimes drink liquid meal replacement (Soylent or huel) in the
 
 Every night, around a half hour before I go to sleep (usually just before I leave the office), I take...
 
-* 0.3 mg of melatonin<sup>3</sup> [+3.1 ms] 
+* 0.3 mg of melatonin[^3] [+3.1 ms] 
 * 150-200 mg of apigenin [+5.7 ms]
 * 1000-4000 mg of Glycine [+4.5]
 
@@ -89,7 +89,7 @@ After I take my sleep supplements, I'll do a big six lymph reset as described [h
 
 ### Sleep systems and setup
 
-- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. <sup>4</sup> <sup>5</sup>
+- I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies.[^4][^5]
 - I sleep with an air conditioner, set to 61 degrees, in my personal room pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep. [+5.4 ms]
   - The air conditioner is on an outlet timer, so it turns off automatically about an hour before my wakeup time. There's more resistance to waking up and getting out of bed immediately if it's cold, so having the air conditioner turned off helps.
   - In the office sleep-space where I nap, I use a fan pointed at my face. And I use a mini-fan when I travel.
@@ -115,13 +115,13 @@ That said, if I've been lying in bed for 40 minutes or more, and haven't fallen 
 
 ##### Journal
 
-I have a I have a chromebook that is set up just for journaling. I've blocked that everything except roam, google docs (for my tracking spreadsheets and forms), and toggl.
+I have a chromebook that is set up just for journaling. I've blocked that everything except roam, google docs (for my tracking spreadsheets and forms), and toggl.
 
-This way, when I'm restless, I can get up and journal in Roam, typically outlining and thinking through whatever churning thoughts weer keeping me awake, without the temptation of browsing the internet more generally (which is motivationally-sticky, and doesn’t help me get to sleep).
+This way, when I'm restless, I can get up and journal in Roam, typically outlining and thinking through whatever churning thoughts were keeping me awake, without the temptation of browsing the internet more generally (which is motivationally-sticky, and doesn’t help me get to sleep).
 
 ##### Meditation/HRV breathing
 
-Alternatively, I might get up and either mediated or do a few minutes of HRV breathing (probably with biofeedback) to increase my parasympathetic activation.
+Alternatively, I might get up and either meditate or do a few minutes of HRV breathing (probably with biofeedback) to increase my parasympathetic activation.
 
 ##### Drink Soylent/Huel
 
@@ -129,7 +129,7 @@ Eating actives the parasympathetic and enteric nervous system, and is one way to
 
 However, eating in the hours before bed harms sleep quality. So it isn't a good idea to eat just before bed.
 
-However-however, my initial experiments suggest that liquid food doesn't worsen my sleep, so I'll sometimes have a bottle of soylent or or huel non-dairy milk if I'm restless.
+However-however, my initial experiments suggest that liquid food doesn't worsen my sleep, so I'll sometimes have a bottle of soylent or huel non-dairy milk if I'm restless.
 
 ### Waking up
 
@@ -139,7 +139,7 @@ One of the most important inputs to good sleep is waking up consistently at the 
 
 - ~~In my personal room, I have a 12000lux light panel, attached to the wall near my bed, set on a timer so that it turns on (gradually) just before my wakeup time.~~ [Edit: this hasn't been set up for a while]
 - My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a microhedonic gradient that incentivizes me to stay in bed, but I can circumvent that in a couple of ways:
-  - During the winter, I’ll leave sweatpants and warm socks, right near or on my bed, to make it as easy and quick as possible as possible to get up and get warm, instead of being tempted to stay in my cozy bed.
+  - During the winter, I’ll leave sweatpants and warm socks, right near or on my bed, to make it as easy and quick as possible to get up and get warm, instead of being tempted to stay in my cozy bed.
   - A possibly even better idea to try: set up a heating pad on a timer right at the side of my bed, so that I can wake up and step onto that.
 - The main lights in my room are on a bluetooth controlled circuit. There's a switch for that circuit on my wall next to the door, for turning on the lights when I enter my room. My bed is right next to the door, such that I can reach this switch from my bed. But, I need to sit up to reach it, which is an additional bit of friction to going from asleep to awake. So I've also attached an identical switch to my air conditioner unit, that I can reach out to turn on without needing sit up.
 - In the past I've put my morning checklist in a h x w picture frame, and I check off items with a whiteboard marker, without needing to look at my phone or laptop. (This is less relevant now, since I don't use the checklist any more.)
@@ -156,10 +156,10 @@ One of the most important inputs to good sleep is waking up consistently at the 
 
 - I’ve further trained myself so that **when I wake up, I get up, and spring out of bed, immediately**, and then do 25 to 30 jumping jacks. This allows to start the day with momentum, which can carry through for hours.
 
-  - I built this habit with offline habit training: practicing, (during the day, when I'm fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that not not practicing _getting back into bed_, each time.
+  - I built this habit with offline habit training: practicing, (during the day, when I'm fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that I'm not practicing _getting back into bed_, each time.
   - I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.
 
-- One of the first things that I do in the morning is brush my teeth, outside. This is means that I get sunlight exposure to my eyes, first thing in the morning, which reinforces / resets my circadian rhythm, to make it easier to fall asleep at the time I want.
+- One of the first things that I do in the morning is brush my teeth, outside. This means that I get sunlight exposure to my eyes, first thing in the morning, which reinforces / resets my circadian rhythm, to make it easier to fall asleep at the time I want.
 
 **See also:**
 
@@ -167,16 +167,12 @@ One of the most important inputs to good sleep is waking up consistently at the 
 - [Sleep deficit compensation procedures](https://www.notion.so/Sleep-deficit-compensation-procedures-5ecebd076d7446fd99e2d2f62961ae5b?pvs=21)
 - Morning routine
 
----
+[^1]: The physiological component is only half of the equation, however. The other half is psychological—a matter of meaning and value to me rather than just biological capacity. The work has to be worth for me to dedicate myself to it like that.
 
-**Notes**
+[^2]: Actually, it's not quite that simple, because there are some built in adjustments that compensate for small sample sizes, which nudges the system toward correcting possible self-reinforcing errors faster.
 
-1 - The physiological component is only half of the equation, however. The other half is psychological—a matter of meaning and value to me rather than just biological capacity. The work has to be worth for me to dedicate myself to it like that.
+[^3]: For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
 
-2 - Actually, it's not quite that simple, because there are some built in adjustments that compensate for small sample sizes, which nudges the system toward correcting possible self-renenforcing errors faster.
+[^4]: When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose well enough, while lying down, to fall asleep. (For a while I had a [bounty](https://elityre.com/bounties.html) up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.
 
-3 - For more on the impact of melatonin, [Gwern’s page](https://gwern.net/melatonin) says it all.
-
-4- When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose well enough, while lying down, to fall asleep. (For a while I had a [bounty](https://elityre.com/bounties.html) up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.
-
-5- I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.
+[^5]: I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.
