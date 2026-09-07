@@ -42,7 +42,7 @@ Humans are organisms, with their own interests. By my morality <link to my deont
 
 I don’t think that personal property is legitimized only or primarily by arguments about aggregate utility. We are agents, with individual interests, and we are allowed (in some abstract moral sense) to act on those interests. We are each allowed to have things that are ours, to do things that are just for us, so long as we conduct ourselves ethically in doing so <link to ethical principles>.
 
-If you labor to create value in the world, there’s a basic sense of fairness in which the value created properly belongs to you. What you do with those resources is your choice. I regard it as perverse to claim that one doesn’t have the right to them, both for reasons of fairness and for pragmatic reasons of maintinging socitally beneficial incentives.
+If you labor to create value in the world, there’s a basic sense of fairness in which the value created properly belongs to you. What you do with those resources is your choice. I regard it as perverse to claim that one doesn’t have the right to them, both for reasons of fairness and for pragmatic reasons of maintaining societally beneficial incentives.
 
 To be clear, I’ve received many enormous privileges, not due to anything in particular that I did, but by accident of when and where I was born. Far and above anything else, I benefit from the opportunities of being born in a relatively free, vastly wealthy, industrialized society, built by the labor of millions of my cultural and genetic forebears. To a lesser but still large extent, I benefit from the arbitrary privileges of being white and growing up in a moderately wealthy family. 
 
