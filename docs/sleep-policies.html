@@ -64,55 +64,98 @@
 <p>Additionally, while focusing hard for many days in a row is draining, I find that I get most of the benefits of a rest day from high quality sleep. Sleeping deeply for 9 hours every day gives me the physiological capacity to lock in on a project and work for weeks at a time.<sup>1</sup> </p>
 <p>For theses reasons, the <em>foundation</em> of my systems for maintaining high momentum and energy is to prioritize getting very high quality sleep, on a daily basis.</p>
 <p>Sleep is not the end all be all. Even when I'm getting megasleep, I need to make sure not to mess up the energy benefits by eating at the wrong times. And having that expanded capacity, I need to additional make sure to spend it well, instead of frittering my focus away on low value distractions. But I'm so much more effective when I'm extremely well rested, that sleep (and exercise, which supports my sleep) is the single highest priority of my self-support systems.</p>
+<div class="toc">
+<ul>
+<li><a href="#meta">Meta</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#sleep-supporting-practices">Sleep-supporting practices</a><ul>
+<li><a href="#support-for-sleep-during-the-day">Support for sleep during the day</a><ul>
+<li><a href="#exercise">Exercise</a></li>
+</ul>
+</li>
+<li><a href="#pre-sleep-routine">Pre-sleep routine</a><ul>
+<li><a href="#pre-sleep-fast">Pre-sleep fast</a></li>
+<li><a href="#supplements">Supplements</a></li>
+</ul>
+</li>
+<li><a href="#pre-sleep-behavioral-interventions">Pre-sleep behavioral interventions</a><ul>
+<li><a href="#big-six-lymph-reset">Big six lymph reset</a></li>
+<li><a href="#acupressure-mat">Acupressure mat</a></li>
+</ul>
+</li>
+<li><a href="#sleep-systems-and-setup">Sleep systems and setup</a></li>
+<li><a href="#if-im-restless">If I’m restless</a><ul>
+<li><a href="#journal">Journal</a></li>
+<li><a href="#meditationhrv-breathing">Meditation/HRV breathing</a></li>
+<li><a href="#drink-soylenthuel">Drink Soylent/Huel</a></li>
+</ul>
+</li>
+<li><a href="#waking-up">Waking up</a><ul>
+<li><a href="#external-systems">External Systems</a></li>
+<li><a href="#behavioral-practices">Behavioral practices</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="meta">Meta</h2>
+<p>The main sleep metric that I optimize is is my average HRV over the the period that I'm asleep, measured by my oura ring. I keep an eye on a few other metrics (also measured by oura) as well, including lowest resting heart rate, total sleep time, sleep efficiency, and sleep latency. </p>
+<p>Also, before I look at any oura data, every morning, I log my subjective feeling of restedness and alertness. That, along with my focus data <link after I've documented my focus tracking system> and tracking when I ship something,  can serve as an outer loop verifying that nightime HRV actually translates into the outcomes I care about.</p>
+<p>I used to test interventions by doing a occasional randomized controlled trials. For about the lenght of a month, I would flip a (digital) coin every night to randomize whether I took a particular supplement or did a particular sleep interventions, and then I would compare to my oura data after the fact.</p>
+<p>These days, I use my <a href="https://github.com/Etyre/sleep-bandit">sleep bandit app</a> instead, which more elegantly addresses the explore exploit tradeoff. Every night, app randomly assigns an intervention (and in some cases a dosage) with the measured probability that that intervention improves my nighttime HRV, based on past data<sup>2</sup>. Now, I'm continually testing interventions, and I'm not giving up the benefit of an intervetion that works, 50% of the time, while testing it.</p>
+<p>Interventions in this doc are recorded along with their current measured effect on my nighttime HRV compared to the baseline nights, when I don't use that intervention. (My nighttime HRV has been improving over the past year, and in recent months, and this does introduce a bias that might be inflating these estimates in the short term, but they should converge eventually.)</p>
 <h2 id="schedule">Schedule</h2>
 <p>I’ve lived on a number of different sleep schedules, depending on the circumstances, and the people that I’m working with, including waking up at 4 or 5 in the morning, waking up at 10 or 11 in the morning, and waking up at 4:00 in the afternoon and mostly being awake during the night, and even a <a href="https://xkcd.com/320/">26 hour schedule</a> in which my sleep periods are not synced up with the days of the week.</p>
 <p>Since 2021, I’ve kept to a mostly biphasic sleep schedule: Sleeping for 6 to 9 hours at night, and about an hour in the mid to late afternoon. </p>
 <p>Historically, on days when I don't nap, I've felt notably more tired by the evening, and am a lot less motivated to get stuff done. By napping in the middle of my day, I effectively get two, stacked, high focus work days for each calendar day. But, as my sleep quality has improved and I get mega-sleep more often, I find that an afternoon nap is less important.</p>
 <p>At the time of this writing, I wake up at 9:30 AM, and go to sleep at about 12:30 AM, with a nap from about 4:30 to 5:30 or 5:00 to 6:00 in the late afternoon. When I’m on an earlier or a later schedule, all the times in this document are adjusted up or down accordingly.</p>
-<h2 id="some-sleep-setup-and-practices">Some sleep setup and practices</h2>
+<h2 id="sleep-supporting-practices">Sleep-supporting practices</h2>
 <h3 id="support-for-sleep-during-the-day">Support for sleep during the day</h3>
 <h4 id="exercise">Exercise</h4>
-<p>One of the clearest impacts on my nighttime HRV is doing <a href="elityre.com/exercise-policy.html">intense exercise</a>, and especially Cardio Interval Training during the day. </p>
-<p>I aim to exercise every day, with only occasional skips, as one of the main supports for my sleep.</p>
-<h4 id="sauna">Sauna</h4>
-<p>Occasionally, especially if I’m taking a rest day in preparation for a sprint, I’ll go to a sauna a few hours before I go to bed. This has a notable impact on my subjective tiredness, and improves my sleep efficiency.</p>
+<p>One of the clearest impacts on my nighttime HRV is doing <a href="elityre.com/exercise-policy.html">intense exercise</a>, and <a href="https://elityre.com/exercise-policy.html#cardio-interval-training">Cardio Interval Training</a> in particular, during the day. </p>
+<p>Analysis of my sleep data shows that very roughly, every day of intense cardio interval training <em>depresses</em> my nighttime HRV by about 1-1.5ms, that night. But after that short term effect, each interval session <em>raises</em> subsequent nighttime HRV by about 1 ms, and that effect decays with a half-life of roughly two to six weeks. </p>
+<p>If that model is trustworthy, one day of cardio interval training tends to have an effect of about +0.7 ms on every night over the next month. Further, doing cardio interval training every 3 days for 90 days has a total accumulated effect of +11.5 ms on the night of the ninetieth day, and training every other day has an accumulated effect of +17.5 ms on the ninetieth day (though this is going out on a bit of a limb, since it's ignoring likely saturation effects, and I don't have enough measured data to verify yet). </p>
+<p>In practice I typically do cardio interval training between every other and every third day. </p>
 <h3 id="pre-sleep-routine">Pre-sleep routine</h3>
 <h4 id="pre-sleep-fast">Pre-sleep fast</h4>
 <p>I don’t eat anything for at least four hours before bed. The cutoff for the last time that I'll eat anything is 7:00 pm.</p>
-<p>If I’m tempted to eat, I’ll chew gum, or make myself tea.</p>
-<p>I will sometimes drink liquid meal replacement (Soylent or huel) in the hours before bed. I haven't observed this impacting my sleep metrics, in previous years, but I've </p>
+<p>However, I will sometimes drink liquid meal replacement (Soylent or huel) in the hours before, or even immediately before bed. I haven't observed this to have an impact on my sleep metrics.</p>
 <h4 id="supplements">Supplements</h4>
-<p>Every night, around a half hour before I go to sleep (usually just before I leave the office), I take</p>
+<p>Every night, around a half hour before I go to sleep (usually just before I leave the office), I take...</p>
 <ul class="list-depth-0">
-<li>0.3 mg of melatonin <sup>3</sup></li>
-<li>50 mg of apigenin</li>
+<li>0.3 mg of melatonin<sup>3</sup> [+3.1 ms] </li>
+<li>150-200 mg of apigenin [+5.7 ms]</li>
+<li>1000-4000 mg of Glycine [+4.5]</li>
+</ul>
+<p>I’ve set an alarm that rings at (currently) 11:40pm as a signal to wind down work, brush my teeth, and take my sleep supplements. </p>
+<p>I used to take...</p>
+<ul class="list-depth-0">
 <li>200 mg of L-Theanine</li>
 <li>144 mg of Magnesium L-theronate</li>
 </ul>
-<p>I often take my daily dose of creatine at this time as well.</p>
-<p>I’ve set an alarm that rings at (currently) 11:40pm as a signal to wind down work, brush my teeth, and take my sleep supplements. </p>
+<p>...but both of these had a negaitve effect on my sleep metrics, -1.6 ms, and -5.2 ms, respectively. The </p>
+<p>Magnesium in partcular passes through the blood brain barrier, and is supposed to have recuperative benefits (eg it helps replenish depleted neurotransmitters). Perhaps thes benefits outweigh the measured cost on my recovery? Maybe I should only take Magnesium on particular days (days where I took an anphatmine?) Maybe if I took it earlier in the day it would have less of an impact on my sleep? All of this is currently unclear.</p>
+<h3 id="pre-sleep-behavioral-interventions">Pre-sleep behavioral interventions</h3>
 <h4 id="big-six-lymph-reset">Big six lymph reset</h4>
-<p>After I take my sleep supplements, I'll do a big six lymph reset as described here. </p>
-<p>I'm not sure if this helps.</p>
-<h4 id="hrv-breathing">HRV breathing</h4>
-<ul class="list-depth-0">
-<li>On days when I have a late nap (ending after 8:00pm). I make sure to do HRV breathing for 5 minutes just before going to sleep. <ul class="list-depth-1">
-<li>I also do HRV breathing if I'm amped up and energized around bedtime, though this is unusual if I'm exercising enough.</li>
-</ul>
-</li>
-</ul>
+<p>After I take my sleep supplements, I'll do a big six lymph reset as described <a href="https://www.youtube.com/watch?v=lT_wW5pNHa4">here</a>. [+3.3 ms]</p>
+<h4 id="acupressure-mat">Acupressure mat</h4>
+<p>[Data is still coming in for this one]</p>
 <h3 id="sleep-systems-and-setup">Sleep systems and setup</h3>
 <ul class="list-depth-0">
-<li>I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. <sup>1</sup> <sup>2</sup></li>
+<li>I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies. <sup>4</sup> <sup>5</sup></li>
 <li>
-<p>I sleep with an air conditioner in my personal room pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep. </p>
+<p>I sleep with an air conditioner, set to 61 degrees, in my personal room pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep. [+5.4 ms]</p>
 <ul class="list-depth-1">
 <li>The air conditioner is on an outlet timer, so it turns off automatically about an hour before my wakeup time. There's more resistance to waking up and getting out of bed immediately if it's cold, so having the air conditioner turned off helps.</li>
 <li>In the office sleep-space where I nap, I use a fan pointed at my face. And I use a mini-fan when I travel.</li>
 </ul>
 </li>
 <li>
-<p>I have two sets of lights in my room: red lights that I turn on when I enter my room after coming back from work in the evening, and a set of two   lumen corn bulbs, that I use in the morning. </p>
+<p>I additonally use a chili pad, set to somewhere between 13 and 25 degreees celcius. [+2.8 ms]</p>
+</li>
+<li>
+<p>I have two sets of lights in my room: red lights that I turn on when I enter my room after coming back from work in the evening, and a set of two <a href="https://store.yujiintl.com/products/cri-max-cri-95-e27-36w-led-corn-bulb-3200k?_pos=1&amp;_sid=6d2a1c3c6&amp;_ss=r">36 watt 3300 lumen corn bulbs</a>, that I use in the morning. </p>
 <ul class="list-depth-1">
 <li>The switch to the corn bulbs is attached to the air conditioner next to my bed. The first thing that I do as soon as I wake up, in the second or two before I get out of bed, is reach over and turn on those lights, to fill my (blacked out) room with light.</li>
 </ul>
@@ -120,7 +163,7 @@
 <li>
 <p>In my personal room, I sleep with a weighted blanket.</p>
 </li>
-<li>I block out all the light in my room, covering the windows with cardboard panels, and filling the gaps with aluminum foil secured with painters tape. I additionally hang blackout curtains over the windows. (I crack the window to allow for circulation, even when the air conditioner is off, attach a strip tinfoil or blackout cloth to the top of the window, covering the gap.)<ul class="list-depth-1">
+<li>I block out all the light in my room, covering the windows with cardboard panels, and filling the gaps with aluminum foil secured with painters tape. I additionally hang blackout curtains over the windows. I crack the window to allow for circulation, but have attach a strip tinfoil or blackout cloth to the top of the window, covering the gap.<ul class="list-depth-1">
 <li>Just using blackout curtains is insufficient if I'm on a late or nocturnal schedule in which my sleep period overlaps with the sun. I find that if I sleep in a room that has some light leakage, I feel subtly <em>off</em> all day long. If I’m asleep during a period that overlaps substantially with when the sun is up, I need to sleep in a very dark space, or I’ll feel groggy all day/night long. I want my room to be dark enough that I can't see the objects and furniture in it, even in the middle of the day. This is seem to be adequate enough for me to be sharp on a late schedule.<ul class="list-depth-2">
 <li>If blocking all the light in a room isn't easy, I've  sometimes slept in a closet, or with a four-panel shelter of balsa wood long enough to enclose the top half of my body, in a merely-normally dark room, instead of a pitch black room. This seems to work adequately as well.</li>
 </ul>
@@ -139,28 +182,27 @@
 <p>That said, if I've been lying in bed for 40 minutes or more, and haven't fallen asleep yet, I'll get out of bed and do something else (as is the standard recommendation). However, when I get up like this, there are only three activities that I allow myself, so that I don't get hooked by something stimulating and stay up for an extra hour when I could have been asleep.</p>
 <h5 id="journal">Journal</h5>
 <p>I have a I have a chromebook that is set up just for journaling. I've blocked that everything except roam, google docs (for my tracking spreadsheets and forms), and toggl.</p>
-<p>This way, when I'm restless, I can get up and journal in Roam, typically outlining my thoughts about whatever I was thinking on, without the temptation of browsing the internet more generally (which is motivationally-sticky, and doesn’t help me get to sleep.</p>
-<h5 id="hrv-breathing_1">HRV breathing</h5>
-<p>Alternatively, I might get up and do a few minutes of HRV breathing (probably with biofeedback) to increase my sympathetic activation.</p>
+<p>This way, when I'm restless, I can get up and journal in Roam, typically outlining and thinking through whatever churning thoughts weer keeping me awake, without the temptation of browsing the internet more generally (which is motivationally-sticky, and doesn’t help me get to sleep).</p>
+<h5 id="meditationhrv-breathing">Meditation/HRV breathing</h5>
+<p>Alternatively, I might get up and either mediated or do a few minutes of HRV breathing (probably with biofeedback) to increase my parasympathetic activation.</p>
 <h5 id="drink-soylenthuel">Drink Soylent/Huel</h5>
 <p>Eating actives the parasympathetic and enteric nervous system, and is one way to calm sympathetic activation. That's why stress eating is a thing.</p>
 <p>However, eating in the hours before bed harms sleep quality. So it isn't a good idea to eat just before bed.</p>
 <p>However-however, my initial experiments suggest that liquid food doesn't worsen my sleep, so I'll sometimes have a bottle of soylent or or huel non-dairy milk if I'm restless.</p>
-<h2 id="waking-up">Waking up</h2>
+<h3 id="waking-up">Waking up</h3>
 <p>One of the most important inputs to good sleep is waking up consistently at the same time every day. If I focus on making my morning wakeup good, falling asleep will follow, not automatically, than more easily than otherwise.</p>
-<p><em>External</em> <em>Systems</em></p>
+<h4 id="external-systems">External Systems</h4>
 <ul class="list-depth-0">
-<li>In my personal room, I have a 12000lux light panel, attached to the wall near my bed, set on a timer so that it turns on (gradually) just before my wakeup time.</li>
-<li>My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a microhedonic gradient that incentivizes me to stay in bed, but I can circumvent that by<ul class="list-depth-1">
-<li>I leave a bathrobe</li>
+<li>~~In my personal room, I have a 12000lux light panel, attached to the wall near my bed, set on a timer so that it turns on (gradually) just before my wakeup time.~~ [Edit: this hasn't been set up for a while]</li>
+<li>My air conditioner is on a timer so that it turns off about an hour earlier than when I wake up. If it’s cold outside my bed at the time when I wake up, that creates a microhedonic gradient that incentivizes me to stay in bed, but I can circumvent that in a couple of ways:<ul class="list-depth-1">
 <li>During the winter, I’ll leave sweatpants and warm socks, right near or on my bed, to make it as easy and quick as possible as possible to get up and get warm, instead of being tempted to stay in my cozy bed.</li>
-<li>An even better idea to try: set up a heating pad on a timer right at the side of my bed, so that I can wake up and step onto that.</li>
+<li>A possibly even better idea to try: set up a heating pad on a timer right at the side of my bed, so that I can wake up and step onto that.</li>
 </ul>
 </li>
 <li>The main lights in my room are on a bluetooth controlled circuit. There's a switch for that circuit on my wall next to the door, for turning on the lights when I enter my room. My bed is right next to the door, such that I can reach this switch from my bed. But, I need to sit up to reach it, which is an additional bit of friction to going from asleep to awake. So I've also attached an identical switch to my air conditioner unit, that I can reach out to turn on without needing sit up.</li>
-<li>I put my morning checklist in a h x w picture frame, and I check off items with a </li>
+<li>In the past I've put my morning checklist in a h x w picture frame, and I check off items with a whiteboard marker, without needing to look at my phone or laptop. (This is less relevant now, since I don't use the checklist any more.)</li>
 </ul>
-<p><em>Behavioral practices</em></p>
+<h4 id="behavioral-practices">Behavioral practices</h4>
 <ul class="list-depth-0">
 <li>
 <p>I train myself to wake up, at the time I want, without an alarm.</p>
@@ -168,19 +210,19 @@
 <li>
 <p>As I do it, this involves setting intention to wake up at my chosen time, when I lay down to go to sleep. I'll relax my body and then verbally (out loud) affirm that I'm going to wake up at my chosen time.</p>
 <p>It has at least sometimes taken a few days to calibrate, but after that I will wake up automatically, within about a minute of my chosen time.</p>
-<p>Calibrating: I wear a watch in bed so that when I wake up in the night / morning, I can check what time it is. Crucially, if it is within an hour of my chosen time, I'll get up, even if that is a bit early or a bit late. Over the course of a few days my mind and body will narrow the interval until I am waking up at my chosen time.</p>
+<p>Calibrating: I wear a watch in bed so that when I wake up in the night / morning, I can check what time it is. Crucially, if I wake up and see that it is within an hour of my chosen time, I'll get up, even if that is a bit early or a bit late. Over the course of a few days my mind and body will narrow the interval until I am waking up at my chosen time.</p>
 </li>
 </ul>
 </li>
 <li>
 <p>I’ve further trained myself so that <strong>when I wake up, I get up, and spring out of bed, immediately</strong>, and then do 25 to 30 jumping jacks. This allows to start the day with momentum, which can carry through for hours.</p>
 <ul class="list-depth-1">
-<li>I built this habit with offline habit training: practicing, (during the day, when you're fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that not not practicing <em>getting back into bed</em>, each time.</li>
-<li>I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. <!--When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.--></li>
+<li>I built this habit with offline habit training: practicing, (during the day, when I'm fully awake), laying down in bed with my eyes closed, and then opening my eyes and jumping out of bed. I do 10 reps of this, being careful to reset after each one, so that not not practicing <em>getting back into bed</em>, each time.</li>
+<li>I've sometimes used a mantra in this moment as well, to remind me of my intention or why I care about getting up. When I was a teenager, I used to wake up at 5:00 AM to get up and meditate and do "energetic exercises" (as part of astral projection training). I used to say, as I got out of bed "this is what it means to be a wizard", particularly in the months when it was cold.</li>
 </ul>
 </li>
 <li>
-<p>One of the first things that I do in the morning is brush my teeth, either outside or looking out of an open window. This is means that I get sunlight exposure to my eyes, first thing in the morning, which reinforces / resets my circadian rhythm, to make it easier to fall asleep at the time I want.3</p>
+<p>One of the first things that I do in the morning is brush my teeth, outside. This is means that I get sunlight exposure to my eyes, first thing in the morning, which reinforces / resets my circadian rhythm, to make it easier to fall asleep at the time I want.</p>
 </li>
 </ul>
 <p><strong>See also:</strong></p>
@@ -192,10 +234,10 @@
 <hr>
 <p><strong>Notes</strong></p>
 <p>1 - The physiological component is only half of the equation, however. The other half is psychological—a matter of meaning and value to me rather than just biological capacity. The work has to be worth for me to dedicate myself to it like that.</p>
-<p>2-  When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose well enough, while lying down, to fall asleep. (For a while I had a <a href="https://elityre.com/bounties.html">bounty</a> up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.</p>
-<p>2 - I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.</p>
+<p>2 - Actually, it's not quite that simple, because there are some built in adjustments that compensate for small sample sizes, which nudges the system toward correcting possible self-renenforcing errors faster.</p>
 <p>3 - For more on the impact of melatonin, <a href="https://gwern.net/melatonin">Gwern’s page</a> says it all.</p>
-<p>4 - Early light exposure like this was recommended by Andrew Huberman here <find link>. He claims outdoor light exposure is --x more effective than sunlight through a window.</p>
+<p>4- When I first decided that I wanted to start mouthtaping, it wasn’t feasible for me. I just couldn’t breath through my nose well enough, while lying down, to fall asleep. (For a while I had a <a href="https://elityre.com/bounties.html">bounty</a> up, requesting a way to learn to breath through my nose.) I eventually solved this by taking a nasal decongestant that cleared up my nose enough that that I could fall asleep with mouthtape on, and after a few nights of that, my sinuses opened up enough that I was able to breath through my nose normally. I think that for the first 27 years of my life, my sinuses were chronically inflamed, but practice breathing through my nose started a positive feedback cycle.</p>
+<p>5- I used to get conjunctivitis, in the springtime, reliably, just about every year. I think this is because I would have seasonal allergies, which would cause me to rub my eyes, and then rubbing my eyes would cause them to get infected. I haven't had conjunctivitis since 2021, which is the year that I started mouth taping.</p>
 
 </div>
 	

@@ -20,7 +20,7 @@ I alternate, day by day, between cardio interval training and strength training.
 
 The most important intervention that I've found to boost my sleep quality and recovery is intense cardio. This mostly has a long term chronic effect—consistent cardio gradually boosts my night time HRV. 
 
-Very roughly, every day of intense cardio interval training *depresses* my nightime HRV by about 1-1.5ms, that night. But after that short term effect, each interval session *raises* subsequent nighttime HRV by about 1 ms, and that effect decays with a half-life of roughly two to four weeks. So cardio interval training builds up an accumulating resource (presumably improved vagal tone and general cardiac health) that translates into higher nighttime HRV. 
+Very roughly, every day of intense cardio interval training *depresses* my nightime HRV by about 1-1.5ms, that night. But after that short term effect, each interval session *raises* subsequent nighttime HRV by about 1 ms, and that effect decays with a half-life of roughly two to six weeks. So cardio interval training builds up an accumulating resource (presumably improved vagal tone and general cardiac health) that translates into higher nighttime HRV. 
 
 In addition, intense cardio training increases VO2_max, which, at least in theory, implies faster heart rate recovery after exertion. There's some hope that this faster recovery translates to rapid recovery from intense focused work. (Though that's more speculative.)
 
