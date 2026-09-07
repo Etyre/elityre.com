@@ -26,9 +26,15 @@ My preferred cryopreservation method would be to sever and preserve the head, an
 
 When I was younger, I had a rule that for every dollar I spent for myself (which in practice mostly meant purchasing personal development materials), I would donate an equal amount to charity. I dropped this policy when I discovered x-risk, deciding that I should be much more unreserved about investing in my own capabilities. Cryonics is my only major (>$1000 a year) purchase that is clearly just for me: my being cryopreserved does not significantly improve the world or increase my own capability to improve the world.
 
-So, I decided to apply my old policy to my spending on cryonics. I now donate $<text id="total cost"></text> a year (the total cost of my life insurance and Alcor fees, as of <text id="current year"></text>), to near-termist charities. <!--If I have enough spending financial slack to pay for cryonics, even though that doesn't contribute to moving the needle on the astronomical stakes, then I have enough financial slack to spend some on improving our local world.-->
+So, I decided to apply my old policy to my spending on cryonics. I now donate $<text id="total cost"></text> a year (the total cost of my life insurance and Alcor fees, as of <text id="current year"></text>), to near-termist charities. 
 
 ### A note on my obligations
+
+An earlier version of the last paragraph ended: 
+
+> If I have enough spending financial slack to pay for cryonics, even though that doesn't contribute to moving the needle on the astronomical stakes, then I have enough financial slack to spend some on improving our local world.
+
+On further reflection, I strongly disagree with the spirit that sentiment suggests. 
 
 I don’t think that I am morally obligated to give this amount to charity, to justify my purchasing of cryonics.
 
@@ -36,9 +42,11 @@ Humans are organisms, with their own interests. By my morality <link to my deont
 
 I don’t think that personal property is legitimized only or primarily by arguments about aggregate utility. We are agents, with individual interests, and we are allowed (in some abstract moral sense) to act on those interests. We are each allowed to have things that are ours, to do things that are just for us, so long as we conduct ourselves ethically in doing so <link to ethical principles>.
 
-If you labor to create value in the world, there’s a basic sense of fairness in which the value created properly belongs to you. What you do with those resources is your choice. I regard it as perverse to claim that one doesn’t have the right to them, both for reasons of fairness and reasons of practical incentives.
+If you labor to create value in the world, there’s a basic sense of fairness in which the value created properly belongs to you. What you do with those resources is your choice. I regard it as perverse to claim that one doesn’t have the right to them, both for reasons of fairness and for pragmatic reasons of maintinging socitally beneficial incentives.
 
-To be clear, I’ve received many enormous privileges not due to anything in particular that I did, but by accident of when and where I was born. Far and above anything else, I benefit from the opportunities of being born in a relatively free, vastly wealthy, industrialized society, built by the labor of millions of my cultural and genetic forebears. To a lesser but still large extent, I benefit from the arbitrary privileges of being white and growing up in a moderately wealthy family. I consider those benefits, the resources that I control on that basis, to be much less mine by rights, than the value I create with my time and labor. With regard to those resources, I basically do consider myself not to be owner, but custodian. (I also derive enormous benefits from the genetic endowment of my above average intelligence, which is ambiguously “mine”, to do with as I wish, vs a privilege that I’m obligated to employ for the betterment of all life.)
+To be clear, I’ve received many enormous privileges, not due to anything in particular that I did, but by accident of when and where I was born. Far and above anything else, I benefit from the opportunities of being born in a relatively free, vastly wealthy, industrialized society, built by the labor of millions of my cultural and genetic forebears. To a lesser but still large extent, I benefit from the arbitrary privileges of being white and growing up in a moderately wealthy family. 
+
+I consider those benefits, the resources that I control on that basis, to be less mine by rights, than the value I create with my time and labor. With regard to those resources, I basically do consider myself not to be owner, but custodian. (I also derive enormous benefits from the genetic endowment of my above average intelligence, which is ambiguously “mine”, to do with as I wish, vs a privilege that I’m obligated to employ for the betterment of all life.)
 
 Furthermore, even beyond my assertion that you have the moral right to spend your resources as you choose, I regard “taking action to preserve your own life” as the most easily-legitimated use of personal resources. Desiring to live, and taking action to continue one’s life is fundamental to what it means to be an organism (and except in some [edge cases](https://www.youtube.com/watch?v=l5wvqKcqL7c), to be [an agent](https://en.wikipedia.org/wiki/Instrumental_convergence#Self-preservation)).
 
@@ -46,7 +54,7 @@ We typically excuse the hypothetical starving man who steals a loaf of bread to 
 
 Even putting aside that you’re allowed to buy things that are just for you, I regard paying for cryonics as closer to paying for necessities like food and medical treatment, than paying for video games or yachts.
 
-All of this is to say that I think that a person should by no means feel the slightest bit guilty about signing up for cryonics, because of a thought that maybe the resources could be spent better elsewhere. Or to feel like you need to compensate for your “selfishness” somehow. You’re allowed to want things, and especially allowed to want to live. You don’t need to justify that to me, to yourself, or to anyone.
+All of this is to say that I think that a person should by no means feel the slightest bit guilty about signing up for cryonics, thinking that maybe the resources could be spent better elsewhere. Or to feel like you need to compensate for your “selfishness” somehow. You’re allowed to want things, and especially allowed to want to live. You don’t need to justify that to me, to yourself, or to anyone.
 
 I don’t think that I am obligated to give to charity to justify my “selfish” purchase of cryonics. I wonder if I should make a point to give some different amount, just to signal to others (and to myself) that I reject any claim that I labor under that obligation.
 
@@ -59,18 +67,18 @@ I have the resources, and I’m a free human being that can do what I want with 
 	thisYear = today.getFullYear()
 
 	myAge = today.getFullYear() - 1994;
-
+	
 	// For the period before my birthday
 	currentMonth = (today.getMonth() + 1)
 	currentDay = today.getDay();
 	if (currentMonth == 1 && currentDay < 30) {
 		myAge -= 1;
 	}
-
+	
 	totalCost = 1800 + (myAge*15)
-
+	
 	document.getElementById('total cost').innerHTML = totalCost;
-
+	
 	document.getElementById('current year').innerHTML = thisYear;
 </script>
 
