@@ -2,7 +2,7 @@
 
 Regularly getting good sleep is the single most important physiological factor for maintaining my energy, intentionality, and focus. 
 
-Almost everyone has felt for themselves how much being tired or sleep deprived is a drag it is on their effectiveness and quality of life. And it's common wisdom that it's important and healthy to "get enough sleep" is good for you. But I've found that there's a level *beyond* merely getting enough sleep. 
+Almost everyone has felt for themselves how much being tired or sleep deprived is a drag on their effectiveness and quality of life. And it's common wisdom that it's important and healthy to "get enough sleep". But I've found that there's a level *beyond* merely getting enough sleep. 
 
 When I get 9 hours of very high quality sleep (resting heart rate below 51, HRV above 50), what I wimsically call "mega sleep", my focus and alertness is palpably better than baseline. It's like being on a stimulant, except it's the best stimulant I've ever tried, without the attendant contraction of my awareness (or other side effects). It feels amazing, and I have some much energetic capacity for doing stuff and making progress.
 
@@ -95,6 +95,7 @@ After I take my sleep supplements, I'll do a big six lymph reset as described [h
 
 ### Sleep systems and setup
 
+- My laptop is set up with [flux](https://justgetflux.com/), which red-shifts the light from my screen as I get closer towards my bedtime.
 - I use mouthtape while I sleep, to induce me to breath through my nose instead of my mouth. I don’t know if this improves my sleep, but I buy that it is good for my overall health, and possibly improves my allergies.[^4][^5]
 - I sleep with an air conditioner, set to 61 degrees, in my personal room pointed directly at my face. Being in a cold room, or having cool air blown over me, helps me fall asleep. [+5.4 ms]
   - The air conditioner is on an outlet timer, so it turns off automatically about an hour before my wakeup time. There's more resistance to waking up and getting out of bed immediately if it's cold, so having the air conditioner turned off helps.
