@@ -7,7 +7,8 @@ Behaviors to instill
 * With-meal supplements
 * Evening supplements
 * Anki review
-* Creatine / electrolytes / Essential amino acids
+* Post exercise: Creatine / electrolytes / Essential amino acids
+* Evening routine
 
 
 
