@@ -18,10 +18,6 @@ I also post on [Less Wrong](https://www.lesswrong.com/users/elityre).
 
 I sometimes write threads on twitter, where my handle is [@EpistemicHope](https://twitter.com/EpistemicHope). I archive all my threads on [threadreader](https://threadreaderapp.com/user/EpistemicHope), so you can read them without needing to wade into [an attention-harvesting, intention-sapping, social media platform](twitter-policy.html).
 
-#### Software
-
-I'm a mediocre software engineer, mostly building tools for my own use. You can check out my open sourced projects on [github](https://github.com/Etyre).
-
 #### Adversarial collaborations
 
 I have a [standing interest](https://twitter.com/epistemichope/status/1341579932963487745) in participating in short (1 to 10 hour), adversarial collaborations. If you think I'm mistaken about something and want to hash it out with me, let me know. I'm probably down.
