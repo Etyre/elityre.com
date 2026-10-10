@@ -6,15 +6,14 @@ I’ve been focused on reducing existential risk from Superintelligence since 20
 
 Some work that I'm proud of
 
-* I led the team that made [frominside.ai](frominside.ai)
+* I led the team that made [frominside.ai](https://frominside.ai)
 * I wrote the essay *Turncrank and Non-turncrank Problems*
-* 
 
 #### Institutional affiliation(s)
 
 I am Strategy Director at [Palisade Research](https://palisaderesearch.org/about), where our mission is to help the decision-makers and institutions of the world gain the understanding they need to navigate the AI transition.
 
-I was previously an instructor and curriculum developer at the Center For Apllied rationality, and a grant round coordinator at [the Survival and Flourishing Fund](https://survivalandflourishing.fund/).
+I was previously an instructor and curriculum developer at the Center for Applied Rationality, and a grant round coordinator at [the Survival and Flourishing Fund](https://survivalandflourishing.fund/).
 
 #### Writing
 
