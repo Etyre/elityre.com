@@ -4,11 +4,17 @@ This is the personal website of Eli Tyre.
 
 I’ve been focused on reducing existential risk from Superintelligence since 2015. I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society.
 
+Some work that I'm proud of
+
+* I led the team that made [frominside.ai](frominside.ai)
+* I wrote the essay *Turncrank and Non-turncrank Problems*
+* 
+
 #### Institutional affiliation(s)
 
-I am Strategy Director at [Palisade Research](https://palisaderesearch.org/about), focused on briefing policymakers and the public about the intelligence explosion and AI loss of control risks.
+I am Strategy Director at [Palisade Research](https://palisaderesearch.org/about), where our mission is to help the decision-makers and institutions of the world gain the understanding they need to navigate the AI transition.
 
-I additionally work part time for [the Survival and Flourishing Fund](https://survivalandflourishing.fund/), coordinating x-risk focused grant rounds.
+I was previously an instructor and curriculum developer at the Center For Apllied rationality, and a grant round coordinator at [the Survival and Flourishing Fund](https://survivalandflourishing.fund/).
 
 #### Writing
 

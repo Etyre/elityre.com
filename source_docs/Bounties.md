@@ -107,7 +107,7 @@ Note that I don't have to marry the person for you to get the bounty! Just date 
 
 ### $400 per date - Dates with vegetarian* women with legibly high emotional interpersonal skill
 
-In addition to the above bounty for medium term relationship outcomes, I'll give you $200 for setting me up on dates with single or non-polysaturated women who meet the following criteria:
+In addition to the above bounty for medium term relationship outcomes, I'll give you $400 for setting me up on dates with single or non-polysaturated women who meet the following criteria:
 
 1. Is vegan, vegetarian, pescatarian, or otherwise adapts her dietary behavior because of factory farming
 2. Has, in some way, explicitly developed personal/interpersonal emotional communication skill (eg is an experienced circler, therapist, facilitator, etc, or has a practice of NVC, IFS, Focusing, etc.)
