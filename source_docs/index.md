@@ -7,7 +7,7 @@ I’ve been focused on reducing existential risk from Superintelligence since 20
 Some work that I'm proud of
 
 * I led the team that made [frominside.ai](https://frominside.ai)
-* I wrote the essay *Turncrank and Non-turncrank Problems*
+* I wrote the essay [Category I and Category II Problems](https://musingsandroughdrafts.com/2021/04/05/on-category-i-and-category-ii-problems/)
 
 #### Institutional affiliation(s)
 
