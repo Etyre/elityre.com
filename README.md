@@ -52,10 +52,10 @@ It optionally extracts a title from the first Markdown heading that starts with 
 
 #### Blank lines inside lists
 
-Markdown normally treats any blank line between list items as making the whole list "loose" (every item gets paragraph spacing, including items with no blank line next to them). The script overrides this so gaps appear exactly where the source has them:
+Markdown normally treats any blank line between list items as making the whole list "loose" (every item gets paragraph spacing, including items with no blank line next to them). The source is edited in Typora, which saves a single blank line between items as part of its list representation without displaying it, and saves a visible gap as two or more blank lines. The script follows Typora:
 
-- An item preceded by one or more blank lines gets class `group-gap`, which `css/main.css` gives a top margin.
-- Items with no blank line before them stay tight.
+- A single blank line between list items is ignored; the list stays tight.
+- Two or more blank lines between items start a new group: the next item gets class `group-gap`, which `css/main.css` gives a top margin.
 - Blank lines before an indented paragraph (a multi-paragraph item) or before non-list text behave as normal Markdown.
 
 ### Template Integration

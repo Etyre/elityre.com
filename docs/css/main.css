@@ -151,10 +151,10 @@ li > p {
 li:first-child > p {
     margin-top: 0;
 }
-/* A blank line before a list item in the markdown becomes a gap above that item
-   (see ListGapExtension in generate_html.py). */
+/* Two or more blank lines between list items in the markdown (a visible gap in
+   Typora) start a new group (see ListGapExtension in generate_html.py). */
 li.group-gap {
-    margin-top: 0.8em;
+    margin-top: 1em;
 }
 /* What follows a top-level list gets a full paragraph gap, not the denser 0.5rem
    (nested lists have their margins zeroed above). */
