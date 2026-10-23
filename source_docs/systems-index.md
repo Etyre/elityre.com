@@ -4,8 +4,9 @@ _Consistent habits, policies, and systems_
 
 - [Foundational habits](https://elityre.com/core-habits.html)
 - [Sleep process and policies](sleep policies.md)
-- [Exercise policy](exercise-policy.md)
+-  [Exercise policy](exercise-policy.md)
 - [Stimulant and Supplement policy](https://wild-quit-ebe.notion.site/Stimulant-and-supplament-policy-ceaa8d7318fa4cea858c2998ade63127)
+- [Morning routine](morning routine.md)
 - [Notes on rest days](https://wild-quit-ebe.notion.site/Notes-on-rest-days-0415bdc2c6d748f190ba21481acc2a3c?pvs=25)
 - [Passive consumption and addiction/distraction policies](https://wild-quit-ebe.notion.site/Passive-consumption-and-addiction-distraction-policy-e9467e7d3d2b479a8847f2da6c70063d)
 - [My GTD system](https://wild-quit-ebe.notion.site/My-GTD-system-22ee6822d26545c0820c8c6becf17f00?pvs=4)
