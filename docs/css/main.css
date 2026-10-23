@@ -156,8 +156,9 @@ li:first-child > p {
 li.group-gap {
     margin-top: 0.8em;
 }
-/* ...and what follows a loose list gets a full paragraph gap, not the denser 0.5rem. */
-ul:has(> li > p), ol:has(> li > p) {
+/* What follows a top-level list gets a full paragraph gap, not the denser 0.5rem
+   (nested lists have their margins zeroed above). */
+ul, ol {
     margin-bottom: 1em;
 }
 
