@@ -11,13 +11,11 @@ My morning routine as of October 2026:
 - Point at my clothes basket; get dressed.
 
 - Point to charging shelf:
-
   - Grab my phone from charging; put it in my pocket
   - Grab my headphones from charging; put them on my ears
   - Grab a heart rate monitor; put in in my pocket
 
 - Point to my medicine shelf:
-
   - Grab my supplement container for the day; put it in my pocket
   - Take a dose of fluticasone
   - Take a toothbrush and tube of toothpaste; apply toothpaste
@@ -32,7 +30,6 @@ My morning routine as of October 2026:
 - Walk towards the office while brushing my teeth
 
 - When I get to the YMCA, go inside, badge in
-
   - Go down the stairs to the men’s locker room
   - Spit out my toothpaste, rinse my toothbrush, fold it up and put it away.
   - Walk up stairs, take off my backpack, do a set up pullups or chinups
