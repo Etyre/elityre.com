@@ -177,13 +177,11 @@ class TocMarkerExtension(Extension):
 # List spacing: match the editor's reading of blank lines inside a list.
 # Markdown normally turns ANY blank line between list items into a "loose"
 # list (every item wrapped in <p>, so every item gets paragraph spacing, even
-# items that have no blank line next to them). The source is edited in Typora,
-# which writes a single blank line between items as part of its own list
-# representation and does not display it; a visible gap in Typora is saved as
-# two or more blank lines. So here:
-#   * a single blank line between items is ignored (the list stays tight);
-#   * two or more blank lines between items mark the start of a new group:
-#     the next item gets class "group-gap", which CSS gives a top margin.
+# items that have no blank line next to them). Here instead a gap appears
+# exactly where the source has one: an item preceded by one or more blank
+# lines gets class "group-gap", which CSS gives a top margin, and items with
+# no blank line before them stay tight. (Edit the source in a plain-text
+# editor such as iA Writer; Typora hides single blank lines between items.)
 # Blank lines before an indented paragraph (a multi-paragraph item) or before
 # a non-list line are left alone, and fenced code blocks are not touched.
 # -------------------
@@ -212,8 +210,7 @@ class ListGapPreprocessor(Preprocessor):
             nxt = lines[j] if j < n else ''
             prev_in_list = bool(_LIST_ITEM_RE.match(prev)) or (prev[:1].isspace() and prev.strip() != '')
             if prev_in_list and _LIST_ITEM_RE.match(nxt):
-                if j - i >= 2:
-                    lines[j] = _LIST_ITEM_RE.sub(lambda m: m.group(1) + GROUP_GAP_TOKEN, nxt, count=1)
+                lines[j] = _LIST_ITEM_RE.sub(lambda m: m.group(1) + GROUP_GAP_TOKEN, nxt, count=1)
                 if not _LIST_ITEM_RE.match(prev):
                     # prev is an indented paragraph inside an item: keep one blank
                     # line so the next item isn't swallowed into that paragraph.
