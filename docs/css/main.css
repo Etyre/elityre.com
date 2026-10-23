@@ -151,11 +151,17 @@ li > p {
 li:first-child > p {
     margin-top: 0;
 }
-/* A blank line before a list item in the markdown becomes a gap above that item
-   (see ListGapExtension in generate_html.py). */
-li.group-gap {
-    margin-top: 1em;
-}
+/* Blank lines in the markdown are respected literally (see ListGapExtension in
+   generate_html.py). A blank line before a list item becomes a gap above it; each
+   further blank line adds one text line of space. Between other blocks, each blank
+   line beyond the first becomes an empty .vgap one text line tall. */
+li.group-gap { margin-top: 1em; }
+li[data-extra-gap="1"] { margin-top: calc(1em + 1.3em); }
+li[data-extra-gap="2"] { margin-top: calc(1em + 2.6em); }
+li[data-extra-gap="3"] { margin-top: calc(1em + 3.9em); }
+li[data-extra-gap="4"] { margin-top: calc(1em + 5.2em); }
+li[data-extra-gap="5"] { margin-top: calc(1em + 6.5em); }
+.vgap { height: 1.3em; }
 /* What follows a top-level list gets a full paragraph gap, not the denser 0.5rem
    (nested lists have their margins zeroed above). */
 ul, ol {

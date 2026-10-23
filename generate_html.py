@@ -174,19 +174,26 @@ class TocMarkerExtension(Extension):
         md.preprocessors.register(TocMarkerPreprocessor(md), 'tocmarker', 30)
 
 # -------------------
-# List spacing: match the editor's reading of blank lines inside a list.
-# Markdown normally turns ANY blank line between list items into a "loose"
-# list (every item wrapped in <p>, so every item gets paragraph spacing, even
-# items that have no blank line next to them). Here instead a gap appears
-# exactly where the source has one: an item preceded by one or more blank
-# lines gets class "group-gap", which CSS gives a top margin, and items with
-# no blank line before them stay tight. (Edit the source in a plain-text
-# editor such as iA Writer; Typora hides single blank lines between items.)
-# Blank lines before an indented paragraph (a multi-paragraph item) or before
-# a non-list line are left alone, and fenced code blocks are not touched.
+# Blank lines are respected literally.
+#
+# Markdown normally (a) collapses any run of blank lines between blocks into a
+# single paragraph break, and (b) turns ANY blank line between list items into
+# a "loose" list, where every item gets paragraph spacing even if it has no
+# blank line next to it. Here instead:
+#   * Between blocks: the first blank line is the normal paragraph break; each
+#     additional blank line becomes an empty <div class="vgap"> one text line
+#     tall.
+#   * Before a list item: k blank lines give that item class "group-gap" and
+#     data-extra-gap="k-1", which CSS turns into a top margin that grows with
+#     k. Items with no blank line before them stay tight.
+# Blank lines before an indented paragraph (a multi-paragraph item) are left
+# alone, fenced code blocks are not touched, and blank lines at the very start
+# or end of the file are ignored.
 # -------------------
 GROUP_GAP_TOKEN = 'ELITYREGROUPGAPTOKEN'
+_GROUP_GAP_RE = re.compile(GROUP_GAP_TOKEN + r'(\d+)END')
 _LIST_ITEM_RE = re.compile(r'^(\s*(?:[-*+]|\d+[.)])\s+)')
+VGAP_HTML = '<div class="vgap"></div>'
 
 class ListGapPreprocessor(Preprocessor):
     def run(self, lines):
@@ -206,18 +213,29 @@ class ListGapPreprocessor(Preprocessor):
             j = i
             while j < n and lines[j].strip() == '':
                 j += 1
+            k = j - i
             prev = out[-1] if out else ''
             nxt = lines[j] if j < n else ''
+            at_edge = (not out) or (j >= n)
             prev_in_list = bool(_LIST_ITEM_RE.match(prev)) or (prev[:1].isspace() and prev.strip() != '')
-            if prev_in_list and _LIST_ITEM_RE.match(nxt):
-                lines[j] = _LIST_ITEM_RE.sub(lambda m: m.group(1) + GROUP_GAP_TOKEN, nxt, count=1)
+            if at_edge:
+                out.extend(lines[i:j])
+            elif prev_in_list and _LIST_ITEM_RE.match(nxt):
+                lines[j] = _LIST_ITEM_RE.sub(lambda m: m.group(1) + f'{GROUP_GAP_TOKEN}{k}END', nxt, count=1)
                 if not _LIST_ITEM_RE.match(prev):
                     # prev is an indented paragraph inside an item: keep one blank
                     # line so the next item isn't swallowed into that paragraph.
                     out.append('')
                 # otherwise the blank lines are dropped
-            else:
+            elif prev_in_list and nxt[:1].isspace():
+                # blank line(s) before an indented continuation inside a list item
                 out.extend(lines[i:j])
+            else:
+                # between ordinary blocks: one paragraph break plus a spacer per extra line
+                out.append('')
+                if k >= 2:
+                    out.extend([VGAP_HTML] * (k - 1))
+                    out.append('')
             i = j
         return out
 
@@ -227,15 +245,19 @@ class ListGapTreeprocessor(Treeprocessor):
             target = li
             if not (li.text and GROUP_GAP_TOKEN in li.text) and len(li) and li[0].tag == 'p':
                 target = li[0]
-            if target.text and target.text.startswith(GROUP_GAP_TOKEN):
-                target.text = target.text[len(GROUP_GAP_TOKEN):]
+            m = _GROUP_GAP_RE.match(target.text or '')
+            if m:
+                target.text = target.text[m.end():]
                 classes = [c for c in li.get('class', '').split() if c]
                 classes.append('group-gap')
                 li.set('class', ' '.join(classes))
+                extra = int(m.group(1)) - 1
+                if extra > 0:
+                    li.set('data-extra-gap', str(min(extra, 5)))
 
 class ListGapExtension(Extension):
     def extendMarkdown(self, md):
-        # after normalize_whitespace (30), before fenced_code (25)
+        # after normalize_whitespace (30), before fenced_code (25) and html_block (20)
         md.preprocessors.register(ListGapPreprocessor(md), 'listgap', 27)
         md.treeprocessors.register(ListGapTreeprocessor(md), 'listgap', 17)
 
