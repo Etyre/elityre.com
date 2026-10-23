@@ -49,16 +49,15 @@ My morning routine as of October 2026:
   - Go down the stairs to the men’s locker room
   - Spit out my toothpaste, rinse my toothbrush, fold it up and put it away.
   - Walk up stairs, take off my backpack, do a set up pullups/chinups
-
-  - Put on my backpack, 
-
-  - walk outside,
+- Put on my backpack, 
+  - Walk outside,
 
   
 
 - Run the rest of the way to the office.
 
 - Go inside, take the elevator to my floor.
+
 - Get out, walk to my office
 
 
