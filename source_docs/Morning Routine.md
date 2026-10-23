@@ -8,19 +8,13 @@ My morning routine as of October 2026:
 - Do 30 jumping jacks
 - (if needed) walk into the bathroom and pee
 
-
-
 - Point at my clothes basket; get dressed.
-
-
 
 - Point to charging shelf:
 
   - Grab my phone from charging; put it in my pocket
   - Grab my headphones from charging; put them on my ears
   - Grab a heart rate monitor; put in in my pocket
-
-  
 
 - Point to my medicine shelf:
 
@@ -30,39 +24,24 @@ My morning routine as of October 2026:
   - Walk into the bathroom, wet the toothbrush
   - Walk back to my room
 
-  
-
 - Put on my backpack
-
 - Leave my room; put on a hat as I leave
-
 - Walk down the stairs while brushing my teeth
-
 - Leave my house; lock the door behind me
 
-
-
 - Walk towards the office while brushing my teeth
-
-
 
 - When I get to the YMCA, go inside, badge in
 
   - Go down the stairs to the men’s locker room
   - Spit out my toothpaste, rinse my toothbrush, fold it up and put it away.
-  - Walk up stairs, take off my backpack, do a set up pullups/chinups
+  - Walk up stairs, take off my backpack, do a set up pullups or chinups
   - Put on my backpack, 
   - Walk outside,
 
-  
-
 - Run the rest of the way to the office.
-
 - Go inside, take the elevator to my floor.
-
 - Get out, walk to my office
-
-
 
 - In my office, 
   - Take off my backpack; put it in its place
