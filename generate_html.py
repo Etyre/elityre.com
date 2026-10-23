@@ -174,6 +174,72 @@ class TocMarkerExtension(Extension):
         md.preprocessors.register(TocMarkerPreprocessor(md), 'tocmarker', 30)
 
 # -------------------
+# List spacing: match the editor's reading of blank lines inside a list.
+# Markdown normally turns ANY blank line between list items into a "loose"
+# list (every item wrapped in <p>, so every item gets paragraph spacing).
+# Here instead:
+#   * a single blank line between items is ignored (the list stays tight);
+#   * two or more blank lines between items mark the start of a new group:
+#     the next item gets class "group-gap", which CSS gives a top margin.
+# Blank lines before an indented paragraph (a multi-paragraph item) or before
+# a non-list line are left alone, and fenced code blocks are not touched.
+# -------------------
+GROUP_GAP_TOKEN = 'ELITYREGROUPGAPTOKEN'
+_LIST_ITEM_RE = re.compile(r'^(\s*(?:[-*+]|\d+[.)])\s+)')
+
+class ListGapPreprocessor(Preprocessor):
+    def run(self, lines):
+        out = []
+        in_fence = False
+        i = 0
+        n = len(lines)
+        while i < n:
+            line = lines[i]
+            if line.lstrip().startswith(('```', '~~~')):
+                in_fence = not in_fence
+            if in_fence or line.strip() != '':
+                out.append(line)
+                i += 1
+                continue
+            # a run of blank (whitespace-only) lines
+            j = i
+            while j < n and lines[j].strip() == '':
+                j += 1
+            prev = out[-1] if out else ''
+            nxt = lines[j] if j < n else ''
+            prev_in_list = bool(_LIST_ITEM_RE.match(prev)) or (prev[:1].isspace() and prev.strip() != '')
+            if prev_in_list and _LIST_ITEM_RE.match(nxt):
+                if j - i >= 2:
+                    lines[j] = _LIST_ITEM_RE.sub(lambda m: m.group(1) + GROUP_GAP_TOKEN, nxt, count=1)
+                if not _LIST_ITEM_RE.match(prev):
+                    # prev is an indented paragraph inside an item: keep one blank
+                    # line so the next item isn't swallowed into that paragraph.
+                    out.append('')
+                # otherwise the blank lines are dropped
+            else:
+                out.extend(lines[i:j])
+            i = j
+        return out
+
+class ListGapTreeprocessor(Treeprocessor):
+    def run(self, root):
+        for li in root.iter('li'):
+            target = li
+            if not (li.text and GROUP_GAP_TOKEN in li.text) and len(li) and li[0].tag == 'p':
+                target = li[0]
+            if target.text and target.text.startswith(GROUP_GAP_TOKEN):
+                target.text = target.text[len(GROUP_GAP_TOKEN):]
+                classes = [c for c in li.get('class', '').split() if c]
+                classes.append('group-gap')
+                li.set('class', ' '.join(classes))
+
+class ListGapExtension(Extension):
+    def extendMarkdown(self, md):
+        # after normalize_whitespace (30), before fenced_code (25)
+        md.preprocessors.register(ListGapPreprocessor(md), 'listgap', 27)
+        md.treeprocessors.register(ListGapTreeprocessor(md), 'listgap', 17)
+
+# -------------------
 # URL aliases (aliases.txt): old URLs for renamed pages. Each line maps an old
 # url name to the markdown file that now owns that content:
 #
@@ -288,7 +354,7 @@ for root, dirs, files in os.walk(markdown_dir):
             # the page's # title is skipped).
             # 'nl2br' renders a single newline within a paragraph as a visible <br>
             # (instead of collapsing it to a space).
-            extensions=[TocMarkerExtension(), LinkAdjusterExtension(), ListDepthExtension(), 'extra', 'sane_lists', 'toc', 'nl2br'],
+            extensions=[TocMarkerExtension(), LinkAdjusterExtension(), ListDepthExtension(), ListGapExtension(), 'extra', 'sane_lists', 'toc', 'nl2br'],
             extension_configs={'toc': {'toc_depth': '2-6', 'marker': TOC_PLACEHOLDER}},
             tab_length=INDENT_SPACES,
             output_format='html5'

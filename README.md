@@ -50,6 +50,14 @@ The script uses the markdown library to convert .md content to HTML.
 
 It optionally extracts a title from the first Markdown heading that starts with # .
 
+#### Blank lines inside lists
+
+Markdown normally treats any blank line between list items as making the whole list "loose" (every item gets paragraph spacing). The script overrides this to match how the editor shows the source:
+
+- A single blank line between list items is ignored; the list stays tight.
+- Two or more blank lines between items start a new group: the next item gets class `group-gap`, which `css/main.css` gives a top margin.
+- Blank lines before an indented paragraph (a multi-paragraph item) or before non-list text behave as normal Markdown.
+
 ### Template Integration
 
 The script reads a Jinja2 template (e.g., page_template.html).
