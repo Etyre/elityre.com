@@ -33,9 +33,10 @@ My morning routine as of October 2026:
   
 
 - Put on my backpack
-- Leave my room; put on a hat as I leave
 
+- Leave my room; put on a hat as I leave
 - Walk down the stairs while brushing my teeth
+
 - Leave my house; lock the door behind me
 
 
