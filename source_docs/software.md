@@ -1,7 +1,5 @@
 # Custom Software
 
-These are software tools for my personal use that I codeveloped with AI coding agents.
-
 <TOC>
 
 ### Tracking and logging
