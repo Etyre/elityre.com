@@ -1,0 +1,1 @@
+* Someone points out a wifi password ->I take a photo of it
