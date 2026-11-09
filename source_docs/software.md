@@ -18,7 +18,7 @@
 * **[iOS auto deploy](https://github.com/Etyre/ios-auto-deploy)** - Keeps the iPhone's copy of each of my Flutter apps current with the latest commit, over Wi-Fi, with nothing to tap on the phone
 
 ### Composition tools 
-* **[Literal](https://github.com/Etyre/literal-markdown)** - A WYSIWYG Markdown editor for macOS that never hides or rewrites a line: every blank line and every indent on screen is exactly what is on disk
+* **[Literal](https://github.com/Etyre/literal-markdown)** - A WYSIWYG Markdown editor for macOS that never hides or rewrites a line: every blank line and every indent on screen is exactly what is on disk. (I was previously using Typora, but that was doing weird stuff where it would hide some of the line breaks.)
 * **[History mapper](https://github.com/Etyre/history-mapper)** - Software for outlining the great web of historical cause and effect
 
 ### Personal espistemics augmentation

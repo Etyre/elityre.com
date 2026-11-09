@@ -2,16 +2,13 @@
 
 This is the personal website of Eli Tyre.
 
-I’ve been focused on reducing existential risk from Superintelligence since 2015. I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society.
+I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—solving all the problems we need to solve to steer the AI transition into a robust humane equilibrium.
 
-Some work that I'm proud of
-
-* I led the team that made [frominside.ai](https://frominside.ai)
-* I wrote the essay [On Category I and Category II Problems](https://musingsandroughdrafts.com/2021/04/05/on-category-i-and-category-ii-problems/)
+<!-- I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society. -->
 
 #### Institutional affiliation(s)
 
-I am Strategy Director at [Palisade Research](https://palisaderesearch.org/about), where our mission is to help the decision-makers and institutions of the world gain the understanding they need to navigate the AI transition.
+I am currently the Head of Strategy at [Palisade Research](https://palisaderesearch.org/about), where our mission is to help the decision-makers and institutions of the world gain the understanding they need to avoid permanent disempowerment by strategic AI agents.
 
 I was previously an instructor and curriculum developer at the Center for Applied Rationality, and a grant round coordinator at [the Survival and Flourishing Fund](https://survivalandflourishing.fund/).
 
@@ -25,7 +22,12 @@ I sometimes write threads on twitter, where my handle is [@EpistemicHope](https:
 
 #### Adversarial collaborations
 
-I have a [standing interest](https://twitter.com/epistemichope/status/1341579932963487745) in participating in short (1 to 10 hour), adversarial collaborations. If you think I'm mistaken about something and want to hash it out with me, let me know. I'm probably down.
+I have a [standing interest](https://twitter.com/epistemichope/status/1341579932963487745) in participating in short (1 to 10 hour), adversarial collaborations. If you think I'm mistaken about something and want to hash it out with me, let me know. I'm very busy, but if the topic is important, I'll likely conisder it worth my time.
+
+#### Some work that I'm proud of
+
+* I led the team that made [frominside.ai](https://frominside.ai)
+* I wrote the essay [On Category I and Category II Problems](https://musingsandroughdrafts.com/2021/04/05/on-category-i-and-category-ii-problems/)
 
 #### Other
 
