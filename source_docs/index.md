@@ -2,7 +2,7 @@
 
 This is the personal website of Eli Tyre.
 
-I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—solving all the problems we need to solve to steer the AI transition into a robust humane equilibrium.
+I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—trying to identify and solve all the all the problems we need to get right so that the transition to an AI civilization to leads to a stably humane equilibrium.
 
 <!-- I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society. -->
 
@@ -14,9 +14,9 @@ I was previously an instructor and curriculum developer at the Center for Applie
 
 #### Writing
 
-[Musings and Rough Drafts](https://musingsandroughdrafts.wordpress.com) is my personal blog, where I write about whatever is of interest to me at the moment, with wildly varying levels of rigor and polish. Some people have expressed that they found it helpful to them.
+Most of my AI related writing is on [Less Wrong](https://www.lesswrong.com/users/elityre).
 
-I also post on [Less Wrong](https://www.lesswrong.com/users/elityre).
+[Musings and Rough Drafts](https://musingsandroughdrafts.wordpress.com) is my personal blog, where I write about whatever is of interest to me at the moment, with wildly varying levels of rigor and polish. Some people have expressed that they found it helpful to them.
 
 I sometimes write threads on twitter, where my handle is [@EpistemicHope](https://twitter.com/EpistemicHope). I archive all my threads on [threadreader](https://threadreaderapp.com/user/EpistemicHope), so you can read them without needing to wade into [an attention-harvesting, intention-sapping, social media platform](twitter-policy.html).
 
@@ -28,6 +28,7 @@ I have a [standing interest](https://twitter.com/epistemichope/status/1341579932
 
 * I led the team that made [frominside.ai](https://frominside.ai)
 * I wrote the essay [On Category I and Category II Problems](https://musingsandroughdrafts.com/2021/04/05/on-category-i-and-category-ii-problems/)
+* I was upstream of the concept of a "crux" becoming common parlance in AI safety and frontier AI space (though to this day, almost no one know how to apply the full Double Crux technique—I'll try to remedy that someday, if AI goes slowly enough to matter)
 
 #### Other
 
