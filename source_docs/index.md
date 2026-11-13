@@ -2,7 +2,7 @@
 
 This is the personal website of Eli Tyre.
 
-I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—trying to identify and solve all the problems we need to get right so that the transition to an AI civilization leads to a stably humane equilibrium.
+I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as _making the handoff go well_—trying to identify and solve all the problems we need to get right so that the transition to an AI civilization leads to a stably humane equilibrium.
 
 <!-- I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society. -->
 
