@@ -2,7 +2,7 @@
 
 This is the personal website of Eli Tyre.
 
-I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—trying to identify and solve all the all the problems we need to get right so that the transition to an AI civilization to leads to a stably humane equilibrium.
+I’ve been focused on reducing existential risk from Superintelligence since 2015. These days, I think of my work as making the handoff go well—trying to identify and solve all the problems we need to get right so that the transition to an AI civilization leads to a stably humane equilibrium.
 
 <!-- I work hard, with the aim of improving the chances that human civilization survives this century, so that we have enough time to figure out how to build a Good (e.g. sane, safe, humane, healthy, eudemonic) society. -->
 
@@ -28,7 +28,7 @@ I have a [standing interest](https://twitter.com/epistemichope/status/1341579932
 
 * I led the team that made [frominside.ai](https://frominside.ai)
 * I wrote the essay [On Category I and Category II Problems](https://musingsandroughdrafts.com/2021/04/05/on-category-i-and-category-ii-problems/)
-* I was upstream of the concept of a "crux" becoming common parlance in AI safety and frontier AI space (though to this day, almost no one know how to apply the full Double Crux technique—I'll try to remedy that someday, if AI goes slowly enough to matter)
+* I was upstream of the concept of a "crux" becoming common parlance in AI safety and frontier AI space (though to this day, almost no one knows how to apply the full Double Crux technique—I'll try to remedy that someday, if AI goes slowly enough to matter)
 
 #### Other
 
