@@ -1,0 +1,21 @@
+# An outline of my worldview
+
+- Humans are mostly myopic boundely-rational, amoral, optimizers with three kinds of incentives: signaling, ego, and material incentives.
+    - These shape people's ideologies
+- People and LMMs are personas that are largely run on predicting what a "a person like me" would do, but constrained by some underlying and dispositions and computational constraints.
+    - Hypnosis
+    - Improv
+- Ideology and culture is downstream of the niches created by a technological and military-technological landscape.
+    - There's a raw realpolitik energy-incentive equilibrium, and then there are nice sounding ideologies that are selected for justifying those.
+    - There are also generalized principles that people like to claim that they're following.
+- Political power derives from the logic of violence: who has political power depends on the dominant weapons system of the era.
+- Economics is an OS that runs on a platform defined by the logic of violence
+    - Tribal honor cultures vs. legalistic institutions
+- Social morality / normal morality is mostly a schelling game: iteratively developing the set of norms that everyone knows everyone knows good people follow, with the pretense of 
+    - There's an incentive to gerrymander notions of morality in ways that make special exceptions for general rules and collusion to make that morality normal.
+    - However, there exist natural abstractions of fairness, justice, and goodness. There's a meaningful th
+    - The standard for for truely moral action, __is__ not what's normal.
+- Political conflict is about trying to shift what norms are contained within normal morality
+- The world is a punctuated equilibrium of incentives and free energy.
+    - That that the equilibrium is punctuated is itself the way that the world is out of equilibrium: This is the dream time
+- The complaints about capitalism are correct, but they're actually about housing.

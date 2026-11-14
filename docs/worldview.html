@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head> 
+	<meta charset="utf-8">
+	<title>An outline of my worldview</title>
+	<link rel="stylesheet" type="text/css" href= "/css/main.css" >
+	<!-- The CSS file is at "css/main.css", but we need to adjust that file path depending on how nested the in the directory structure the page is. -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-205493387-1"></script>
+	<script>
+  	 window.dataLayer = window.dataLayer || [];
+  	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-205493387-1');
+	</script>
+	
+</head>
+
+<body>
+	<!--Navigation bar-->
+	<div id="nav-bar">
+<nav>
+		<ul>
+			<li><a href="/index.html" class="button">About</a></li>
+			<li><a href="/principles.html">Principles</a></li>
+			<!--<li><a href="/personal-history.html" class="button">Personal History</a></li>-->
+			<!--<li><a>Lineages</a></li>-->
+			<li><a href="/statements-index.html" class="button">Public statements</a></li>
+			<li><a href="/books.html">Booklist</a></li>
+			<li><a href="/bounties.html">Bounties</a></li>
+			<li><a href="https://etyre.github.io/prediction-dashboard/" class="button" target="_blank">Predictions</a></li>
+			<li><a href="/systems-index.html">Systems</a></li>
+			<li><a href="/custom-software.html" class="button">Software</a></li>
+			<li><a href="/date.html" class="button">Go on a date?</a></li>
+			<li><a href="/contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+	<!--end of Navigation bar-->
+	<script>
+	// Highlight the tab for the page we're on.
+	function markCurrentNav() {
+	  var here = location.pathname.replace(/\/$/, '/index.html');
+	  document.querySelectorAll('#nav-bar a').forEach(function (a) {
+	    a.classList.toggle('current', a.getAttribute('href') === here);
+	  });
+	}
+	markCurrentNav();
+	</script>
+
+	
+	<div class="page title">
+		<h1> </h1>
+	</div>
+	
+	
+<div class="main text">
+	<h1 id="an-outline-of-my-worldview">An outline of my worldview</h1>
+<ul class="list-depth-0">
+<li>Humans are mostly myopic boundely-rational, amoral, optimizers with three kinds of incentives: signaling, ego, and material incentives.<br>
+    - These shape people's ideologies</li>
+<li>People and LMMs are personas that are largely run on predicting what a "a person like me" would do, but constrained by some underlying and dispositions and computational constraints.<br>
+    - Hypnosis<br>
+    - Improv</li>
+<li>Ideology and culture is downstream of the niches created by a technological and military-technological landscape.<br>
+    - There's a raw realpolitik energy-incentive equilibrium, and then there are nice sounding ideologies that are selected for justifying those.<br>
+    - There are also generalized principles that people like to claim that they're following.</li>
+<li>Political power derives from the logic of violence: who has political power depends on the dominant weapons system of the era.</li>
+<li>Economics is an OS that runs on a platform defined by the logic of violence<br>
+    - Tribal honor cultures vs. legalistic institutions</li>
+<li>Social morality / normal morality is mostly a schelling game: iteratively developing the set of norms that everyone knows everyone knows good people follow, with the pretense of <br>
+    - There's an incentive to gerrymander notions of morality in ways that make special exceptions for general rules and collusion to make that morality normal.<br>
+    - However, there exist natural abstractions of fairness, justice, and goodness. There's a meaningful th<br>
+    - The standard for for truely moral action, <strong>is</strong> not what's normal.</li>
+<li>Political conflict is about trying to shift what norms are contained within normal morality</li>
+<li>The world is a punctuated equilibrium of incentives and free energy.<br>
+    - That that the equilibrium is punctuated is itself the way that the world is out of equilibrium: This is the dream time</li>
+<li>The complaints about capitalism are correct, but they're actually about housing.</li>
+</ul>
+
+</div>
+	
+
+	<div id="last updated">
+	
+	
+	
+	<script>
+		
+		// this part gets the file name from the URL.
+		var urlArray = window.location.href.split("/");
+
+		var nameOfThisPage = urlArray[urlArray.length-1];
+
+		// this part uses the github API to get the last commit data for that file, and then writes a line the HTML body.
+
+		// future Eli, this is a function. It is in Arrow syntax. You should learn this.
+		const getCommits = async pageName => {
+
+			// Pages live in the docs/ folder and the site deploys from the main branch,
+			// so ask for that path on that branch (the API defaults to the repo root on main).
+			if (!pageName) { pageName = 'index.html'; }
+			var result = await fetch('https://api.github.com/repos/etyre/elityre.com/commits?sha=main&path=' + encodeURIComponent('docs/' + pageName));
+
+			var data = await result.json();
+
+			if (!Array.isArray(data) || data.length === 0) { return; }
+
+			var timestamp = new Date(data[0].commit.author.date)
+			// the Date function takes a date string, and returns a date object.
+
+			//var month = timestamp.getMonth()
+
+
+			var formattedDate = timestamp.toDateString()
+
+			console.log(formattedDate)
+
+			
+
+
+			document.getElementById('last updated').innerHTML = "<p><br><br><i>This page was last updated on "+ formattedDate + ".</i></p>";
+
+
+			}
+
+			// const data = await getCommits('test');
+			// Make some notes about Await and what it does.
+			// Note that you can only use await inside of an async function.
+			
+			getCommits(nameOfThisPage);
+			
+		</script>
+	
+		</div>
