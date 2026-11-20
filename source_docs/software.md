@@ -11,6 +11,7 @@
 * **[Exercise tracker iphone app](https://github.com/Etyre/exercise-tracker)** - A phone app for logging workouts, with the data mirrored to a Google Sheet as the long-term record
 * **[Phone unlock logger](https://github.com/Etyre/phone-unlock-logger)** - Logs every iPhone unlock, whether a notification seems to have caused it, and every stretch an app was on screen, to measure how strongly stimuli pull attention in the hours after meditation
 * **[Claude usage dashboard](https://github.com/Etyre/claude-usage-dashboard)** - A local, auto-updating dashboard of what I spend on Claude: tokens and dollars per day, per app, per model, and per billing source
+* **Toggl lock screen widget** - Shows the running Toggl Track timer as a Live Activity on my iPhone's lock screen (description, project, a ticking clock and a stop button), no matter where the timer was started. Toggl's own Live Activity only appears when the timer is started in the iPhone app
 
 ### Software devlopement and AI agent management tools
 * **[Agent Coding UI](https://github.com/Etyre/agent-coding-UI)** - A Typora-style wrapper around terminal sessions for running several Claude Code sessions side by side, each labelled with the project it is in and showing which one is waiting for input, and none of which die when the app relaunches or the Mac reboots
@@ -27,6 +28,7 @@
 ### Anki and roam integrations
 * **[Claude in Roam / Claude in Logseq](https://github.com/Etyre/logseq-and-roam/tree/main/claude-chat)** - Ask Claude from a block and get the reply streamed into nested blocks, then keep the thread going by typing in the next block
 * **[Auto-anki](https://github.com/Etyre/logseq-and-roam/tree/main/auto-anki)** - Claude writes and maintains Anki flashcards under a tagged block in Roam or Logseq, reading the surrounding blocks as source material
+* **[ankify_roam](https://github.com/Etyre/ankify_roam)** - My fork of Taylor Mitchell's command-line tool that turns Roam blocks tagged #ankify into Anki notes and updates them in place on later runs. Fixes cloze-hint parsing and only writes the fields it owns
 * **[ankify_logseq](https://github.com/Etyre/logseq-and-roam/tree/main/ankify_logseq)** - A port of ankify_roam that syncs blocks tagged #ankify from a Logseq graph to Anki
 * **[Roam to Logseq converter](https://github.com/Etyre/logseq-and-roam/tree/main/switching-from-roam-to-logseq)** - A one-shot, reversible converter for moving a 300k-block Roam graph to Logseq, plus the hourly backup that protects the result
 * **[Logseq plugins and Roam add-ons](https://github.com/Etyre/logseq-and-roam/tree/main/logseq-plugins)** - Ten small plugins that recreate what I relied on in Roam: Roam-style inline checkboxes, random page, auto-collapse, expand buttons, template commands, page tag inheritance, backwards embeds, and persistent block ids
@@ -43,6 +45,7 @@
 ### Feeds and Information filtering
 * [**Personal recommender feed app**](https://github.com/Etyre/recommender-feed-app) - A personal reading feed, ranked by LLM agents according to marginal value, that learns user taste from ratings
 * **[Filtered Twitter](https://github.com/Etyre/filtered-twitter)** - A calm desktop client for X: one finite edition of about 100 posts a day, chosen for me, plus the replies and mentions that need an answer, and nothing that scrolls forever
+* **[Open in ThreadReader](https://github.com/Etyre/twitter-link-to-threadreader)** - A small Chrome extension for reading Twitter threads without visiting Twitter: right-click or option-click any tweet link and the thread opens on ThreadReader instead
 
 ### Personal training and deliberate practice environments
 * [**Arithmetic training desktop app**](https://github.com/Etyre/arithmetic-training-app) - A simple adaptive flashcard app for learning arthmetic
@@ -51,6 +54,12 @@
 ### Automations
 * **[Bayesian Tinder Swiper](https://github.com/Etyre/bayesian-tinder-swiper)** - A webapp that swipes tinder, prompting claude to do a Bayesian analysis of the probability that a given person is vegan or vegetarian, and swiping right if the probability is greater than some threshold.
 * **[Feeld Swiper](https://github.com/Etyre/feeld-swiper)** - A local web app that swipes Feeld for me, driving the app on an Android emulator. Claude gives each profile a Bayesian estimate of the probability that they're vegan or vegetarian and a separate score for fit, likes or pings above the thresholds I set, and drafts openers for the best matches
+* **[Bumble Swiper](https://github.com/Etyre/bumble-swiper)** - A local web app that swipes Bumble for me, driving the app on an Android emulator. Claude gives each profile a Bayesian estimate of the probability that they're vegan or vegetarian, and likes above the threshold I set
+* **[Desktop auto namer](https://github.com/Etyre/desktop-auto-namer)** - A fork of Michael Qiu's DesktopRenamer that names my Mission Control desktops automatically. Every few minutes Claude looks at the windows open on each desktop, names the unnamed ones, and keeps those names current, never changing a name I typed myself
+
+### Other utilities
+* **[Audio player](https://github.com/Etyre/audio-player)** - An MP3 player for iPhone and Android organised around playlists rather than a library, built for two uses: playing one random yoga nidra and then stopping, and shuffling workout music without end
+* **[Link Here](https://github.com/Etyre/link-here)** - A tiny stand-in default browser for macOS that passes every clicked link on to Chrome, but opens it on the desktop I'm looking at, as a new tab in the Chrome window there or in a new window if there is none. Chrome on its own opens the link in whichever window was active last, and macOS then drags you to that window's desktop
 
 
 
